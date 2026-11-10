@@ -1,0 +1,1948 @@
+[
+{
+"x": 2655.5,
+"y": -2171.5,
+"cls": "canopy",
+"id": 0,
+"stratum": "lawn"
+},
+{
+"x": 1382.5,
+"y": 1486.5,
+"cls": "water",
+"id": 1,
+"stratum": "water"
+},
+{
+"x": -2172.5,
+"y": -2335.5,
+"cls": "canopy",
+"id": 2,
+"stratum": "conifer"
+},
+{
+"x": -2576.5,
+"y": 953.5,
+"cls": "sand",
+"id": 4,
+"stratum": "sand"
+},
+{
+"x": 1992.5,
+"y": -1265.5,
+"cls": "bare",
+"id": 5,
+"stratum": "gravel"
+},
+{
+"x": -1198.5,
+"y": 1933.5,
+"cls": "sand",
+"id": 6,
+"stratum": "sand"
+},
+{
+"x": 2911.5,
+"y": -2619.5,
+"cls": "building",
+"id": 7,
+"stratum": "gravel"
+},
+{
+"x": -974.5,
+"y": 1500.5,
+"cls": "canopy",
+"id": 8,
+"stratum": "canopy"
+},
+{
+"x": 1855.5,
+"y": -1748.5,
+"cls": "meadow",
+"id": 9,
+"stratum": "canopy"
+},
+{
+"x": -1227.5,
+"y": -870.5,
+"cls": "paved",
+"id": 10,
+"stratum": "conifer"
+},
+{
+"x": -2968.5,
+"y": -545.5,
+"cls": "meadow",
+"id": 11,
+"stratum": "lawn"
+},
+{
+"x": -63.5,
+"y": -1322.5,
+"cls": "lawn",
+"id": 12,
+"stratum": "paved"
+},
+{
+"x": 754.5,
+"y": -3025.5,
+"cls": "meadow",
+"id": 13,
+"stratum": "lawn"
+},
+{
+"x": 1051.5,
+"y": -3624.5,
+"cls": "bare",
+"id": 14,
+"stratum": "bare"
+},
+{
+"x": 2649.5,
+"y": -3632.5,
+"cls": "bare",
+"id": 15,
+"stratum": "bare"
+},
+{
+"x": -2114.5,
+"y": -1398.5,
+"cls": "canopy",
+"id": 16,
+"stratum": "paved"
+},
+{
+"x": -1333.5,
+"y": 1355.5,
+"cls": "bare",
+"id": 18,
+"stratum": "sand"
+},
+{
+"x": 2538.5,
+"y": -1073.5,
+"cls": "bare",
+"id": 19,
+"stratum": "bare"
+},
+{
+"x": -27.5,
+"y": -2537.5,
+"cls": "meadow",
+"id": 20,
+"stratum": "conifer"
+},
+{
+"x": 3868.5,
+"y": 2398.5,
+"cls": "meadow",
+"id": 21,
+"stratum": "meadow"
+},
+{
+"x": 1703.5,
+"y": 2927.5,
+"cls": "bare",
+"id": 22,
+"stratum": "bare"
+},
+{
+"x": 1150.5,
+"y": 2475.5,
+"cls": "meadow",
+"id": 23,
+"stratum": "meadow"
+},
+{
+"x": 2131.5,
+"y": -3466.5,
+"cls": "gravel",
+"id": 24,
+"stratum": "paved"
+},
+{
+"x": -2731.5,
+"y": 2006.5,
+"cls": "bare",
+"id": 25,
+"stratum": "bare"
+},
+{
+"x": 2257.5,
+"y": -1609.5,
+"cls": "paved",
+"id": 26,
+"stratum": "gravel"
+},
+{
+"x": -1076.5,
+"y": 1822.5,
+"cls": "bare",
+"id": 27,
+"stratum": "bare"
+},
+{
+"x": -3097.5,
+"y": 1785.5,
+"cls": "bare",
+"id": 28,
+"stratum": "sand"
+},
+{
+"x": -2920.5,
+"y": 605.5,
+"cls": "canopy",
+"id": 29,
+"stratum": "thicket"
+},
+{
+"x": 2038.5,
+"y": -3814.5,
+"cls": "gravel",
+"id": 30,
+"stratum": "garden"
+},
+{
+"x": -516.5,
+"y": 1558.5,
+"cls": "canopy",
+"id": 31,
+"stratum": "thicket"
+},
+{
+"x": 434.5,
+"y": 2005.5,
+"cls": "bare",
+"id": 32,
+"stratum": "sand"
+},
+{
+"x": -2597.5,
+"y": -3729.5,
+"cls": "building",
+"id": 33,
+"stratum": "building"
+},
+{
+"x": 2772.5,
+"y": -2782.5,
+"cls": "meadow",
+"id": 34,
+"stratum": "lawn"
+},
+{
+"x": -26.5,
+"y": 24.5,
+"cls": "building",
+"id": 35,
+"stratum": "conifer"
+},
+{
+"x": -2531.5,
+"y": 2287.5,
+"cls": "canopy",
+"id": 36,
+"stratum": "meadow"
+},
+{
+"x": -2358.5,
+"y": -4177.5,
+"cls": "canopy",
+"id": 37,
+"stratum": "canopy"
+},
+{
+"x": 122.5,
+"y": -2458.5,
+"cls": "paved",
+"id": 38,
+"stratum": "gravel"
+},
+{
+"x": 3073.5,
+"y": -988.5,
+"cls": "sand",
+"id": 39,
+"stratum": "bare"
+},
+{
+"x": -144.5,
+"y": -2943.5,
+"cls": "thicket",
+"id": 40,
+"stratum": "thicket"
+},
+{
+"x": -984.5,
+"y": -207.5,
+"cls": "canopy",
+"id": 41,
+"stratum": "conifer"
+},
+{
+"x": -721.5,
+"y": -1690.5,
+"cls": "canopy",
+"id": 42,
+"stratum": "canopy"
+},
+{
+"x": -1803.5,
+"y": -816.5,
+"cls": "paved",
+"id": 43,
+"stratum": "paved"
+},
+{
+"x": 1278.5,
+"y": -3337.5,
+"cls": "paved",
+"id": 44,
+"stratum": "gravel"
+},
+{
+"x": 2956.5,
+"y": 1080.5,
+"cls": "thicket",
+"id": 45,
+"stratum": "thicket"
+},
+{
+"x": -1131.5,
+"y": 1897.5,
+"cls": "sand",
+"id": 46,
+"stratum": "sand"
+},
+{
+"x": 1038.5,
+"y": 291.5,
+"cls": "canopy",
+"id": 47,
+"stratum": "canopy"
+},
+{
+"x": 3367.5,
+"y": 194.5,
+"cls": "meadow",
+"id": 48,
+"stratum": "garden"
+},
+{
+"x": 3796.5,
+"y": -2640.5,
+"cls": "thicket",
+"id": 49,
+"stratum": "canopy"
+},
+{
+"x": 2180.5,
+"y": -731.5,
+"cls": "thicket",
+"id": 50,
+"stratum": "canopy"
+},
+{
+"x": -2978.5,
+"y": 2536.5,
+"cls": "sand",
+"id": 51,
+"stratum": "sand"
+},
+{
+"x": 339.5,
+"y": -2033.5,
+"cls": "paved",
+"id": 52,
+"stratum": "gravel"
+},
+{
+"x": -1013.5,
+"y": 955.5,
+"cls": "meadow",
+"id": 53,
+"stratum": "bare"
+},
+{
+"x": 1589.5,
+"y": 2290.5,
+"cls": "meadow",
+"id": 54,
+"stratum": "meadow"
+},
+{
+"x": 2731.5,
+"y": -826.5,
+"cls": "meadow",
+"id": 55,
+"stratum": "meadow"
+},
+{
+"x": 2441.5,
+"y": -3197.5,
+"cls": "canopy",
+"id": 56,
+"stratum": "lawn"
+},
+{
+"x": -2588.5,
+"y": 728.5,
+"cls": "bare",
+"id": 57,
+"stratum": "sand"
+},
+{
+"x": -462.5,
+"y": -2029.5,
+"cls": "canopy",
+"id": 58,
+"stratum": "lawn"
+},
+{
+"x": 1349.5,
+"y": 3107.5,
+"cls": "meadow",
+"id": 59,
+"stratum": "meadow"
+},
+{
+"x": 3039.5,
+"y": -1023.5,
+"cls": "sand",
+"id": 60,
+"stratum": "bare"
+},
+{
+"x": 2847.5,
+"y": -1589.5,
+"cls": "paved",
+"id": 61,
+"stratum": "paved"
+},
+{
+"x": -2206.5,
+"y": 2492.5,
+"cls": "meadow",
+"id": 62,
+"stratum": "conifer"
+},
+{
+"x": -3227.5,
+"y": 898.5,
+"cls": "thicket",
+"id": 63,
+"stratum": "meadow"
+},
+{
+"x": 2943.5,
+"y": -1501.5,
+"cls": "bare",
+"id": 64,
+"stratum": "garden"
+},
+{
+"x": -1580.5,
+"y": 2607.5,
+"cls": "lawn",
+"id": 67,
+"stratum": "gravel"
+},
+{
+"x": 3273.5,
+"y": -1127.5,
+"cls": "bare",
+"id": 68,
+"stratum": "bare"
+},
+{
+"x": -2950.5,
+"y": -831.5,
+"cls": "lawn",
+"id": 69,
+"stratum": "lawn"
+},
+{
+"x": 3570.5,
+"y": -1078.5,
+"cls": "bare",
+"id": 70,
+"stratum": "bare"
+},
+{
+"x": -2970.5,
+"y": -2408.5,
+"cls": "canopy",
+"id": 71,
+"stratum": "building"
+},
+{
+"x": -3084.5,
+"y": 1692.5,
+"cls": "sand",
+"id": 72,
+"stratum": "sand"
+},
+{
+"x": -2380.5,
+"y": -4151.5,
+"cls": "lawn",
+"id": 73,
+"stratum": "paved"
+},
+{
+"x": 509.5,
+"y": -390.5,
+"cls": "canopy",
+"id": 74,
+"stratum": "conifer"
+},
+{
+"x": -994.5,
+"y": -3518.5,
+"cls": "bare",
+"id": 75,
+"stratum": "bare"
+},
+{
+"x": 2972.5,
+"y": -3726.5,
+"cls": "paved",
+"id": 76,
+"stratum": "bare"
+},
+{
+"x": 2734.5,
+"y": 1157.5,
+"cls": "meadow",
+"id": 77,
+"stratum": "thicket"
+},
+{
+"x": -2647.5,
+"y": 250.5,
+"cls": "bare",
+"id": 78,
+"stratum": "sand"
+},
+{
+"x": -2975.5,
+"y": -1044.5,
+"cls": "canopy",
+"id": 79,
+"stratum": "building"
+},
+{
+"x": 3410.5,
+"y": 297.5,
+"cls": "meadow",
+"id": 80,
+"stratum": "garden"
+},
+{
+"x": -2532.5,
+"y": 989.5,
+"cls": "sand",
+"id": 81,
+"stratum": "sand"
+},
+{
+"x": -849.5,
+"y": -3868.5,
+"cls": "canopy",
+"id": 82,
+"stratum": "canopy"
+},
+{
+"x": -3159.5,
+"y": 1994.5,
+"cls": "sand",
+"id": 83,
+"stratum": "sand"
+},
+{
+"x": -2053.5,
+"y": -1198.5,
+"cls": "bare",
+"id": 84,
+"stratum": "bare"
+},
+{
+"x": 2304.5,
+"y": 796.5,
+"cls": "meadow",
+"id": 85,
+"stratum": "thicket"
+},
+{
+"x": 3046.5,
+"y": 1132.5,
+"cls": "meadow",
+"id": 86,
+"stratum": "meadow"
+},
+{
+"x": 177.5,
+"y": -197.5,
+"cls": "meadow",
+"id": 88,
+"stratum": "lawn"
+},
+{
+"x": 1707.5,
+"y": -2523.5,
+"cls": "meadow",
+"id": 89,
+"stratum": "lawn"
+},
+{
+"x": -2099.5,
+"y": -2081.5,
+"cls": "building",
+"id": 90,
+"stratum": "conifer"
+},
+{
+"x": 3574.5,
+"y": 1840.5,
+"cls": "paved",
+"id": 91,
+"stratum": "water"
+},
+{
+"x": 3923.5,
+"y": -1794.5,
+"cls": "bare",
+"id": 92,
+"stratum": "bare"
+},
+{
+"x": 2497.5,
+"y": 369.5,
+"cls": "meadow",
+"id": 93,
+"stratum": "meadow"
+},
+{
+"x": 2653.5,
+"y": -3292.5,
+"cls": "paved",
+"id": 94,
+"stratum": "gravel"
+},
+{
+"x": -1126.5,
+"y": 1333.5,
+"cls": "meadow",
+"id": 95,
+"stratum": "meadow"
+},
+{
+"x": 2791.5,
+"y": -1496.5,
+"cls": "building",
+"id": 96,
+"stratum": "gravel"
+},
+{
+"x": 1337.5,
+"y": -3471.5,
+"cls": "building",
+"id": 97,
+"stratum": "gravel"
+},
+{
+"x": 3002.5,
+"y": 8.5,
+"cls": "meadow",
+"id": 98,
+"stratum": "meadow"
+},
+{
+"x": -88.5,
+"y": -1454.5,
+"cls": "canopy",
+"id": 99,
+"stratum": "lawn"
+},
+{
+"x": -371.5,
+"y": 2717.5,
+"cls": "meadow",
+"id": 100,
+"stratum": "gravel"
+},
+{
+"x": -2090.5,
+"y": 3152.5,
+"cls": "meadow",
+"id": 101,
+"stratum": "meadow"
+},
+{
+"x": -400.5,
+"y": -2813.5,
+"cls": "canopy",
+"id": 102,
+"stratum": "thicket"
+},
+{
+"x": -3132.5,
+"y": 2904.5,
+"cls": "building",
+"id": 103,
+"stratum": "garden"
+},
+{
+"x": 2815.5,
+"y": -1081.5,
+"cls": "meadow",
+"id": 104,
+"stratum": "bare"
+},
+{
+"x": -2100.5,
+"y": -2080.5,
+"cls": "building",
+"id": 105,
+"stratum": "conifer"
+},
+{
+"x": 3533.5,
+"y": 2235.5,
+"cls": "water",
+"id": 107,
+"stratum": "water"
+},
+{
+"x": -215.5,
+"y": 1138.5,
+"cls": "meadow",
+"id": 109,
+"stratum": "meadow"
+},
+{
+"x": -2598.5,
+"y": 1324.5,
+"cls": "thicket",
+"id": 110,
+"stratum": "thicket"
+},
+{
+"x": -22.5,
+"y": -386.5,
+"cls": "meadow",
+"id": 111,
+"stratum": "bare"
+},
+{
+"x": 1876.5,
+"y": 1964.5,
+"cls": "canopy",
+"id": 112,
+"stratum": "thicket"
+},
+{
+"x": -2642.5,
+"y": -2102.5,
+"cls": "canopy",
+"id": 113,
+"stratum": "canopy"
+},
+{
+"x": 3075.5,
+"y": -1671.5,
+"cls": "lawn",
+"id": 114,
+"stratum": "conifer"
+},
+{
+"x": 115.5,
+"y": -3972.5,
+"cls": "canopy",
+"id": 115,
+"stratum": "canopy"
+},
+{
+"x": 959.5,
+"y": 2053.5,
+"cls": "bare",
+"id": 116,
+"stratum": "bare"
+},
+{
+"x": 419.5,
+"y": 0.5,
+"cls": "canopy",
+"id": 118,
+"stratum": "thicket"
+},
+{
+"x": 2005.5,
+"y": -1736.5,
+"cls": "canopy",
+"id": 119,
+"stratum": "canopy"
+},
+{
+"x": 2695.5,
+"y": 1109.5,
+"cls": "thicket",
+"id": 120,
+"stratum": "thicket"
+},
+{
+"x": 3618.5,
+"y": 1554.5,
+"cls": "water",
+"id": 121,
+"stratum": "water"
+},
+{
+"x": 662.5,
+"y": 753.5,
+"cls": "bare",
+"id": 122,
+"stratum": "lawn"
+},
+{
+"x": -1675.5,
+"y": -3604.5,
+"cls": "canopy",
+"id": 123,
+"stratum": "canopy"
+},
+{
+"x": -1353.5,
+"y": 2528.5,
+"cls": "sand",
+"id": 124,
+"stratum": "sand"
+},
+{
+"x": -1271.5,
+"y": 1515.5,
+"cls": "thicket",
+"id": 125,
+"stratum": "canopy"
+},
+{
+"x": 1111.5,
+"y": -251.5,
+"cls": "bare",
+"id": 126,
+"stratum": "gravel"
+},
+{
+"x": -2953.5,
+"y": 2904.5,
+"cls": "meadow",
+"id": 127,
+"stratum": "thicket"
+},
+{
+"x": -146.5,
+"y": -3258.5,
+"cls": "building",
+"id": 128,
+"stratum": "gravel"
+},
+{
+"x": -2571.5,
+"y": 740.5,
+"cls": "bare",
+"id": 129,
+"stratum": "sand"
+},
+{
+"x": -1394.5,
+"y": 2511.5,
+"cls": "sand",
+"id": 130,
+"stratum": "sand"
+},
+{
+"x": -2165.5,
+"y": 2281.5,
+"cls": "garden",
+"id": 131,
+"stratum": "gravel"
+},
+{
+"x": 1158.5,
+"y": -1406.5,
+"cls": "canopy",
+"id": 132,
+"stratum": "canopy"
+},
+{
+"x": -2876.5,
+"y": 2427.5,
+"cls": "sand",
+"id": 133,
+"stratum": "sand"
+},
+{
+"x": 3293.5,
+"y": 676.5,
+"cls": "meadow",
+"id": 134,
+"stratum": "meadow"
+},
+{
+"x": 3357.5,
+"y": 855.5,
+"cls": "meadow",
+"id": 135,
+"stratum": "meadow"
+},
+{
+"x": 1028.5,
+"y": -3674.5,
+"cls": "building",
+"id": 137,
+"stratum": "bare"
+},
+{
+"x": -2009.5,
+"y": -2522.5,
+"cls": "building",
+"id": 138,
+"stratum": "conifer"
+},
+{
+"x": -1732.5,
+"y": -749.5,
+"cls": "meadow",
+"id": 139,
+"stratum": "gravel"
+},
+{
+"x": 1069.5,
+"y": 3032.5,
+"cls": "water",
+"id": 140,
+"stratum": "water"
+},
+{
+"x": -609.5,
+"y": 2594.5,
+"cls": "garden",
+"id": 141,
+"stratum": "gravel"
+},
+{
+"x": 2562.5,
+"y": -4140.5,
+"cls": "bare",
+"id": 142,
+"stratum": "bare"
+},
+{
+"x": 106.5,
+"y": 183.5,
+"cls": "canopy",
+"id": 144,
+"stratum": "canopy"
+},
+{
+"x": 2379.5,
+"y": 1489.5,
+"cls": "gravel",
+"id": 145,
+"stratum": "sand"
+},
+{
+"x": -871.5,
+"y": -2459.5,
+"cls": "building",
+"id": 146,
+"stratum": "gravel"
+},
+{
+"x": 3764.5,
+"y": -1795.5,
+"cls": "meadow",
+"id": 147,
+"stratum": "thicket"
+},
+{
+"x": 1.5,
+"y": -649.5,
+"cls": "building",
+"id": 148,
+"stratum": "building"
+},
+{
+"x": 2563.5,
+"y": 2997.5,
+"cls": "thicket",
+"id": 149,
+"stratum": "thicket"
+},
+{
+"x": -3148.5,
+"y": 1973.5,
+"cls": "bare",
+"id": 150,
+"stratum": "sand"
+},
+{
+"x": 3911.5,
+"y": -289.5,
+"cls": "meadow",
+"id": 151,
+"stratum": "garden"
+},
+{
+"x": 3922.5,
+"y": 2620.5,
+"cls": "meadow",
+"id": 152,
+"stratum": "lawn"
+},
+{
+"x": -580.5,
+"y": -1143.5,
+"cls": "lawn",
+"id": 153,
+"stratum": "canopy"
+},
+{
+"x": -2577.5,
+"y": 2696.5,
+"cls": "canopy",
+"id": 154,
+"stratum": "thicket"
+},
+{
+"x": 3401.5,
+"y": -966.5,
+"cls": "meadow",
+"id": 157,
+"stratum": "meadow"
+},
+{
+"x": -1119.5,
+"y": -122.5,
+"cls": "building",
+"id": 158,
+"stratum": "conifer"
+},
+{
+"x": 1700.5,
+"y": -1461.5,
+"cls": "building",
+"id": 159,
+"stratum": "paved"
+},
+{
+"x": -535.5,
+"y": 2531.5,
+"cls": "garden",
+"id": 160,
+"stratum": "bare"
+},
+{
+"x": 829.5,
+"y": -2192.5,
+"cls": "garden",
+"id": 161,
+"stratum": "meadow"
+},
+{
+"x": 1316.5,
+"y": 519.5,
+"cls": "garden",
+"id": 163,
+"stratum": "gravel"
+},
+{
+"x": -2140.5,
+"y": -3479.5,
+"cls": "building",
+"id": 164,
+"stratum": "building"
+},
+{
+"x": 88.5,
+"y": 2910.5,
+"cls": "bare",
+"id": 165,
+"stratum": "garden"
+},
+{
+"x": -2823.5,
+"y": -2500.5,
+"cls": "building",
+"id": 166,
+"stratum": "building"
+},
+{
+"x": -3042.5,
+"y": 2814.5,
+"cls": "meadow",
+"id": 167,
+"stratum": "lawn"
+},
+{
+"x": 2696.5,
+"y": -665.5,
+"cls": "meadow",
+"id": 168,
+"stratum": "garden"
+},
+{
+"x": -1808.5,
+"y": 539.5,
+"cls": "gravel",
+"id": 169,
+"stratum": "sand"
+},
+{
+"x": -2550.5,
+"y": -2475.5,
+"cls": "building",
+"id": 170,
+"stratum": "conifer"
+},
+{
+"x": 205.5,
+"y": -3765.5,
+"cls": "canopy",
+"id": 171,
+"stratum": "meadow"
+},
+{
+"x": -2893.5,
+"y": 3061.5,
+"cls": "meadow",
+"id": 172,
+"stratum": "conifer"
+},
+{
+"x": -235.5,
+"y": -331.5,
+"cls": "canopy",
+"id": 173,
+"stratum": "lawn"
+},
+{
+"x": 2603.5,
+"y": -1574.5,
+"cls": "building",
+"id": 174,
+"stratum": "building"
+},
+{
+"x": 3414.5,
+"y": -1537.5,
+"cls": "bare",
+"id": 175,
+"stratum": "bare"
+},
+{
+"x": 863.5,
+"y": -219.5,
+"cls": "lawn",
+"id": 176,
+"stratum": "conifer"
+},
+{
+"x": 784.5,
+"y": -1344.5,
+"cls": "canopy",
+"id": 177,
+"stratum": "conifer"
+},
+{
+"x": -2180.5,
+"y": 1597.5,
+"cls": "meadow",
+"id": 178,
+"stratum": "canopy"
+},
+{
+"x": 3132.5,
+"y": -388.5,
+"cls": "meadow",
+"id": 179,
+"stratum": "meadow"
+},
+{
+"x": 386.5,
+"y": -977.5,
+"cls": "lawn",
+"id": 180,
+"stratum": "lawn"
+},
+{
+"x": 3526.5,
+"y": -1334.5,
+"cls": "thicket",
+"id": 181,
+"stratum": "bare"
+},
+{
+"x": -675.5,
+"y": -2154.5,
+"cls": "thicket",
+"id": 182,
+"stratum": "building"
+},
+{
+"x": 102.5,
+"y": 324.5,
+"cls": "canopy",
+"id": 183,
+"stratum": "canopy"
+},
+{
+"x": 2672.5,
+"y": -1172.5,
+"cls": "lawn",
+"id": 184,
+"stratum": "paved"
+},
+{
+"x": 3747.5,
+"y": -2930.5,
+"cls": "canopy",
+"id": 185,
+"stratum": "lawn"
+},
+{
+"x": -1399.5,
+"y": 2644.5,
+"cls": "meadow",
+"id": 186,
+"stratum": "lawn"
+},
+{
+"x": -598.5,
+"y": 3186.5,
+"cls": "thicket",
+"id": 187,
+"stratum": "thicket"
+},
+{
+"x": -1408.5,
+"y": 2502.5,
+"cls": "sand",
+"id": 188,
+"stratum": "sand"
+},
+{
+"x": -1042.5,
+"y": -577.5,
+"cls": "canopy",
+"id": 189,
+"stratum": "conifer"
+},
+{
+"x": -1809.5,
+"y": -1411.5,
+"cls": "meadow",
+"id": 191,
+"stratum": "bare"
+},
+{
+"x": -1218.5,
+"y": 989.5,
+"cls": "meadow",
+"id": 192,
+"stratum": "meadow"
+},
+{
+"x": 676.5,
+"y": -1096.5,
+"cls": "canopy",
+"id": 193,
+"stratum": "building"
+},
+{
+"x": -2594.5,
+"y": 918.5,
+"cls": "sand",
+"id": 194,
+"stratum": "sand"
+},
+{
+"x": 3526.5,
+"y": 585.5,
+"cls": "meadow",
+"id": 196,
+"stratum": "meadow"
+},
+{
+"x": 2357.5,
+"y": 2658.5,
+"cls": "canopy",
+"id": 197,
+"stratum": "thicket"
+},
+{
+"x": 1258.5,
+"y": -1278.5,
+"cls": "paved",
+"id": 198,
+"stratum": "thicket"
+},
+{
+"x": -156.5,
+"y": -533.5,
+"cls": "canopy",
+"id": 199,
+"stratum": "lawn"
+},
+{
+"x": 258.5,
+"y": 2245.5,
+"cls": "meadow",
+"id": 200,
+"stratum": "thicket"
+},
+{
+"x": 2146.5,
+"y": 1941.5,
+"cls": "canopy",
+"id": 201,
+"stratum": "canopy"
+},
+{
+"x": -3088.5,
+"y": 1935.5,
+"cls": "bare",
+"id": 202,
+"stratum": "bare"
+},
+{
+"x": -2827.5,
+"y": 454.5,
+"cls": "canopy",
+"id": 204,
+"stratum": "canopy"
+},
+{
+"x": 2335.5,
+"y": 238.5,
+"cls": "meadow",
+"id": 205,
+"stratum": "garden"
+},
+{
+"x": -1844.5,
+"y": -537.5,
+"cls": "gravel",
+"id": 206,
+"stratum": "gravel"
+},
+{
+"x": -2559.5,
+"y": -3468.5,
+"cls": "bare",
+"id": 207,
+"stratum": "garden"
+},
+{
+"x": 2149.5,
+"y": -321.5,
+"cls": "meadow",
+"id": 208,
+"stratum": "thicket"
+},
+{
+"x": -2677.5,
+"y": 2692.5,
+"cls": "garden",
+"id": 209,
+"stratum": "lawn"
+},
+{
+"x": 933.5,
+"y": 852.5,
+"cls": "canopy",
+"id": 210,
+"stratum": "canopy"
+},
+{
+"x": -697.5,
+"y": 737.5,
+"cls": "thicket",
+"id": 211,
+"stratum": "thicket"
+},
+{
+"x": 1704.5,
+"y": 1674.5,
+"cls": "canopy",
+"id": 212,
+"stratum": "thicket"
+},
+{
+"x": -494.5,
+"y": -3292.5,
+"cls": "building",
+"id": 213,
+"stratum": "garden"
+},
+{
+"x": -1457.5,
+"y": -2909.5,
+"cls": "building",
+"id": 214,
+"stratum": "garden"
+},
+{
+"x": -1697.5,
+"y": -518.5,
+"cls": "canopy",
+"id": 216,
+"stratum": "conifer"
+},
+{
+"x": -754.5,
+"y": -2043.5,
+"cls": "canopy",
+"id": 217,
+"stratum": "thicket"
+},
+{
+"x": -993.5,
+"y": 3202.5,
+"cls": "meadow",
+"id": 218,
+"stratum": "thicket"
+},
+{
+"x": -2776.5,
+"y": 2284.5,
+"cls": "building",
+"id": 219,
+"stratum": "gravel"
+},
+{
+"x": 3452.5,
+"y": -1014.5,
+"cls": "meadow",
+"id": 220,
+"stratum": "garden"
+},
+{
+"x": -3143.5,
+"y": 2736.5,
+"cls": "bare",
+"id": 221,
+"stratum": "sand"
+},
+{
+"x": 3319.5,
+"y": 2405.5,
+"cls": "water",
+"id": 222,
+"stratum": "water"
+},
+{
+"x": -2580.5,
+"y": 726.5,
+"cls": "bare",
+"id": 223,
+"stratum": "sand"
+},
+{
+"x": -3217.5,
+"y": 719.5,
+"cls": "meadow",
+"id": 224,
+"stratum": "thicket"
+},
+{
+"x": -1359.5,
+"y": 2543.5,
+"cls": "sand",
+"id": 225,
+"stratum": "sand"
+},
+{
+"x": 1563.5,
+"y": 1911.5,
+"cls": "meadow",
+"id": 226,
+"stratum": "meadow"
+},
+{
+"x": -2600.5,
+"y": -56.5,
+"cls": "gravel",
+"id": 227,
+"stratum": "gravel"
+},
+{
+"x": -3135.5,
+"y": -3443.5,
+"cls": "paved",
+"id": 228,
+"stratum": "gravel"
+},
+{
+"x": 3603.5,
+"y": -367.5,
+"cls": "meadow",
+"id": 229,
+"stratum": "garden"
+},
+{
+"x": 3363.5,
+"y": 3149.5,
+"cls": "bare",
+"id": 230,
+"stratum": "garden"
+},
+{
+"x": 3770.5,
+"y": 1569.5,
+"cls": "water",
+"id": 231,
+"stratum": "water"
+},
+{
+"x": 748.5,
+"y": -607.5,
+"cls": "paved",
+"id": 232,
+"stratum": "conifer"
+},
+{
+"x": -496.5,
+"y": -3673.5,
+"cls": "bare",
+"id": 233,
+"stratum": "garden"
+},
+{
+"x": -1311.5,
+"y": -3091.5,
+"cls": "bare",
+"id": 234,
+"stratum": "garden"
+},
+{
+"x": 1279.5,
+"y": 800.5,
+"cls": "canopy",
+"id": 235,
+"stratum": "canopy"
+},
+{
+"x": -2194.5,
+"y": 2027.5,
+"cls": "meadow",
+"id": 236,
+"stratum": "garden"
+},
+{
+"x": -1670.5,
+"y": -620.5,
+"cls": "building",
+"id": 237,
+"stratum": "gravel"
+},
+{
+"x": -1117.5,
+"y": -327.5,
+"cls": "paved",
+"id": 238,
+"stratum": "lawn"
+},
+{
+"x": -1550.5,
+"y": 225.5,
+"cls": "paved",
+"id": 239,
+"stratum": "gravel"
+},
+{
+"x": 547.5,
+"y": -4055.5,
+"cls": "meadow",
+"id": 240,
+"stratum": "canopy"
+},
+{
+"x": -3102.5,
+"y": -3614.5,
+"cls": "lawn",
+"id": 241,
+"stratum": "garden"
+},
+{
+"x": -3172.5,
+"y": 1134.5,
+"cls": "meadow",
+"id": 242,
+"stratum": "meadow"
+},
+{
+"x": -2583.5,
+"y": -1600.5,
+"cls": "sand",
+"id": 243,
+"stratum": "garden"
+},
+{
+"x": 1982.5,
+"y": 1511.5,
+"cls": "thicket",
+"id": 245,
+"stratum": "meadow"
+},
+{
+"x": -2646.5,
+"y": 3025.5,
+"cls": "bare",
+"id": 246,
+"stratum": "garden"
+},
+{
+"x": -833.5,
+"y": 2153.5,
+"cls": "bare",
+"id": 247,
+"stratum": "gravel"
+},
+{
+"x": 2354.5,
+"y": 2615.5,
+"cls": "canopy",
+"id": 248,
+"stratum": "thicket"
+},
+{
+"x": -250.5,
+"y": -3404.5,
+"cls": "meadow",
+"id": 249,
+"stratum": "canopy"
+},
+{
+"x": -1502.5,
+"y": -2376.5,
+"cls": "paved",
+"id": 250,
+"stratum": "paved"
+},
+{
+"x": -1648.5,
+"y": -1790.5,
+"cls": "canopy",
+"id": 252,
+"stratum": "canopy"
+},
+{
+"x": 2846.5,
+"y": 1629.5,
+"cls": "canopy",
+"id": 253,
+"stratum": "canopy"
+},
+{
+"x": 3499.5,
+"y": -4097.5,
+"cls": "meadow",
+"id": 254,
+"stratum": "lawn"
+},
+{
+"x": 1684.5,
+"y": 297.5,
+"cls": "meadow",
+"id": 255,
+"stratum": "meadow"
+},
+{
+"x": 3721.5,
+"y": -346.5,
+"cls": "meadow",
+"id": 257,
+"stratum": "meadow"
+},
+{
+"x": -1486.5,
+"y": 1852.5,
+"cls": "bare",
+"id": 258,
+"stratum": "bare"
+},
+{
+"x": 2297.5,
+"y": 55.5,
+"cls": "meadow",
+"id": 259,
+"stratum": "meadow"
+},
+{
+"x": 1843.5,
+"y": -3758.5,
+"cls": "thicket",
+"id": 260,
+"stratum": "thicket"
+},
+{
+"x": -1616.5,
+"y": -2936.5,
+"cls": "canopy",
+"id": 261,
+"stratum": "lawn"
+},
+{
+"x": 3846.5,
+"y": 2240.5,
+"cls": "meadow",
+"id": 263,
+"stratum": "meadow"
+},
+{
+"x": -2779.5,
+"y": 1401.5,
+"cls": "water",
+"id": 264,
+"stratum": "water"
+},
+{
+"x": -1950.5,
+"y": -1486.5,
+"cls": "lawn",
+"id": 265,
+"stratum": "lawn"
+},
+{
+"x": 922.5,
+"y": -67.5,
+"cls": "canopy",
+"id": 266,
+"stratum": "thicket"
+},
+{
+"x": -730.5,
+"y": 1066.5,
+"cls": "meadow",
+"id": 267,
+"stratum": "garden"
+},
+{
+"x": -447.5,
+"y": -366.5,
+"cls": "canopy",
+"id": 268,
+"stratum": "conifer"
+},
+{
+"x": -1835.5,
+"y": 2789.5,
+"cls": "bare",
+"id": 269,
+"stratum": "gravel"
+},
+{
+"x": -1603.5,
+"y": -2123.5,
+"cls": "building",
+"id": 270,
+"stratum": "conifer"
+},
+{
+"x": 1712.5,
+"y": 1599.5,
+"cls": "sand",
+"id": 271,
+"stratum": "sand"
+},
+{
+"x": -1388.5,
+"y": 2494.5,
+"cls": "sand",
+"id": 272,
+"stratum": "sand"
+},
+{
+"x": -1538.5,
+"y": 2160.5,
+"cls": "sand",
+"id": 274,
+"stratum": "sand"
+},
+{
+"x": 3784.5,
+"y": -1349.5,
+"cls": "meadow",
+"id": 275,
+"stratum": "meadow"
+},
+{
+"x": -2361.5,
+"y": 1811.5,
+"cls": "meadow",
+"id": 276,
+"stratum": "lawn"
+},
+{
+"x": -1384.5,
+"y": -2485.5,
+"cls": "lawn",
+"id": 277,
+"stratum": "lawn"
+},
+{
+"x": -2158.5,
+"y": 2028.5,
+"cls": "bare",
+"id": 278,
+"stratum": "garden"
+},
+{
+"x": 3157.5,
+"y": -856.5,
+"cls": "thicket",
+"id": 279,
+"stratum": "thicket"
+},
+{
+"x": 2141.5,
+"y": -1276.5,
+"cls": "canopy",
+"id": 280,
+"stratum": "conifer"
+},
+{
+"x": -603.5,
+"y": -612.5,
+"cls": "paved",
+"id": 281,
+"stratum": "gravel"
+},
+{
+"x": 1440.5,
+"y": 2635.5,
+"cls": "meadow",
+"id": 282,
+"stratum": "meadow"
+},
+{
+"x": -974.5,
+"y": -2356.5,
+"cls": "lawn",
+"id": 283,
+"stratum": "lawn"
+},
+{
+"x": -1710.5,
+"y": -3104.5,
+"cls": "lawn",
+"id": 284,
+"stratum": "paved"
+},
+{
+"x": -1577.5,
+"y": -3024.5,
+"cls": "canopy",
+"id": 285,
+"stratum": "lawn"
+},
+{
+"x": 2555.5,
+"y": -921.5,
+"cls": "bare",
+"id": 286,
+"stratum": "bare"
+},
+{
+"x": -2069.5,
+"y": -4161.5,
+"cls": "canopy",
+"id": 287,
+"stratum": "lawn"
+},
+{
+"x": 3684.5,
+"y": -2067.5,
+"cls": "paved",
+"id": 288,
+"stratum": "conifer"
+},
+{
+"x": -1064.5,
+"y": -856.5,
+"cls": "gravel",
+"id": 289,
+"stratum": "gravel"
+},
+{
+"x": 3134.5,
+"y": 2307.5,
+"cls": "canopy",
+"id": 290,
+"stratum": "thicket"
+},
+{
+"x": -1621.5,
+"y": -2186.5,
+"cls": "canopy",
+"id": 291,
+"stratum": "conifer"
+},
+{
+"x": -3188.5,
+"y": 1971.5,
+"cls": "bare",
+"id": 292,
+"stratum": "sand"
+},
+{
+"x": -518.5,
+"y": -2837.5,
+"cls": "canopy",
+"id": 293,
+"stratum": "lawn"
+},
+{
+"x": -1001.5,
+"y": 817.5,
+"cls": "thicket",
+"id": 294,
+"stratum": "bare"
+},
+{
+"x": -2017.5,
+"y": -1879.5,
+"cls": "canopy",
+"id": 295,
+"stratum": "conifer"
+},
+{
+"x": 2495.5,
+"y": 1634.5,
+"cls": "canopy",
+"id": 296,
+"stratum": "canopy"
+},
+{
+"x": 413.5,
+"y": -478.5,
+"cls": "canopy",
+"id": 297,
+"stratum": "lawn"
+},
+{
+"x": -2879.5,
+"y": 2151.5,
+"cls": "water",
+"id": 298,
+"stratum": "water"
+},
+{
+"x": -924.5,
+"y": 603.5,
+"cls": "thicket",
+"id": 299,
+"stratum": "canopy"
+}
+]

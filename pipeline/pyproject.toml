@@ -1,0 +1,20 @@
+[project]
+name = "nfr-pipeline"
+version = "0.1.0"
+description = "Need for Ryazan: data pipeline (OSM, DEM, assets -> world tiles)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "shapely>=2",
+    "pyproj",
+    "requests",
+    "rasterio>=1.5.2",
+    "matplotlib>=3.11.2",
+    "scipy>=1.18.1",
+    "pillow>=12.3.0",
+    "eclipse-sumo>=1.28.0",
+    "trimesh>=5.1.1",
+    "mapbox-earcut>=2.1.0",
+    "lightgbm>=4.7.0",
+    "scikit-learn>=1.9.1",
+]

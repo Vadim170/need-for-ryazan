@@ -1,0 +1,22 @@
+{
+  "id": "uaz452",
+  "name": "УАЗ-452 «буханка»",
+  "kind": "suv",
+  "roles": ["parked"],
+  "parkedWeight": 0.4,
+  "src": "assets/sources/opengameart/uaz-452-utility-van-lowpoly/extracted/uaz_452.fbx",
+  "forward": "+Y",
+  "dims": { "length": 4.36, "width": 1.94, "height": 2.07, "wheelbase": 2.3 },
+  "scaleBy": "length",
+  "budget": 4000,
+  "lod1Budget": 900,
+  "texSize": 512,
+  "deleteObjects": ["^LicensePlate"],
+  "wheelObjects": "^Wheel",
+  "materialRoles": { "^UazMat": "trim", "^Pixelly": "trim", "^WheelMat": "tire" },
+  "keepPaintTexture": true,
+  "license": "CC0-1.0",
+  "author": "Mehozavr",
+  "authorUrl": "https://opengameart.org/users/mehozavr",
+  "url": "https://opengameart.org/content/uaz-452-utility-van-lowpoly"
+}

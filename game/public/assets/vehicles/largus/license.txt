@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lada Largus
+* source:	https://sketchfab.com/3d-models/lada-largus-ef5fd62d01ca49f1bd70bb596456c144
+* author:	usolakolya (https://sketchfab.com/usolakolya)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lada Largus" (https://sketchfab.com/3d-models/lada-largus-ef5fd62d01ca49f1bd70bb596456c144) by usolakolya (https://sketchfab.com/usolakolya) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,99 @@
+{
+ "fps": 30,
+ "bones": [
+  "Hips",
+  "LHipJoint",
+  "LeftUpLeg",
+  "LeftLeg",
+  "LeftFoot",
+  "RHipJoint",
+  "RightUpLeg",
+  "RightLeg",
+  "RightFoot",
+  "LowerBack",
+  "Spine",
+  "Spine1",
+  "Neck",
+  "Neck1",
+  "Head",
+  "LeftShoulder",
+  "LeftArm",
+  "LeftForeArm",
+  "LeftHand",
+  "RightShoulder",
+  "RightArm",
+  "RightForeArm",
+  "RightHand"
+ ],
+ "frameFloats": 95,
+ "clips": [
+  {
+   "name": "sprint",
+   "source": "CMU 143_01",
+   "strideNorm": 5.2939,
+   "strideM": 4.4999,
+   "loopErr": 0.2269,
+   "range": [
+    0.1,
+    0.84
+   ],
+   "frames": 22,
+   "duration": 0.7333,
+   "loop": true,
+   "offset": 0
+  },
+  {
+   "name": "jump",
+   "source": "CMU 13_39",
+   "range": [
+    1.22,
+    1.62
+   ],
+   "frames": 13,
+   "duration": 0.4333,
+   "loop": false,
+   "offset": 2090
+  },
+  {
+   "name": "punch",
+   "source": "CMU 02_05",
+   "range": [
+    0.8,
+    1.5
+   ],
+   "frames": 22,
+   "duration": 0.7333,
+   "loop": false,
+   "offset": 3325
+  },
+  {
+   "name": "kick",
+   "source": "CMU 74_03",
+   "range": [
+    1.3,
+    2.25
+   ],
+   "frames": 29,
+   "duration": 0.9667,
+   "loop": false,
+   "offset": 5415
+  },
+  {
+   "name": "jog",
+   "source": "CMU 16_45",
+   "strideNorm": 2.9456,
+   "strideM": 2.5038,
+   "loopErr": 0.0334,
+   "range": [
+    0.0,
+    1.1
+   ],
+   "frames": 21,
+   "duration": 0.7,
+   "loop": true,
+   "offset": 8170
+  }
+ ],
+ "file": "clips.bin",
+ "license": "CMU Graphics Lab Motion Capture Database, mocap.cs.cmu.edu. \"The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217.\""
+}

@@ -1,0 +1,1662 @@
+{
+ "_comment": "Персонажи для build_character.py. phenotype — макро-параметры MakeHuman (age: 0.14≈8 лет, 0.25≈14, 0.5=25, 0.69≈50, 0.86≈72). region: top|bottom|suit|inner|shoes|hat|gloves (suit + topRegion: 'inner' — рубашка под свитером) (верх+низ одной текстурой, делится по UV-островам)|shoes|hat|hair. tris — бюджет треугольников части в LOD0. keep: true — не обесцвечивать и не тонировать текстуру. color — постоянный цвет (волосы). stoop — сутулость, рад (игра наклоняет корпус). scarf: true — сгенерированный шарф. winter: true — зимний вариант (используется при setWinter > 0).",
+ "defaults": {
+  "proxy": "proxy741",
+  "lod1": 800
+ },
+ "characters": [
+  {
+   "id": "man_jacket",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.55,
+    "muscle": 0.55,
+    "weight": 0.55,
+    "height": 0.55,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short04",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit05",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes03",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_coat",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.62,
+    "muscle": 0.5,
+    "weight": 0.6,
+    "height": 0.6,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "middleage_caucasian_male",
+   "hair": {
+    "asset": "short03",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "toigo_male_suit_3",
+     "region": "suit",
+     "tris": 2800
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_sweater",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.45,
+    "muscle": 0.6,
+    "weight": 0.45,
+    "height": 0.5,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male2",
+   "hair": {
+    "asset": "short04",
+    "tris": 600
+   },
+   "clothes": [
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "cortu_cargo_pants",
+     "region": "bottom",
+     "tris": 900
+    },
+    {
+     "asset": "shoes02",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_shirt",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.5,
+    "muscle": 0.5,
+    "weight": 0.5,
+    "height": 0.45,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 0.8,
+     "asian": 0.2
+    }
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short02",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit01",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes06",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_heavy",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.68,
+    "muscle": 0.45,
+    "weight": 0.85,
+    "height": 0.5,
+    "proportions": 0.4,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "middleage_caucasian_male",
+   "hair": {
+    "asset": "short01",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "toigo_male_suit_tie_and_jacket",
+     "region": "suit",
+     "tris": 2800
+    },
+    {
+     "asset": "shoes01",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_sweater_jeans",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.5,
+    "muscle": 0.55,
+    "weight": 0.55,
+    "height": 0.52,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short03",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit01",
+     "region": "suit",
+     "tris": 1900,
+     "topRegion": "inner"
+    },
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "shoes05",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_blazer",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.58,
+    "muscle": 0.5,
+    "weight": 0.6,
+    "height": 0.58,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "middleage_caucasian_male",
+   "hair": {
+    "asset": "short02",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "male_elegantsuit01",
+     "region": "suit",
+     "tris": 2700
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_striped",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.42,
+    "muscle": 0.5,
+    "weight": 0.45,
+    "height": 0.48,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 0.7,
+     "asian": 0.3
+    }
+   },
+   "skin": "young_caucasian_male2",
+   "hair": {
+    "asset": "short01",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit03",
+     "region": "suit",
+     "tris": 2500
+    },
+    {
+     "asset": "shoes05",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "man_winter_coat",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.6,
+    "muscle": 0.5,
+    "weight": 0.6,
+    "height": 0.55,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "middleage_caucasian_male",
+   "hair": {
+    "asset": "short04",
+    "tris": 500
+   },
+   "clothes": [
+    {
+     "asset": "toigo_male_double-breasted_suit",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes03",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "man_winter_jacket",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.45,
+    "muscle": 0.55,
+    "weight": 0.5,
+    "height": 0.55,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short04",
+    "tris": 500
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit05",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes03",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "man_winter_sweater",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.55,
+    "muscle": 0.5,
+    "weight": 0.6,
+    "height": 0.5,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male2",
+   "hair": {
+    "asset": "short02",
+    "tris": 500
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit03",
+     "region": "suit",
+     "tris": 1900,
+     "topRegion": "inner"
+    },
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "fedora01",
+     "region": "hat",
+     "tris": 400
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "man_winter_suit",
+   "body": "man",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.66,
+    "muscle": 0.45,
+    "weight": 0.7,
+    "height": 0.6,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "middleage_caucasian_male",
+   "hair": {
+    "asset": "short01",
+    "tris": 500
+   },
+   "clothes": [
+    {
+     "asset": "toigo_male_suit_3",
+     "region": "suit",
+     "tris": 2700
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "fedora_cocked",
+     "region": "hat",
+     "tris": 400
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "teen_boy",
+   "body": "teen",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.26,
+    "muscle": 0.45,
+    "weight": 0.4,
+    "height": 0.55,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male2",
+   "hair": {
+    "asset": "short03",
+    "tris": 700
+   },
+   "clothes": [
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "toigo_wool_pants",
+     "region": "bottom",
+     "tris": 1200
+    },
+    {
+     "asset": "shoes05",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "teen_girl",
+   "body": "teen",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.27,
+    "muscle": 0.45,
+    "weight": 0.4,
+    "height": 0.5,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.35
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "long01",
+    "tris": 1000
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit05",
+     "region": "suit",
+     "tris": 2400
+    },
+    {
+     "asset": "shoes06",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_coat",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.55,
+    "muscle": 0.45,
+    "weight": 0.5,
+    "height": 0.5,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.5
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 900
+   },
+   "clothes": [
+    {
+     "asset": "toigo_female_suit",
+     "region": "suit",
+     "tris": 2800
+    },
+    {
+     "asset": "toigo_ankle_boots_male",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_jacket",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.45,
+    "muscle": 0.45,
+    "weight": 0.45,
+    "height": 0.55,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.45
+   },
+   "skin": "young_caucasian_female2",
+   "hair": {
+    "asset": "ponytail01",
+    "tris": 1000
+   },
+   "clothes": [
+    {
+     "asset": "toigo_female_double-breasted_suit",
+     "region": "suit",
+     "tris": 2800
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_blazer",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.62,
+    "muscle": 0.4,
+    "weight": 0.6,
+    "height": 0.45,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.55
+   },
+   "skin": "middleage_caucasian_female",
+   "hair": {
+    "asset": "long01",
+    "tris": 1000
+   },
+   "clothes": [
+    {
+     "asset": "female_elegantsuit01",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_sweater",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.4,
+    "muscle": 0.45,
+    "weight": 0.45,
+    "height": 0.5,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.45
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "braid01",
+    "tris": 1000
+   },
+   "clothes": [
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "toigo_long_full_skirt",
+     "region": "bottom",
+     "tris": 1200
+    },
+    {
+     "asset": "toigo_ankle_boots_female",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "aethelraed_unraed_cloche_hat",
+     "region": "hat",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_sport",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.35,
+    "muscle": 0.55,
+    "weight": 0.4,
+    "height": 0.55,
+    "proportions": 0.65,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.4
+   },
+   "skin": "young_caucasian_female2",
+   "hair": {
+    "asset": "ponytail01",
+    "tris": 1000
+   },
+   "clothes": [
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "toigo_wool_pants",
+     "region": "bottom",
+     "tris": 1200
+    },
+    {
+     "asset": "shoes05",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_dress",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.5,
+    "muscle": 0.45,
+    "weight": 0.55,
+    "height": 0.5,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.5
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 900
+   },
+   "clothes": [
+    {
+     "asset": "toigo_halter_dress_knee_length",
+     "region": "bottom",
+     "tris": 1400
+    },
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "toigo_ankle_boots_female",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_suit2",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.58,
+    "muscle": 0.4,
+    "weight": 0.65,
+    "height": 0.45,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.6
+   },
+   "skin": "middleage_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 900
+   },
+   "clothes": [
+    {
+     "asset": "toigo_female_suit_2",
+     "region": "suit",
+     "tris": 2700
+    },
+    {
+     "asset": "toigo_ankle_boots_male",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_jeans",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.42,
+    "muscle": 0.5,
+    "weight": 0.45,
+    "height": 0.55,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.45
+   },
+   "skin": "young_caucasian_female2",
+   "hair": {
+    "asset": "ponytail01",
+    "tris": 1000
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit03",
+     "region": "suit",
+     "tris": 2500
+    },
+    {
+     "asset": "shoes06",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "woman_winter_coat",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.5,
+    "muscle": 0.45,
+    "weight": 0.5,
+    "height": 0.5,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.5
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 800
+   },
+   "clothes": [
+    {
+     "asset": "toigo_female_suit",
+     "region": "suit",
+     "tris": 2700
+    },
+    {
+     "asset": "toigo_ankle_boots_male",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "woman_winter_jacket",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.42,
+    "muscle": 0.45,
+    "weight": 0.45,
+    "height": 0.55,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.45
+   },
+   "skin": "young_caucasian_female2",
+   "hair": {
+    "asset": "long01",
+    "tris": 900
+   },
+   "clothes": [
+    {
+     "asset": "toigo_female_double-breasted_suit",
+     "region": "suit",
+     "tris": 2700
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "aethelraed_unraed_cloche_hat",
+     "region": "hat",
+     "tris": 450
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "woman_winter_sweater",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.38,
+    "muscle": 0.45,
+    "weight": 0.45,
+    "height": 0.5,
+    "proportions": 0.6,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.45
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "braid01",
+    "tris": 900
+   },
+   "clothes": [
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "toigo_tiered_skirt",
+     "region": "bottom",
+     "tris": 1300
+    },
+    {
+     "asset": "toigo_ankle_boots_female",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "woman_winter_blazer",
+   "body": "woman",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.6,
+    "muscle": 0.4,
+    "weight": 0.6,
+    "height": 0.45,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.55
+   },
+   "skin": "middleage_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 800
+   },
+   "clothes": [
+    {
+     "asset": "female_elegantsuit01",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "elder_man",
+   "body": "elder",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.86,
+    "muscle": 0.4,
+    "weight": 0.6,
+    "height": 0.45,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "old_caucasian_male",
+   "hair": {
+    "asset": "short02",
+    "tris": 600,
+    "color": [
+     0.62,
+     0.62,
+     0.6
+    ]
+   },
+   "clothes": [
+    {
+     "asset": "toigo_male_double-breasted_suit",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes02",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "fedora01",
+     "region": "hat",
+     "tris": 400
+    }
+   ],
+   "stoop": 0.22
+  },
+  {
+   "id": "elder_man2",
+   "body": "elder",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.92,
+    "muscle": 0.35,
+    "weight": 0.45,
+    "height": 0.4,
+    "proportions": 0.45,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "old_caucasian_male",
+   "hair": {
+    "asset": "short04",
+    "tris": 500,
+    "color": [
+     0.7,
+     0.7,
+     0.68
+    ]
+   },
+   "clothes": [
+    {
+     "asset": "toigo_male_suit_3",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes01",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "fedora_cocked",
+     "region": "hat",
+     "tris": 400
+    }
+   ],
+   "stoop": 0.3
+  },
+  {
+   "id": "elder_woman",
+   "body": "elder",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.88,
+    "muscle": 0.35,
+    "weight": 0.7,
+    "height": 0.4,
+    "proportions": 0.45,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.6
+   },
+   "skin": "old_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 700,
+    "color": [
+     0.66,
+     0.65,
+     0.63
+    ]
+   },
+   "clothes": [
+    {
+     "asset": "toigo_female_suit_2",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "toigo_ankle_boots_female",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "aethelraed_unraed_cloche_hat",
+     "region": "hat",
+     "tris": 450
+    }
+   ],
+   "stoop": 0.25
+  },
+  {
+   "id": "elder_woman2",
+   "body": "elder",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.84,
+    "muscle": 0.35,
+    "weight": 0.75,
+    "height": 0.42,
+    "proportions": 0.45,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.6
+   },
+   "skin": "old_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 700,
+    "color": [
+     0.6,
+     0.58,
+     0.56
+    ]
+   },
+   "clothes": [
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "toigo_long_full_skirt",
+     "region": "bottom",
+     "tris": 1200
+    },
+    {
+     "asset": "toigo_ankle_boots_male",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "aethelraed_unraed_cloche_hat",
+     "region": "hat",
+     "tris": 450
+    }
+   ],
+   "stoop": 0.28,
+   "scarf": true
+  },
+  {
+   "id": "elder_man_winter",
+   "body": "elder",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.88,
+    "muscle": 0.4,
+    "weight": 0.65,
+    "height": 0.45,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "old_caucasian_male",
+   "hair": {
+    "asset": "short02",
+    "tris": 500,
+    "color": [
+     0.62,
+     0.62,
+     0.6
+    ]
+   },
+   "clothes": [
+    {
+     "asset": "toigo_male_double-breasted_suit",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "shoes04",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "fedora01",
+     "region": "hat",
+     "tris": 400
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200
+    }
+   ],
+   "stoop": 0.25,
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "elder_woman_winter",
+   "body": "elder",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.86,
+    "muscle": 0.35,
+    "weight": 0.7,
+    "height": 0.4,
+    "proportions": 0.45,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.6
+   },
+   "skin": "old_caucasian_female",
+   "hair": {
+    "asset": "bob02",
+    "tris": 600,
+    "color": [
+     0.66,
+     0.65,
+     0.63
+    ]
+   },
+   "clothes": [
+    {
+     "asset": "toigo_female_suit",
+     "region": "suit",
+     "tris": 2600
+    },
+    {
+     "asset": "toigo_ankle_boots_male",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200
+    }
+   ],
+   "stoop": 0.25,
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "kid_boy",
+   "body": "kid",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.14,
+    "muscle": 0.5,
+    "weight": 0.5,
+    "height": 0.5,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short04",
+    "tris": 600
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit03",
+     "region": "suit",
+     "tris": 2200
+    },
+    {
+     "asset": "culturalibre_heroine_boots_1",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "kid_boy2",
+   "body": "kid",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.17,
+    "muscle": 0.5,
+    "weight": 0.45,
+    "height": 0.55,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male2",
+   "hair": {
+    "asset": "short03",
+    "tris": 600
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit05",
+     "region": "suit",
+     "tris": 2200
+    },
+    {
+     "asset": "shoes03",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "kid_girl",
+   "body": "kid",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.15,
+    "muscle": 0.5,
+    "weight": 0.5,
+    "height": 0.5,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.5
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "ponytail01",
+    "tris": 900
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit05",
+     "region": "suit",
+     "tris": 2200
+    },
+    {
+     "asset": "culturalibre_heroine_boots_2",
+     "region": "shoes",
+     "tris": 450
+    }
+   ]
+  },
+  {
+   "id": "kid_winter_boy",
+   "body": "kid",
+   "female": false,
+   "phenotype": {
+    "gender": 1,
+    "age": 0.16,
+    "muscle": 0.5,
+    "weight": 0.5,
+    "height": 0.5,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short04",
+    "tris": 500
+   },
+   "clothes": [
+    {
+     "asset": "male_casualsuit05",
+     "region": "suit",
+     "tris": 2200
+    },
+    {
+     "asset": "culturalibre_heroine_boots_1",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "id": "kid_winter_girl",
+   "body": "kid",
+   "female": true,
+   "phenotype": {
+    "gender": 0,
+    "age": 0.15,
+    "muscle": 0.5,
+    "weight": 0.5,
+    "height": 0.5,
+    "proportions": 0.55,
+    "race": {
+     "caucasian": 1.0
+    },
+    "cupsize": 0.5
+   },
+   "skin": "young_caucasian_female",
+   "hair": {
+    "asset": "ponytail01",
+    "tris": 800
+   },
+   "clothes": [
+    {
+     "asset": "toigo_fisherman_sweater",
+     "region": "top",
+     "tris": 1800
+    },
+    {
+     "asset": "toigo_wool_pants",
+     "region": "bottom",
+     "tris": 1100
+    },
+    {
+     "asset": "culturalibre_heroine_boots_2",
+     "region": "shoes",
+     "tris": 450
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    }
+   ],
+   "scarf": true,
+   "winter": true
+  },
+  {
+   "body": "player",
+   "female": false,
+   "phenotype": {
+    "gender": 1.0,
+    "age": 0.47,
+    "muscle": 0.45,
+    "weight": 0.56,
+    "height": 0.52,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "targets": {
+    "head-round": 0.55,
+    "head-fat-incr": 0.35,
+    "l-cheek-volume-incr": 0.6,
+    "r-cheek-volume-incr": 0.6,
+    "chin-prominent-decr": 0.3,
+    "mouth-corner-puller": 0.55,
+    "mouth-upward-retraction": 0.25,
+    "mouth-open": 0.15,
+    "eye-left-slit": 0.25,
+    "eye-right-slit": 0.25
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short02",
+    "tris": 1000
+   },
+   "eyes": {
+    "asset": "low-poly",
+    "material": "lightblue"
+   },
+   "id": "player_me",
+   "_note": "Игрок: параметрическое сходство (возраст ~22, круглое лицо, полные щёки, улыбка); фото не обрабатывалось.",
+   "clothes": [
+    {
+     "asset": "male_casualsuit05",
+     "region": "suit",
+     "tris": 3000
+    },
+    {
+     "asset": "shoes02",
+     "region": "shoes",
+     "tris": 500,
+     "keep": true
+    }
+   ]
+  },
+  {
+   "body": "player",
+   "female": false,
+   "phenotype": {
+    "gender": 1.0,
+    "age": 0.47,
+    "muscle": 0.45,
+    "weight": 0.56,
+    "height": 0.52,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "targets": {
+    "head-round": 0.55,
+    "head-fat-incr": 0.35,
+    "l-cheek-volume-incr": 0.6,
+    "r-cheek-volume-incr": 0.6,
+    "chin-prominent-decr": 0.3,
+    "mouth-corner-puller": 0.55,
+    "mouth-upward-retraction": 0.25,
+    "mouth-open": 0.15,
+    "eye-left-slit": 0.25,
+    "eye-right-slit": 0.25
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short02",
+    "tris": 1000
+   },
+   "eyes": {
+    "asset": "low-poly",
+    "material": "lightblue"
+   },
+   "id": "player_me_robe",
+   "_note": "Пасхалка ?outfit=robe: тёмно-бирюзовый махровый халат (длинный жакет+юбка toigo_female_suit, тонируется), тапки.",
+   "clothes": [
+    {
+     "asset": "toigo_female_suit",
+     "region": "suit",
+     "tris": 3000
+    },
+    {
+     "asset": "toigo_mj_cloth_shoes",
+     "region": "shoes",
+     "tris": 400
+    }
+   ]
+  },
+  {
+   "body": "player",
+   "female": false,
+   "phenotype": {
+    "gender": 1.0,
+    "age": 0.47,
+    "muscle": 0.45,
+    "weight": 0.56,
+    "height": 0.52,
+    "proportions": 0.5,
+    "race": {
+     "caucasian": 1.0
+    }
+   },
+   "targets": {
+    "head-round": 0.55,
+    "head-fat-incr": 0.35,
+    "l-cheek-volume-incr": 0.6,
+    "r-cheek-volume-incr": 0.6,
+    "chin-prominent-decr": 0.3,
+    "mouth-corner-puller": 0.55,
+    "mouth-upward-retraction": 0.25,
+    "mouth-open": 0.15,
+    "eye-left-slit": 0.25,
+    "eye-right-slit": 0.25
+   },
+   "skin": "young_caucasian_male",
+   "hair": {
+    "asset": "short04",
+    "tris": 600
+   },
+   "eyes": {
+    "asset": "low-poly",
+    "material": "lightblue"
+   },
+   "id": "player_me_winter",
+   "scarf": true,
+   "winter": true,
+   "clothes": [
+    {
+     "asset": "toigo_male_double-breasted_suit",
+     "region": "suit",
+     "tris": 2900
+    },
+    {
+     "asset": "shoes03",
+     "region": "shoes",
+     "tris": 500,
+     "keep": true
+    },
+    {
+     "asset": "joepal_xmas_cap",
+     "region": "hat",
+     "tris": 450
+    },
+    {
+     "asset": "toigo_gloves_short",
+     "region": "gloves",
+     "tris": 200,
+     "keep": true
+    }
+   ]
+  }
+ ]
+}

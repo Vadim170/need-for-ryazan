@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Need for Ryazan — audio lab</title>
+    <style>
+      body { font: 14px system-ui, sans-serif; background: #111; color: #ddd; padding: 16px; }
+      button, select { margin-right: 8px; }
+      .row { margin: 6px 0; display: flex; align-items: center; gap: 8px; font-family: monospace; }
+      pre { color: #9f9; }
+    </style>
+  </head>
+  <body>
+    <h3>Audio lab: офлайн-рендер тестовых заездов (тот же граф, что в игре)</h3>
+    <div id="controls"></div>
+    <pre id="scen"></pre>
+    <div id="out"></div>
+    <pre id="log"></pre>
+    <script type="module" src="/src/audio/lab/lab.ts"></script>
+  </body>
+</html>

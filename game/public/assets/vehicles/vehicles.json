@@ -1,0 +1,149 @@
+{
+ "version": 1,
+ "generated": "2026-10-13T13:30:21.009Z",
+ "models": [
+  {
+   "id": "lada_largus",
+   "name": "Lada Largus",
+   "kind": "wagon",
+   "roles": [
+    "traffic",
+    "parked"
+   ],
+   "weight": 1,
+   "parkedWeight": 1,
+   "file": "lada_largus/lada_largus.glb",
+   "lod1": "lada_largus/lada_largus_lod1.glb",
+   "dims": {
+    "length": 4.544,
+    "width": 1.997,
+    "height": 1.685
+   },
+   "bodyCenterZ": 0.023,
+   "wheelbase": 2.9,
+   "track": 1.501,
+   "wheelRadius": 0.308,
+   "wheelWidth": 0.205,
+   "wheels": [
+    [
+     -0.7571,
+     0.308,
+     1.4525
+    ],
+    [
+     -0.7571,
+     0.308,
+     -1.4525
+    ],
+    [
+     0.7438,
+     0.308,
+     1.4525
+    ],
+    [
+     0.7438,
+     0.308,
+     -1.4525
+    ]
+   ],
+   "tris": {
+    "body": 10363,
+    "wheel": 391,
+    "lod1": 1600,
+    "lod0": 11927
+   },
+   "roles3d": [
+    "brakelight",
+    "chrome",
+    "glass",
+    "headlight",
+    "interior",
+    "paint",
+    "plate",
+    "rim",
+    "taillight",
+    "tire",
+    "trim"
+   ],
+   "paint": {
+    "variants": [
+     "#f2f2f0",
+     "#c9ccd0",
+     "#8a8f94",
+     "#2b2d30",
+     "#7a1d1d",
+     "#1f3a5f",
+     "#5a6a4a",
+     "#b8a27a"
+    ]
+   },
+   "license": "CC-BY-4.0",
+   "author": "usolakolya",
+   "authorUrl": "https://sketchfab.com/usolakolya",
+   "url": "https://sketchfab.com/3d-models/lada-largus-ef5fd62d01ca49f1bd70bb596456c144",
+   "bytes": 488344
+  },
+  {
+   "id": "uaz452",
+   "name": "УАЗ-452 «буханка»",
+   "kind": "suv",
+   "roles": [
+    "parked"
+   ],
+   "weight": 1,
+   "parkedWeight": 0.4,
+   "file": "uaz452/uaz452.glb",
+   "lod1": "uaz452/uaz452_lod1.glb",
+   "dims": {
+    "length": 4.36,
+    "width": 2.284,
+    "height": 2.038
+   },
+   "bodyCenterZ": -0.008,
+   "wheelbase": 2.34,
+   "track": 1.445,
+   "wheelRadius": 0.3767,
+   "wheelWidth": 0.2448,
+   "wheels": [
+    [
+     -0.72,
+     0.3767,
+     1.1708
+    ],
+    [
+     -0.72,
+     0.3767,
+     -1.1708
+    ],
+    [
+     0.725,
+     0.3767,
+     1.1708
+    ],
+    [
+     0.725,
+     0.3767,
+     -1.1708
+    ]
+   ],
+   "tris": {
+    "body": 894,
+    "wheel": 28,
+    "lod1": 900,
+    "lod0": 1006
+   },
+   "roles3d": [
+    "tire",
+    "trim"
+   ],
+   "paint": {
+    "variants": null
+   },
+   "license": "CC0-1.0",
+   "author": "Mehozavr",
+   "authorUrl": "https://opengameart.org/users/mehozavr",
+   "url": "https://opengameart.org/content/uaz-452-utility-van-lowpoly",
+   "bytes": 89648
+  }
+ ]
+}

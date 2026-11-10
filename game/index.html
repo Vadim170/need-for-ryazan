@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Need for Ryazan</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #000; font-family: system-ui, sans-serif; }
+      canvas#game { display: block; width: 100vw; height: 100vh; }
+      #hud { position: fixed; right: 24px; bottom: 20px; color: #fff; text-align: right; pointer-events: none;
+             text-shadow: 0 0 6px rgba(0,0,0,.7); user-select: none; }
+      #hud .speed { font-size: 64px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+      #hud .unit { font-size: 18px; opacity: .8; margin-left: 4px; }
+      #hud .gear { font-size: 36px; font-weight: 700; margin-top: 4px; }
+      #hud .rpmtxt { font-size: 14px; opacity: .85; font-variant-numeric: tabular-nums; }
+      #hud .bar { width: 240px; height: 8px; background: rgba(255,255,255,.2); border-radius: 4px; margin: 6px 0 0 auto; overflow: hidden; }
+      #hud .bar > i { display: block; height: 100%; width: 0; background: #7cf; }
+      #hud .bar.rpm > i { background: linear-gradient(90deg,#7cf,#fc4 75%,#f44); }
+      #hud .bar.nitro > i { background: #4af; }
+      #hud .flag { height: 18px; font-size: 14px; color: #fc4; }
+      #help { position: fixed; left: 12px; bottom: 10px; color: #fff; font-size: 12px; opacity: .7; pointer-events: none;
+              text-shadow: 0 0 4px #000; }
+      #loading { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center;
+                 gap: 18px; background: radial-gradient(ellipse at center, #1b2230 0%, #07090d 70%); color: #fff;
+                 transition: opacity .5s ease; }
+      #loading.done { opacity: 0; pointer-events: none; }
+      #loading .title { font-size: clamp(28px, 6vw, 56px); font-weight: 800; letter-spacing: .04em; font-style: italic;
+                        text-shadow: 0 0 18px rgba(120,200,255,.35); }
+      #loading .track { width: min(420px, 80vw); height: 8px; background: rgba(255,255,255,.12); border-radius: 4px; overflow: hidden; }
+      #loading-bar { display: block; height: 100%; width: 2%; background: linear-gradient(90deg,#7cf,#4af); border-radius: 4px;
+                     transition: width .25s ease-out; }
+      #loading-text { font-size: 14px; opacity: .75; min-height: 1.2em; }
+      #err { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; color: #f88;
+             background: #000c; white-space: pre-wrap; padding: 24px; }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="hud">
+      <div class="flag" id="hud-flag"></div>
+      <div><span class="speed" id="hud-speed">0</span><span class="unit">км/ч</span></div>
+      <div class="gear" id="hud-gear">N</div>
+      <div class="rpmtxt"><span id="hud-rpm">0</span> об/мин</div>
+      <div class="bar rpm"><i id="hud-rpm-bar"></i></div>
+      <div class="bar nitro"><i id="hud-nitro-bar"></i></div>
+    </div>
+    <div id="help">W/S газ/тормоз · A/D руль · Пробел ручник · Shift нитро · C назад · R сброс · ` панель</div>
+    <div id="err"></div>
+    <div id="loading">
+      <div class="title">Need for Ryazan</div>
+      <div class="track"><i id="loading-bar"></i></div>
+      <div id="loading-text">Загрузка игры…</div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

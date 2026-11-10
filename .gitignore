@@ -1,0 +1,35 @@
+data/raw/
+data/processed/
+pipeline/.venv/
+node_modules/
+dist/
+.DS_Store
+game/public/world-synthetic/
+game/public/world/
+
+# локальные материалы для персонажа игрока (фото и производные) — не коммитить
+assets/sources/player/
+
+# кэши и мусор
+__pycache__/
+*.pyc
+
+# Скилл Claude (отдельный git-репозиторий)
+.claude/
+
+# сторонние загрузки и инструменты: исходники ассетов не распространяем, в игре лежат собранные версии (см. game/CREDITS.md)
+assets/tools/
+assets/downloads/
+assets/sources/sketchfab/
+assets/sources/opengameart/
+# исходные записи freesound; meta.json с лицензиями оставляем
+assets/audio/sources/**/*
+!assets/audio/sources/**/
+!assets/audio/sources/**/meta.json
+# черновые рендеры и анализ звука
+assets/audio/test_renders/
+assets/audio/analysis/
+
+# снимки Яндекса (панорамы, спутник) не публикуем
+game/public/world-map/sat/
+docs/stage3/img/realism/cmp_panorama.jpg

@@ -1,0 +1,9 @@
+{
+ "version": 1,
+ "cell": 4.0,
+ "cols": 1812,
+ "rows": 1875,
+ "minX": -3250.0,
+ "minZ": -3250.0,
+ "source": "yandex_2m.tif"
+}

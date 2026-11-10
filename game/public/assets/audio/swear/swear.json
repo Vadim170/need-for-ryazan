@@ -1,0 +1,534 @@
+{
+ "voice": "Milena",
+ "male": null,
+ "lines": [
+  {
+   "id": "man_miss_0",
+   "file": "man_miss_0.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Куда прёшь, придурок?!"
+  },
+  {
+   "id": "man_miss_1",
+   "file": "man_miss_1.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Ты чё, охренел?!"
+  },
+  {
+   "id": "man_miss_2",
+   "file": "man_miss_2.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Смотри куда едешь, мудак!"
+  },
+  {
+   "id": "man_miss_3",
+   "file": "man_miss_3.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Права купил, что ли?!"
+  },
+  {
+   "id": "man_miss_4",
+   "file": "man_miss_4.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Э, ты слепой, что ли?!"
+  },
+  {
+   "id": "man_miss_5",
+   "file": "man_miss_5.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Совсем страх потерял?!"
+  },
+  {
+   "id": "man_miss_6",
+   "file": "man_miss_6.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Ну ты и козёл!"
+  },
+  {
+   "id": "man_miss_7",
+   "file": "man_miss_7.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Тормози, баран!"
+  },
+  {
+   "id": "man_miss_8",
+   "file": "man_miss_8.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Ёб твою мать, куда летишь?!"
+  },
+  {
+   "id": "man_miss_9",
+   "file": "man_miss_9.m4a",
+   "who": "man",
+   "kind": "miss",
+   "rate": 0.74,
+   "text": "Да чтоб тебя!"
+  },
+  {
+   "id": "man_hit_0",
+   "file": "man_hit_0.m4a",
+   "who": "man",
+   "kind": "hit",
+   "rate": 0.74,
+   "text": "Ты чё творишь, сука?!"
+  },
+  {
+   "id": "man_hit_1",
+   "file": "man_hit_1.m4a",
+   "who": "man",
+   "kind": "hit",
+   "rate": 0.74,
+   "text": "Я тебя запомнил, урод!"
+  },
+  {
+   "id": "man_hit_2",
+   "file": "man_hit_2.m4a",
+   "who": "man",
+   "kind": "hit",
+   "rate": 0.74,
+   "text": "Твою ж мать, больно же!"
+  },
+  {
+   "id": "man_hit_3",
+   "file": "man_hit_3.m4a",
+   "who": "man",
+   "kind": "hit",
+   "rate": 0.74,
+   "text": "Ну всё, тебе конец!"
+  },
+  {
+   "id": "man_hit_4",
+   "file": "man_hit_4.m4a",
+   "who": "man",
+   "kind": "hit",
+   "rate": 0.74,
+   "text": "Охренеть, он меня сбил!"
+  },
+  {
+   "id": "man_hit_5",
+   "file": "man_hit_5.m4a",
+   "who": "man",
+   "kind": "hit",
+   "rate": 0.74,
+   "text": "Номер записал, понял?!"
+  },
+  {
+   "id": "man_rob_0",
+   "file": "man_rob_0.m4a",
+   "who": "man",
+   "kind": "rob",
+   "rate": 0.74,
+   "text": "Отдай, гнида!"
+  },
+  {
+   "id": "man_rob_1",
+   "file": "man_rob_1.m4a",
+   "who": "man",
+   "kind": "rob",
+   "rate": 0.74,
+   "text": "Полиция! Грабят!"
+  },
+  {
+   "id": "man_rob_2",
+   "file": "man_rob_2.m4a",
+   "who": "man",
+   "kind": "rob",
+   "rate": 0.74,
+   "text": "Ах ты сволочь!"
+  },
+  {
+   "id": "man_bump_0",
+   "file": "man_bump_0.m4a",
+   "who": "man",
+   "kind": "bump",
+   "rate": 0.74,
+   "text": "Э, полегче!"
+  },
+  {
+   "id": "man_bump_1",
+   "file": "man_bump_1.m4a",
+   "who": "man",
+   "kind": "bump",
+   "rate": 0.74,
+   "text": "Глаза разуй!"
+  },
+  {
+   "id": "man_bump_2",
+   "file": "man_bump_2.m4a",
+   "who": "man",
+   "kind": "bump",
+   "rate": 0.74,
+   "text": "Ты чё толкаешься?!"
+  },
+  {
+   "id": "man_bump_3",
+   "file": "man_bump_3.m4a",
+   "who": "man",
+   "kind": "bump",
+   "rate": 0.74,
+   "text": "Нарываешься, что ли?"
+  },
+  {
+   "id": "woman_miss_0",
+   "file": "woman_miss_0.m4a",
+   "who": "woman",
+   "kind": "miss",
+   "rate": 1.0,
+   "text": "Ты куда едешь, идиот?!"
+  },
+  {
+   "id": "woman_miss_1",
+   "file": "woman_miss_1.m4a",
+   "who": "woman",
+   "kind": "miss",
+   "rate": 1.0,
+   "text": "Совсем больной?!"
+  },
+  {
+   "id": "woman_miss_2",
+   "file": "woman_miss_2.m4a",
+   "who": "woman",
+   "kind": "miss",
+   "rate": 1.0,
+   "text": "Смотри куда прёшь, дебил!"
+  },
+  {
+   "id": "woman_miss_3",
+   "file": "woman_miss_3.m4a",
+   "who": "woman",
+   "kind": "miss",
+   "rate": 1.0,
+   "text": "Ненормальный!"
+  },
+  {
+   "id": "woman_miss_4",
+   "file": "woman_miss_4.m4a",
+   "who": "woman",
+   "kind": "miss",
+   "rate": 1.0,
+   "text": "Козёл! Тут люди ходят!"
+  },
+  {
+   "id": "woman_miss_5",
+   "file": "woman_miss_5.m4a",
+   "who": "woman",
+   "kind": "miss",
+   "rate": 1.0,
+   "text": "Ну и урод!"
+  },
+  {
+   "id": "woman_miss_6",
+   "file": "woman_miss_6.m4a",
+   "who": "woman",
+   "kind": "miss",
+   "rate": 1.0,
+   "text": "Господи, чуть не задавил!"
+  },
+  {
+   "id": "woman_hit_0",
+   "file": "woman_hit_0.m4a",
+   "who": "woman",
+   "kind": "hit",
+   "rate": 1.0,
+   "text": "Ты что, совсем охренел?!"
+  },
+  {
+   "id": "woman_hit_1",
+   "file": "woman_hit_1.m4a",
+   "who": "woman",
+   "kind": "hit",
+   "rate": 1.0,
+   "text": "Скотина! Я в полицию пойду!"
+  },
+  {
+   "id": "woman_hit_2",
+   "file": "woman_hit_2.m4a",
+   "who": "woman",
+   "kind": "hit",
+   "rate": 1.0,
+   "text": "Да чтоб у тебя колёса отвалились!"
+  },
+  {
+   "id": "woman_hit_3",
+   "file": "woman_hit_3.m4a",
+   "who": "woman",
+   "kind": "hit",
+   "rate": 1.0,
+   "text": "Больно же, кретин!"
+  },
+  {
+   "id": "woman_rob_0",
+   "file": "woman_rob_0.m4a",
+   "who": "woman",
+   "kind": "rob",
+   "rate": 1.0,
+   "text": "Помогите! Грабят!"
+  },
+  {
+   "id": "woman_rob_1",
+   "file": "woman_rob_1.m4a",
+   "who": "woman",
+   "kind": "rob",
+   "rate": 1.0,
+   "text": "Отдай сумку, сволочь!"
+  },
+  {
+   "id": "woman_bump_0",
+   "file": "woman_bump_0.m4a",
+   "who": "woman",
+   "kind": "bump",
+   "rate": 1.0,
+   "text": "Осторожнее можно?!"
+  },
+  {
+   "id": "woman_bump_1",
+   "file": "woman_bump_1.m4a",
+   "who": "woman",
+   "kind": "bump",
+   "rate": 1.0,
+   "text": "Хам!"
+  },
+  {
+   "id": "woman_bump_2",
+   "file": "woman_bump_2.m4a",
+   "who": "woman",
+   "kind": "bump",
+   "rate": 1.0,
+   "text": "Смотреть надо!"
+  },
+  {
+   "id": "elder_m_miss_0",
+   "file": "elder_m_miss_0.m4a",
+   "who": "elder_m",
+   "kind": "miss",
+   "rate": 0.78,
+   "text": "Хулиган!"
+  },
+  {
+   "id": "elder_m_miss_1",
+   "file": "elder_m_miss_1.m4a",
+   "who": "elder_m",
+   "kind": "miss",
+   "rate": 0.78,
+   "text": "Ишь, носится!"
+  },
+  {
+   "id": "elder_m_miss_2",
+   "file": "elder_m_miss_2.m4a",
+   "who": "elder_m",
+   "kind": "miss",
+   "rate": 0.78,
+   "text": "Куда несёшься, бестолочь?!"
+  },
+  {
+   "id": "elder_m_miss_3",
+   "file": "elder_m_miss_3.m4a",
+   "who": "elder_m",
+   "kind": "miss",
+   "rate": 0.78,
+   "text": "Совсем молодёжь распустилась!"
+  },
+  {
+   "id": "elder_m_miss_4",
+   "file": "elder_m_miss_4.m4a",
+   "who": "elder_m",
+   "kind": "miss",
+   "rate": 0.78,
+   "text": "Вот я тебе сейчас палкой!"
+  },
+  {
+   "id": "elder_m_hit_0",
+   "file": "elder_m_hit_0.m4a",
+   "who": "elder_m",
+   "kind": "hit",
+   "rate": 0.78,
+   "text": "Милицию вызову!"
+  },
+  {
+   "id": "elder_m_hit_1",
+   "file": "elder_m_hit_1.m4a",
+   "who": "elder_m",
+   "kind": "hit",
+   "rate": 0.78,
+   "text": "Бандит! Я на тебя управу найду!"
+  },
+  {
+   "id": "elder_m_hit_2",
+   "file": "elder_m_hit_2.m4a",
+   "who": "elder_m",
+   "kind": "hit",
+   "rate": 0.78,
+   "text": "Ох, спина моя!"
+  },
+  {
+   "id": "elder_m_rob_0",
+   "file": "elder_m_rob_0.m4a",
+   "who": "elder_m",
+   "kind": "rob",
+   "rate": 0.78,
+   "text": "Караул! Грабят!"
+  },
+  {
+   "id": "elder_m_bump_0",
+   "file": "elder_m_bump_0.m4a",
+   "who": "elder_m",
+   "kind": "bump",
+   "rate": 0.78,
+   "text": "Не толкайся, сопляк!"
+  },
+  {
+   "id": "elder_w_miss_0",
+   "file": "elder_w_miss_0.m4a",
+   "who": "elder_w",
+   "kind": "miss",
+   "rate": 0.95,
+   "text": "Бессовестный!"
+  },
+  {
+   "id": "elder_w_miss_1",
+   "file": "elder_w_miss_1.m4a",
+   "who": "elder_w",
+   "kind": "miss",
+   "rate": 0.95,
+   "text": "Батюшки, чуть не задавил!"
+  },
+  {
+   "id": "elder_w_miss_2",
+   "file": "elder_w_miss_2.m4a",
+   "who": "elder_w",
+   "kind": "miss",
+   "rate": 0.95,
+   "text": "Совсем совести нет!"
+  },
+  {
+   "id": "elder_w_miss_3",
+   "file": "elder_w_miss_3.m4a",
+   "who": "elder_w",
+   "kind": "miss",
+   "rate": 0.95,
+   "text": "Наркоман, что ли?!"
+  },
+  {
+   "id": "elder_w_miss_4",
+   "file": "elder_w_miss_4.m4a",
+   "who": "elder_w",
+   "kind": "miss",
+   "rate": 0.95,
+   "text": "Понаехали тут!"
+  },
+  {
+   "id": "elder_w_hit_0",
+   "file": "elder_w_hit_0.m4a",
+   "who": "elder_w",
+   "kind": "hit",
+   "rate": 0.95,
+   "text": "Ой, убили! Люди добрые!"
+  },
+  {
+   "id": "elder_w_hit_1",
+   "file": "elder_w_hit_1.m4a",
+   "who": "elder_w",
+   "kind": "hit",
+   "rate": 0.95,
+   "text": "Ирод окаянный!"
+  },
+  {
+   "id": "elder_w_hit_2",
+   "file": "elder_w_hit_2.m4a",
+   "who": "elder_w",
+   "kind": "hit",
+   "rate": 0.95,
+   "text": "Я на тебя в администрацию напишу!"
+  },
+  {
+   "id": "elder_w_rob_0",
+   "file": "elder_w_rob_0.m4a",
+   "who": "elder_w",
+   "kind": "rob",
+   "rate": 0.95,
+   "text": "Караул! Милиция!"
+  },
+  {
+   "id": "elder_w_bump_0",
+   "file": "elder_w_bump_0.m4a",
+   "who": "elder_w",
+   "kind": "bump",
+   "rate": 0.95,
+   "text": "Ишь, расталкивается!"
+  },
+  {
+   "id": "kid_miss_0",
+   "file": "kid_miss_0.m4a",
+   "who": "kid",
+   "kind": "miss",
+   "rate": 1.3,
+   "text": "Дурак!"
+  },
+  {
+   "id": "kid_miss_1",
+   "file": "kid_miss_1.m4a",
+   "who": "kid",
+   "kind": "miss",
+   "rate": 1.3,
+   "text": "Мама, он чуть меня не сбил!"
+  },
+  {
+   "id": "kid_miss_2",
+   "file": "kid_miss_2.m4a",
+   "who": "kid",
+   "kind": "miss",
+   "rate": 1.3,
+   "text": "Эй, осторожно!"
+  },
+  {
+   "id": "kid_hit_0",
+   "file": "kid_hit_0.m4a",
+   "who": "kid",
+   "kind": "hit",
+   "rate": 1.3,
+   "text": "Ай! Я маме скажу!"
+  },
+  {
+   "id": "kid_hit_1",
+   "file": "kid_hit_1.m4a",
+   "who": "kid",
+   "kind": "hit",
+   "rate": 1.3,
+   "text": "Дурак, больно!"
+  },
+  {
+   "id": "kid_rob_0",
+   "file": "kid_rob_0.m4a",
+   "who": "kid",
+   "kind": "rob",
+   "rate": 1.3,
+   "text": "Отдай!"
+  },
+  {
+   "id": "kid_bump_0",
+   "file": "kid_bump_0.m4a",
+   "who": "kid",
+   "kind": "bump",
+   "rate": 1.3,
+   "text": "Эй!"
+  }
+ ]
+}

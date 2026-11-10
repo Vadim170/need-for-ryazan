@@ -1,0 +1,3285 @@
+{
+  "generated": "2026-10-13",
+  "method": "Sketchfab public search API (downloadable=true, ~130 EN/RU queries, sort by relevance and -likeCount, paginated) + /v3/models/<uid> details + thumbnail review; OpenGameArt, poly.pizza, GitHub repo search checked for no-login sources.",
+  "licenseNotes": "CC-BY: credit author+link. CC-BY-NC*: personal non-commercial only (marked in notes). Sketchfab-Free-Standard: not CC. Provenance: candidates whose description states game-mod/rip origin are rejected; \"provenance not stated\" = verify before shipping.",
+  "noLoginSources": {
+    "opengameart": "Checked (art-search-advanced, 3D). Only realistic-ish relevant item: UAZ-452 by Mehozavr (CC0) - downloaded. Others (Quaternius public transport, PSX style cars, Car Kit) stylized.",
+    "polypizza": "Checked (search pages, __SERVER_APP_STATE__). All vehicles stylized (Quaternius/Kay Lousberg CC0, Poly by Google CC-BY-3.0). GLB URL pattern: https://static.poly.pizza/<uuid>.glb where <uuid> = previewUrl basename. Nothing downloaded.",
+    "kenney_quaternius": "Kenney Car Kit / Quaternius cars: CC0 but stylized toy look - not downloaded.",
+    "github": "Repository search for lada/vaz/zhiguli/gazel models: no CC0/CC-BY glTF car repos found (only BeamNG mods / unrelated)."
+  },
+  "queue": [
+    {
+      "vehicle": "granta",
+      "uid": "3d16db288db34947b0c5ae9eeb13ff45",
+      "name": "Русский народный автомобиль. Фотограмметрия.",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "vesta",
+      "uid": "3c333139feb744ae9d36767c0e9cabfd",
+      "name": "Lada Vesta",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "vaz2114",
+      "uid": "0e1a47a4c3504d92b1ffd4691e68d760",
+      "name": "VAZ 2114",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "priora",
+      "uid": "b6522aae5ada4911acbf5b446d6bcc51",
+      "name": "LADA Priora VAZ sedan",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "solaris",
+      "uid": "cec6b04b06724f1088129c1054ccb1ec",
+      "name": "hyundai accent 2013",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "logan",
+      "uid": "aedc2d2f43fb40639d17b77f3f5c8d47",
+      "name": "Dacia Logan Low Poly",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "polo",
+      "uid": "d0463d789e7c46039e979511ec8f5e92",
+      "name": "Volkswagen Polo MK5 2009-2018",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "vaz2107",
+      "uid": "55bd23c141284e758e4eacc01df14037",
+      "name": "Lada 2107",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "niva",
+      "uid": "93fc33be25e34b44b205c5b962d66e61",
+      "name": "Good Old Niva",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "gazelle_marshrutka",
+      "uid": "48d9f765ae454cab9c527029f8b86a51",
+      "name": "Gaz 322132",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "paz",
+      "uid": "95fa1547a7c845bfb9106a5c65a2a15c",
+      "name": "PAZ 3205",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "liaz",
+      "uid": "577c32b2a6ed418dbaa93b8eb4b21437",
+      "name": "liaz 5292",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "trolleybus_trolza",
+      "uid": "a54431ded56d4a22976b3bd5612ef41a",
+      "name": "Тролза-5275.03 \"Оптима\"",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "trolleybus_ziu",
+      "uid": "3160207c7edc4f81989a64c9b693f2a6",
+      "name": "Ziu 9",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "taxi",
+      "uid": "0b5310fbf2c14b3e807c63f2ee1ca7bf",
+      "name": "Taxi 2",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "police",
+      "uid": "a13c9346b39b4fd7950761629318f2a1",
+      "name": "Logan 2021 Politia",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "gazelle_cargo",
+      "uid": "f59647f516f54bbe896972a261d3df87",
+      "name": "Газель 3302",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "ambulance",
+      "uid": "f3daf79ea4e843c8a159e8ead7af6e74",
+      "name": "ГАЗ-3221 Скорая помощь / GAZ-3221 Ambulance R.2",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "uaz452",
+      "uid": "4f45aa2e9180437b9687b3d567069ca9",
+      "name": "Uaz 452",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "uazpatriot",
+      "uid": "35ba1f77bf7748b4ad2aa89f5dd75e9f",
+      "name": "UAZ Patriot",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "camry",
+      "uid": "236a5a6e2fa6420fbdf641f4800cd544",
+      "name": "Toyota Camry 2020",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "corolla",
+      "uid": "36f95efb0585464cae43a25a3b3392e8",
+      "name": "2014 Toyota Corolla E180 EU (with interior)",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "octavia",
+      "uid": "d567807ce57e415ba9a1ffdf07e0cf5b",
+      "name": "low-poly Škoda Octavia RS 2020",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "vehicle": "gazelle_next",
+      "uid": "6f5f115cb8fc4bb2933b317f505d5708",
+      "name": "GAZelle Next [FREE]",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "granta",
+      "name": "Lada Granta (sedan 2190 / liftback 2191)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.28,
+        "width": 1.7,
+        "height": 1.5,
+        "wheelbase": 2.476,
+        "track": [
+          1.43,
+          1.414
+        ],
+        "note": "2018+ FL sedan; liftback 4.25 m long"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "3d16db288db34947b0c5ae9eeb13ff45",
+          "url": "https://sketchfab.com/3d-models/3d16db288db34947b0c5ae9eeb13ff45",
+          "name": "Русский народный автомобиль. Фотограмметрия.",
+          "author": "dima051983",
+          "authorUrl": "https://sketchfab.com/dima051983",
+          "license": "CC-BY-4.0",
+          "faces": 86047,
+          "vertices": 42052,
+          "likes": 87,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 27248628,
+            "gltf": 26086207,
+            "source": 39760572,
+            "usdz": 6016417
+          },
+          "textureInfo": {
+            "count": 3,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "Photogrammetry of a real pre-FL Granta sedan (2011-2018), dirty body baked into albedo; single mesh (wheels not separate) - needs cleanup/separation and decimation 86k->10k; PBR metalness 4k. Only clean-licence Granta found.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "3ea4311ba52a4a32b11c23029de16b7a",
+          "url": "https://sketchfab.com/3d-models/3ea4311ba52a4a32b11c23029de16b7a",
+          "name": "LADA GRANTA DRIVE ACTIVE",
+          "author": "Quore",
+          "authorUrl": "https://sketchfab.com/Quoreder",
+          "license": "CC-BY-NC-4.0",
+          "faces": 50916,
+          "vertices": 26134,
+          "likes": 3,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 10061664,
+            "gltf": 8991798,
+            "source": 18055248,
+            "usdz": 3119898
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "[NON-COMMERCIAL licence - personal-project fallback only] Scan of 2018+ FL Granta (Drive Active), clean white, 51k; single-material scan (wheels fused). Better look than #1 but NC.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "b7c13bc7e93a458392a6f9df8448e7d9",
+          "url": "https://sketchfab.com/3d-models/b7c13bc7e93a458392a6f9df8448e7d9",
+          "name": "Lada Granta Comfort (crap)",
+          "author": "deepa.gurnani.ntpc",
+          "authorUrl": "https://sketchfab.com/deepa.gurnani.ntpc",
+          "license": "CC-BY-4.0",
+          "faces": 33678,
+          "vertices": 24134,
+          "likes": 2,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1890956,
+            "gltf": 903352,
+            "source": 2490700,
+            "usdz": 1124398
+          },
+          "textureInfo": {
+            "count": 3,
+            "maxRes": 512
+          },
+          "style": "semi",
+          "notes": "Hand-modelled Granta, author calls it \"crap\": rough surfaces, 37 materials, 3 small textures. Last resort.",
+          "status": "queued-token"
+        }
+      ],
+      "notes": "GAP: no clean hand-modelled Granta FL/liftback under CC-BY. Rank1 is a scan; consider retopo or using Priora/Kalina-like proxy."
+    },
+    {
+      "id": "vesta",
+      "name": "Lada Vesta (sedan)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.41,
+        "width": 1.764,
+        "height": 1.497,
+        "wheelbase": 2.635,
+        "track": [
+          1.51,
+          1.51
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "3c333139feb744ae9d36767c0e9cabfd",
+          "url": "https://sketchfab.com/3d-models/3c333139feb744ae9d36767c0e9cabfd",
+          "name": "Lada Vesta",
+          "author": "tiunov.se",
+          "authorUrl": "https://sketchfab.com/tiunov.se",
+          "license": "CC-BY-4.0",
+          "faces": 197891,
+          "vertices": 108290,
+          "likes": 98,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 7155832,
+            "gltf": 2856789,
+            "source": 7792466,
+            "usdz": 2220159
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "tiunov.se series (same author as Niva/Logan/UAZ/2107 entries -> consistent style). 198k, 19 materials, no textures (material colours). Needs decimation.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "74d0168d94fd486889f93e7f0c6cd264",
+          "url": "https://sketchfab.com/3d-models/74d0168d94fd486889f93e7f0c6cd264",
+          "name": "Lada Vesta SW NG",
+          "author": "S.K.",
+          "authorUrl": "https://sketchfab.com/Streetsraker",
+          "license": "CC-BY-4.0",
+          "faces": 25748,
+          "vertices": 23563,
+          "likes": 35,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 1976924,
+            "gltf": 416885,
+            "source": 899674,
+            "usdz": 639602
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Vesta SW (wagon) NG facelift 2023+, clean 25.7k, 12 materials, no textures. Body is wagon - could also fill \"wagon\" slot.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "b804fab0498f42be8b40f0201d7ed7c0",
+          "url": "https://sketchfab.com/3d-models/b804fab0498f42be8b40f0201d7ed7c0",
+          "name": "Low Poly Lada Vesta",
+          "author": "kulonee",
+          "authorUrl": "https://sketchfab.com/ynesolefru",
+          "license": "CC-BY-4.0",
+          "faces": 5582,
+          "vertices": 3573,
+          "likes": 21,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 259252,
+            "gltf": 90090,
+            "source": 178232,
+            "usdz": 152390
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "stylized",
+          "notes": "kulonee low-poly 5.6k, flat colours; author states real dimensions (4410x1764x1497). Good far-LOD.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "d23d4b6447bf47fcb37f919298e94cad",
+          "url": "https://sketchfab.com/3d-models/d23d4b6447bf47fcb37f919298e94cad",
+          "name": "Lada Vaz Vesta (ЛАДА ВЕСТА) FREE",
+          "author": "Haderium",
+          "authorUrl": "https://sketchfab.com/apophisalkogang",
+          "license": "CC-BY-4.0",
+          "faces": 449857,
+          "vertices": 244722,
+          "likes": 7,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 32447032,
+            "gltf": 21940528,
+            "source": 26151572,
+            "usdz": 7016611
+          },
+          "textureInfo": {
+            "count": 8,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Haderium 450k, AI-style description, provenance not stated - verify before use.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "vaz2114",
+      "name": "Lada Samara 2114 (hatch) / 2115 (sedan)",
+      "kind": "hatch",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.122,
+        "width": 1.65,
+        "height": 1.402,
+        "wheelbase": 2.46,
+        "track": [
+          1.4,
+          1.37
+        ],
+        "note": "2115 sedan: length 4.33 m"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "0e1a47a4c3504d92b1ffd4691e68d760",
+          "url": "https://sketchfab.com/3d-models/0e1a47a4c3504d92b1ffd4691e68d760",
+          "name": "VAZ 2114",
+          "author": "87-Motors",
+          "authorUrl": "https://sketchfab.com/87-Motors",
+          "license": "CC-BY-4.0",
+          "faces": 585919,
+          "vertices": 312725,
+          "likes": 3,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 26512440,
+            "gltf": 10936478,
+            "source": 86848008,
+            "usdz": 13157433
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "87-Motors, 586k, 62 materials, no textures, no description; geometry looks accurate in thumbnail. Heavy - needs strong decimation. Provenance not stated.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "78906f181f6249e697996bd0e1eb6b9a",
+          "url": "https://sketchfab.com/3d-models/78906f181f6249e697996bd0e1eb6b9a",
+          "name": "LADA 2115 (SAMARA)",
+          "author": "Rinl98",
+          "authorUrl": "https://sketchfab.com/Rinl98",
+          "license": "CC-BY-4.0",
+          "faces": 342343,
+          "vertices": 195873,
+          "likes": 5,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 12896208,
+            "gltf": 5754913,
+            "source": 12685608,
+            "usdz": 4641091
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "2115 sedan, 342k, 77 materials, no description - likely game-mod origin (reuploaded by aleksandrkorolkov091 facb2f00 with identical face count). Use only if #1 fails; verify origin.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "e87c0932b5794d8c834042c273d44a43",
+          "url": "https://sketchfab.com/3d-models/e87c0932b5794d8c834042c273d44a43",
+          "name": "Vaz 2114 / Lada 2114 / Samara",
+          "author": "Quore",
+          "authorUrl": "https://sketchfab.com/Quoreder",
+          "license": "CC-BY-NC-4.0",
+          "faces": 1260646,
+          "vertices": 634486,
+          "likes": 4,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 47746672,
+            "gltf": 19656277,
+            "source": 33520076,
+            "usdz": 23239409
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "[NON-COMMERCIAL licence - personal-project fallback only] Photogrammetry scan 1.26M faces, worn burgundy 2114; single mesh.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "491224d855604400906b595330b3f544",
+          "url": "https://sketchfab.com/3d-models/491224d855604400906b595330b3f544",
+          "name": "ВАЗ (Lada) 2114",
+          "author": "Mr Humster",
+          "authorUrl": "https://sketchfab.com/hamster2014",
+          "license": "CC-BY-4.0",
+          "faces": 2244,
+          "vertices": 1096,
+          "likes": 0,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 113856,
+            "gltf": 14834,
+            "source": 64712,
+            "usdz": 44638
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "stylized",
+          "notes": "Mr Humster 2.2k blocky low-poly (same author as Largus 2.9k). Far-LOD only.",
+          "status": "queued-token"
+        }
+      ],
+      "notes": "GAP: no clean mid-poly 2114 with verified provenance."
+    },
+    {
+      "id": "priora",
+      "name": "Lada Priora (sedan 2170)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.35,
+        "width": 1.68,
+        "height": 1.42,
+        "wheelbase": 2.492,
+        "track": [
+          1.41,
+          1.38
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "b6522aae5ada4911acbf5b446d6bcc51",
+          "url": "https://sketchfab.com/3d-models/b6522aae5ada4911acbf5b446d6bcc51",
+          "name": "LADA Priora VAZ sedan",
+          "author": "Okopchi",
+          "authorUrl": "https://sketchfab.com/Okopchi",
+          "license": "CC-BY-4.0",
+          "faces": 12298,
+          "vertices": 7470,
+          "likes": 26,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 583516,
+            "gltf": 231025,
+            "source": 438898,
+            "usdz": 331442
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "semi",
+          "notes": "Okopchi low-poly game-ready sedan 12.3k with simple interior, 13 materials, no textures. Realistic proportions; ideal budget.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "1551b8223bdf4d78ab3e8e568530836d",
+          "url": "https://sketchfab.com/3d-models/1551b8223bdf4d78ab3e8e568530836d",
+          "name": "Priora",
+          "author": "blender aboba",
+          "authorUrl": "https://sketchfab.com/faffdf",
+          "license": "CC-BY-4.0",
+          "faces": 112156,
+          "vertices": 66114,
+          "likes": 10,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 6331532,
+            "gltf": 3485772,
+            "source": 7408459,
+            "usdz": 3601357
+          },
+          "textureInfo": {
+            "count": 10,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "112k, 34 materials, 9 textures; author \"blender aboba\", no description; a near-duplicate d22f6ca3 exists from same author. Verify origin.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "4c67aa9408564f989460878c374dcb0f",
+          "url": "https://sketchfab.com/3d-models/4c67aa9408564f989460878c374dcb0f",
+          "name": "LADA Priora VAZ-2170",
+          "author": "Okopchi",
+          "authorUrl": "https://sketchfab.com/Okopchi",
+          "license": "CC-BY-4.0",
+          "faces": 12291,
+          "vertices": 7473,
+          "likes": 22,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1645032,
+            "gltf": 1260802,
+            "source": 3787580,
+            "usdz": 551508
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 1024
+          },
+          "style": "semi",
+          "notes": "Okopchi Priora hatch 2172, 12.3k, same style as #1 (hatch variant).",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "8e04c24b03fc4a8fb01c6c064dbd6074",
+          "url": "https://sketchfab.com/3d-models/8e04c24b03fc4a8fb01c6c064dbd6074",
+          "name": "VAZ Priora (ВАЗ,Приора) FREE",
+          "author": "Haderium",
+          "authorUrl": "https://sketchfab.com/apophisalkogang",
+          "license": "CC-BY-4.0",
+          "faces": 1019699,
+          "vertices": 556420,
+          "likes": 5,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 55671240,
+            "gltf": 24155378,
+            "source": 64333206,
+            "usdz": 17386109
+          },
+          "textureInfo": {
+            "count": 2,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Haderium ~1M faces, provenance not stated (AI-style description) - verify.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "solaris",
+      "name": "Hyundai Solaris (1st gen 2010-17 / Accent RB proxy)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.37,
+        "width": 1.7,
+        "height": 1.47,
+        "wheelbase": 2.57,
+        "track": [
+          1.495,
+          1.502
+        ],
+        "note": "Solaris II (2017+): 4.405 x 1.729 x 1.469, WB 2.60"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "cec6b04b06724f1088129c1054ccb1ec",
+          "url": "https://sketchfab.com/3d-models/cec6b04b06724f1088129c1054ccb1ec",
+          "name": "hyundai accent 2013",
+          "author": "L95XP",
+          "authorUrl": "https://sketchfab.com/I95XP",
+          "license": "CC-BY-4.0",
+          "faces": 951346,
+          "vertices": 500177,
+          "likes": 185,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 41513052,
+            "gltf": 18808104,
+            "source": 33034268,
+            "usdz": 16801417
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Hyundai Accent 2013 = Solaris I FL body. 951k, 27 materials, no textures, no description. Earliest of 3 identical uploads (8270bf06 Dave Love 2026, d53f780f) - origin unknown, possibly ripped; verify before shipping.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "b00b5faebc314e54aef423e46230e963",
+          "url": "https://sketchfab.com/3d-models/b00b5faebc314e54aef423e46230e963",
+          "name": "Hyundai Accent (TaGAZ) 2004",
+          "author": "panderlaike_design",
+          "authorUrl": "https://sketchfab.com/panderlaike_design",
+          "license": "CC-BY-4.0",
+          "faces": 770855,
+          "vertices": 400819,
+          "likes": 67,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 32062308,
+            "gltf": 15066480,
+            "source": 28578543,
+            "usdz": 13173154
+          },
+          "textureInfo": {
+            "count": 4,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Accent TaGAZ (LC, 2000s) - also common in Russia as old taxi/private car. 771k, panderlaike_design (portfolio author, Instagram linked).",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "1fa0c04858e94d23bccf700fa806e59f",
+          "url": "https://sketchfab.com/3d-models/1fa0c04858e94d23bccf700fa806e59f",
+          "name": "Hyundai_Solaris_ModLandNet",
+          "author": "zapkolenko07",
+          "authorUrl": "https://sketchfab.com/zapkolenko07",
+          "license": "CC-BY-4.0",
+          "faces": 622050,
+          "vertices": 324235,
+          "likes": 1,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 23762100,
+            "gltf": 12007976,
+            "source": 35291616,
+            "usdz": 12306580
+          },
+          "textureInfo": {
+            "count": 5,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Actual Solaris but name says \"ModLandNet\" = ripped game mod -> REJECTED (provenance).",
+          "status": "rejected"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "8270bf067a5247f687b2d38b3b1eae39",
+          "url": "https://sketchfab.com/3d-models/8270bf067a5247f687b2d38b3b1eae39",
+          "name": "2013 Hyundai Accent",
+          "author": "Dave Love SketchFab",
+          "authorUrl": "https://sketchfab.com/Tyler_Dave",
+          "license": "CC-BY-4.0",
+          "faces": 951340,
+          "vertices": 501743,
+          "likes": 40,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 41403296,
+            "gltf": 18737620,
+            "source": 41413794,
+            "usdz": 16732352
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Same mesh as #1 re-uploaded 2026 -> REJECTED (duplicate).",
+          "status": "rejected"
+        }
+      ],
+      "notes": "GAP: no clean Solaris II (2017+). Only Accent proxies."
+    },
+    {
+      "id": "rio",
+      "name": "Kia Rio sedan (3rd/4th gen)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.4,
+        "width": 1.74,
+        "height": 1.47,
+        "wheelbase": 2.6,
+        "note": "Rio IV sedan 2017+; Rio III sedan: 4.37 x 1.70 x 1.47, WB 2.57"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "cec6b04b06724f1088129c1054ccb1ec",
+          "url": "https://sketchfab.com/3d-models/cec6b04b06724f1088129c1054ccb1ec",
+          "name": "hyundai accent 2013",
+          "author": "L95XP",
+          "authorUrl": "https://sketchfab.com/I95XP",
+          "license": "CC-BY-4.0",
+          "faces": 951346,
+          "vertices": 500177,
+          "likes": 185,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 41513052,
+            "gltf": 18808104,
+            "source": 33034268,
+            "usdz": 16801417
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "PROXY: Rio III sedan shares platform/dimensions with Solaris I/Accent RB - reuse Solaris model with recolour/grille edit. Same provenance caveat.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "82803d9c4afb4cf2867ef364d31e6528",
+          "url": "https://sketchfab.com/3d-models/82803d9c4afb4cf2867ef364d31e6528",
+          "name": "2021 Kia Rio",
+          "author": "tonielpro520",
+          "authorUrl": "https://sketchfab.com/tonielpro520",
+          "license": "CC-BY-4.0",
+          "faces": 424545,
+          "vertices": 231199,
+          "likes": 8,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 43689752,
+            "gltf": 18274995,
+            "source": 69851323,
+            "usdz": 28977941
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "2021 Rio hatch (YB, not Russian-market sedan) by tonielpro520 (bulk uploader of game-sourced cars) - provenance doubtful.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "b5119dce852f461d9eccd59841101a12",
+          "url": "https://sketchfab.com/3d-models/b5119dce852f461d9eccd59841101a12",
+          "name": "KIA RIO",
+          "author": "zairiq zairiq",
+          "authorUrl": "https://sketchfab.com/zairiqzairiq",
+          "license": "CC-BY-4.0",
+          "faces": 520,
+          "vertices": 290,
+          "likes": 12,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 89520,
+            "gltf": 61472,
+            "source": 240147,
+            "usdz": 65352
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 256
+          },
+          "style": "stylized",
+          "notes": "520-face blocky Rio (old JB). Too crude.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "a96709757b8f453fa8809c1931e93d41",
+          "url": "https://sketchfab.com/3d-models/a96709757b8f453fa8809c1931e93d41",
+          "name": "KIA Rio 2015 Hatchback",
+          "author": "zapkolenko07",
+          "authorUrl": "https://sketchfab.com/zapkolenko07",
+          "license": "CC-BY-4.0",
+          "faces": 136700,
+          "vertices": 82052,
+          "likes": 1,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 6039392,
+            "gltf": 3197309,
+            "source": 6836313,
+            "usdz": 3768956
+          },
+          "textureInfo": {
+            "count": 40,
+            "maxRes": 512
+          },
+          "style": "realistic",
+          "notes": "zapkolenko07 = ModLand.net mod rips -> REJECTED.",
+          "status": "rejected"
+        }
+      ],
+      "notes": "GAP: no usable Kia Rio sedan; use Solaris proxy."
+    },
+    {
+      "id": "logan",
+      "name": "Renault Logan II (2014+) / Logan I / Sandero",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.346,
+        "width": 1.733,
+        "height": 1.517,
+        "wheelbase": 2.634,
+        "track": [
+          1.497,
+          1.486
+        ],
+        "note": "Logan I: 4.288 x 1.740 x 1.534, WB 2.63; Sandero II: 4.069 long, WB 2.589"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "aedc2d2f43fb40639d17b77f3f5c8d47",
+          "url": "https://sketchfab.com/3d-models/aedc2d2f43fb40639d17b77f3f5c8d47",
+          "name": "Dacia Logan Low Poly",
+          "author": "solid3DDD",
+          "authorUrl": "https://sketchfab.com/solid3ddd",
+          "license": "CC-BY-4.0",
+          "faces": 21899,
+          "vertices": 12974,
+          "likes": 65,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 19783768,
+            "gltf": 18694968,
+            "source": 53809999,
+            "usdz": 6949443
+          },
+          "textureInfo": {
+            "count": 7,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "solid3DDD Dacia Logan II low-poly PBR, 21.9k, 3 materials, 7x2k textures. Dacia grille (Renault RU version differs only in grille/badge). Same author does Taxi/Politia variants -> consistent set.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "e4f9463f6e004b90bb977d12f6375b9c",
+          "url": "https://sketchfab.com/3d-models/e4f9463f6e004b90bb977d12f6375b9c",
+          "name": "Renault Logan 2004",
+          "author": "Denis Petrushin",
+          "authorUrl": "https://sketchfab.com/goooddenis",
+          "license": "CC-BY-4.0",
+          "faces": 33444,
+          "vertices": 20025,
+          "likes": 291,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 125775140,
+            "gltf": 124789962,
+            "source": 135053856,
+            "usdz": 14258673
+          },
+          "textureInfo": {
+            "count": 9,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "Logan I (2004-2015), 33k, Maya+Substance PBR, Russian plates, slightly dirty. 291 likes. Very common in Ryazan - could be a second Logan entry.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "f5ae16799df040d88ad155fb3fc7aacb",
+          "url": "https://sketchfab.com/3d-models/f5ae16799df040d88ad155fb3fc7aacb",
+          "name": "Renault Logan",
+          "author": "tiunov.se",
+          "authorUrl": "https://sketchfab.com/tiunov.se",
+          "license": "CC-BY-4.0",
+          "faces": 196891,
+          "vertices": 108790,
+          "likes": 83,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 7060980,
+            "gltf": 3498969,
+            "source": 7102694,
+            "usdz": 3281249
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "tiunov.se Logan I 197k, untextured materials (same series as Vesta/Niva).",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "20235fc4ceb2442ebad4f60de961e4f4",
+          "url": "https://sketchfab.com/3d-models/20235fc4ceb2442ebad4f60de961e4f4",
+          "name": "Renault Logan 2015 FBX (FREE TO USE)",
+          "author": "itsvipergfx",
+          "authorUrl": "https://sketchfab.com/itsvipergfx",
+          "license": "CC-BY-4.0",
+          "faces": 60712,
+          "vertices": 36778,
+          "likes": 30,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 18927816,
+            "gltf": 9090564,
+            "source": 14960191,
+            "usdz": 3899407
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "itsvipergfx Logan I FL 60.7k, 27 materials, no textures.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "polo",
+      "name": "Volkswagen Polo sedan (2010-2020)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.39,
+        "width": 1.699,
+        "height": 1.467,
+        "wheelbase": 2.552,
+        "track": [
+          1.457,
+          1.5
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "d0463d789e7c46039e979511ec8f5e92",
+          "url": "https://sketchfab.com/3d-models/d0463d789e7c46039e979511ec8f5e92",
+          "name": "Volkswagen Polo MK5 2009-2018",
+          "author": "Merc_TV",
+          "authorUrl": "https://sketchfab.com/szymonpasterczyk",
+          "license": "CC-BY-4.0",
+          "faces": 102282,
+          "vertices": 59788,
+          "likes": 3,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 5301944,
+            "gltf": 2076475,
+            "source": 19527821,
+            "usdz": 2364759
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Merc_TV Polo Mk5 hatch 102k, 25 materials, no textures. Hatch, not the RU sedan (rear needs rebuilding). Merc_TV posts many brand-new cars without credits -> verify origin.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "59b082444c6b44f1a84ffeb9e32fac55",
+          "url": "https://sketchfab.com/3d-models/59b082444c6b44f1a84ffeb9e32fac55",
+          "name": "Volkswagen Polo (MK5)",
+          "author": "ZapupaNekra",
+          "authorUrl": "https://sketchfab.com/ZapupaNekra",
+          "license": "CC-BY-4.0",
+          "faces": 212715,
+          "vertices": 125341,
+          "likes": 6,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 10059880,
+            "gltf": 5199412,
+            "source": 8656910,
+            "usdz": 5640338
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "ZapupaNekra Polo Mk5 213k, untextured; no description.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "367b23f8343b417d86a4fd66437717a5",
+          "url": "https://sketchfab.com/3d-models/367b23f8343b417d86a4fd66437717a5",
+          "name": "Volkswagen Polo 2017 Taxi",
+          "author": "LEON elenaisakova248",
+          "authorUrl": "https://sketchfab.com/elenaisakova248",
+          "license": "CC-BY-4.0",
+          "faces": 676,
+          "vertices": 373,
+          "likes": 15,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1748676,
+            "gltf": 1725472,
+            "source": 6467859,
+            "usdz": 414255
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Polo sedan 2017 Yandex-taxi livery - exact car, but only 676 faces with 1 texture: likely image-based/fake geometry; verify.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "290a03e4dbfc4e5ea351efa4f89b38b7",
+          "url": "https://sketchfab.com/3d-models/290a03e4dbfc4e5ea351efa4f89b38b7",
+          "name": "2017 Volkswagen Polo Sedan",
+          "author": "Gerda",
+          "authorUrl": "https://sketchfab.com/koelkastasbers",
+          "license": "Sketchfab-Free-Standard",
+          "faces": 132537,
+          "vertices": 54281,
+          "likes": 57,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 13132796,
+            "gltf": 3605704,
+            "source": 8219706,
+            "usdz": 4287210
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 256
+          },
+          "style": "realistic",
+          "notes": "Exact 2017 Polo Sedan but description says \"comes from a BeamNG.drive mod\" (ModLand) -> REJECTED (provenance). bab77902 (GTA SA/Forza rip) likewise rejected.",
+          "status": "rejected"
+        }
+      ],
+      "notes": "GAP: no clean Polo sedan with verified provenance."
+    },
+    {
+      "id": "vaz2107",
+      "name": "Lada 2107 (Zhiguli)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.145,
+        "width": 1.62,
+        "height": 1.44,
+        "wheelbase": 2.424,
+        "track": [
+          1.365,
+          1.321
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "55bd23c141284e758e4eacc01df14037",
+          "url": "https://sketchfab.com/3d-models/55bd23c141284e758e4eacc01df14037",
+          "name": "Lada 2107",
+          "author": "Aslan",
+          "authorUrl": "https://sketchfab.com/Aslan_",
+          "license": "CC-BY-4.0",
+          "faces": 106997,
+          "vertices": 60025,
+          "likes": 126,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 13871076,
+            "gltf": 11297070,
+            "source": 30733404,
+            "usdz": 7597860
+          },
+          "textureInfo": {
+            "count": 8,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Aslan 107k, 35 materials, 8x2k textures, clean silver body, chrome bumpers, separate wheels likely. 5.6k downloads.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "91270dab9d1a47c7ba7ffaaf8c8b0beb",
+          "url": "https://sketchfab.com/3d-models/91270dab9d1a47c7ba7ffaaf8c8b0beb",
+          "name": "Old Car - VAZ 2107",
+          "author": "Arkady Gribachev",
+          "authorUrl": "https://sketchfab.com/prephonat",
+          "license": "CC-BY-4.0",
+          "faces": 19909,
+          "vertices": 11535,
+          "likes": 781,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 63426260,
+            "gltf": 62890688,
+            "source": 66412536,
+            "usdz": 6175539
+          },
+          "textureInfo": {
+            "count": 15,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Arkady Gribachev pro game asset 19.9k tris, 4x2k PBR (ArtStation-documented), heavily rusted red - great \"old wreck\" parked variant. 781 likes. (dograaman999 08919ffc is a re-upload -> ignore)",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "4315e4d4f2aa48a7afe22ae759931f23",
+          "url": "https://sketchfab.com/3d-models/4315e4d4f2aa48a7afe22ae759931f23",
+          "name": "Vaz 2107",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 54675,
+          "vertices": 41567,
+          "likes": 49,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 7596288,
+            "gltf": 2782163,
+            "source": 11756255,
+            "usdz": 3963770
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo 54.7k, 48 materials, untextured. Clean purple paint.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "cc7c031cbfe246e98d5e5cfbc6b871a4",
+          "url": "https://sketchfab.com/3d-models/cc7c031cbfe246e98d5e5cfbc6b871a4",
+          "name": "[FREE] VAZ 2107",
+          "author": "Mcflower's Creations",
+          "authorUrl": "https://sketchfab.com/mcflower",
+          "license": "CC-BY-4.0",
+          "faces": 6894,
+          "vertices": 3755,
+          "likes": 41,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 644360,
+            "gltf": 151427,
+            "source": 1025003,
+            "usdz": 571252
+          },
+          "textureInfo": {
+            "count": 6,
+            "maxRes": 1024
+          },
+          "style": "semi",
+          "notes": "Mcflower low-poly 6.9k, simplified, good far LOD.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "niva",
+      "name": "Lada Niva Legend / 4x4 (2121/21214)",
+      "kind": "suv",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 3.74,
+        "width": 1.68,
+        "height": 1.64,
+        "wheelbase": 2.2,
+        "track": [
+          1.44,
+          1.42
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "93fc33be25e34b44b205c5b962d66e61",
+          "url": "https://sketchfab.com/3d-models/93fc33be25e34b44b205c5b962d66e61",
+          "name": "Good Old Niva",
+          "author": "Ivaskiv Grigory",
+          "authorUrl": "https://sketchfab.com/Livagof",
+          "license": "CC-BY-4.0",
+          "faces": 31662,
+          "vertices": 17621,
+          "likes": 46,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 60814572,
+            "gltf": 59981405,
+            "source": 60633486,
+            "usdz": 7141360
+          },
+          "textureInfo": {
+            "count": 6,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "Ivaskiv Grigory: 31.7k tris, Blender+Substance PBR (6x4k), light wear, very realistic. glb 61 MB due to 4k maps - downscale to 1k.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "96e1ba1472b14b8eacc759085add79f7",
+          "url": "https://sketchfab.com/3d-models/96e1ba1472b14b8eacc759085add79f7",
+          "name": "Niva 4x4 (Нива)",
+          "author": "FFRIDAY",
+          "authorUrl": "https://sketchfab.com/mercurypro228",
+          "license": "CC-BY-4.0",
+          "faces": 33468,
+          "vertices": 19064,
+          "likes": 3,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 2660992,
+            "gltf": 1770893,
+            "source": 5500445,
+            "usdz": 1137976
+          },
+          "textureInfo": {
+            "count": 2,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "FFRIDAY 33.5k, clean white, untextured materials (no underbody).",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "26ebf5872bce4ff4ad2baee41882d6b2",
+          "url": "https://sketchfab.com/3d-models/26ebf5872bce4ff4ad2baee41882d6b2",
+          "name": "Lada Niva",
+          "author": "Greg McKechnie",
+          "authorUrl": "https://sketchfab.com/mckechniegreg6",
+          "license": "CC-BY-4.0",
+          "faces": 74934,
+          "vertices": 40236,
+          "likes": 446,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 190464544,
+            "gltf": 188347820,
+            "source": 140572303,
+            "usdz": 8725055
+          },
+          "textureInfo": {
+            "count": 23,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "Greg McKechnie 75k, 40 PBR textures, 446 likes - but rusty/damaged two-tone, broken glass; good for parked wreck.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "5a83c0cc63df418fa5bb9a2bf98dc9a6",
+          "url": "https://sketchfab.com/3d-models/5a83c0cc63df418fa5bb9a2bf98dc9a6",
+          "name": "Lada Niva",
+          "author": "tiunov.se",
+          "authorUrl": "https://sketchfab.com/tiunov.se",
+          "license": "CC-BY-4.0",
+          "faces": 134171,
+          "vertices": 75509,
+          "likes": 128,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 5417548,
+            "gltf": 2234250,
+            "source": 4826304,
+            "usdz": 2574879
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "tiunov.se 134k untextured (series consistency).",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "chevyniva",
+      "name": "Chevrolet Niva (2123) / Niva Travel",
+      "kind": "suv",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.056,
+        "width": 1.8,
+        "height": 1.652,
+        "wheelbase": 2.45,
+        "track": [
+          1.466,
+          1.456
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "143dd666e66d4a2b900a12965a9e9e63",
+          "url": "https://sketchfab.com/3d-models/143dd666e66d4a2b900a12965a9e9e63",
+          "name": "Chevrolet - Niva (RAW SCAN)",
+          "author": "sMoKi",
+          "authorUrl": "https://sketchfab.com/vsevolod_smoki",
+          "license": "CC-BY-4.0",
+          "faces": 4882388,
+          "vertices": 2444024,
+          "likes": 10,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 203913944,
+            "gltf": 104763324,
+            "source": 82883938,
+            "usdz": 112377095
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Only find: raw photogrammetry of a BURNT Chevy Niva, 4.9M faces. Reference only.",
+          "status": "rejected"
+        }
+      ],
+      "notes": "GAP: no usable free model. Options: proxy with UAZ Patriot/Niva scaled, or commission/model."
+    },
+    {
+      "id": "largus",
+      "name": "Lada Largus (wagon) - player hero, also traffic \"wagon\"",
+      "kind": "wagon",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.47,
+        "width": 1.75,
+        "height": 1.67,
+        "wheelbase": 2.905,
+        "track": [
+          1.469,
+          1.466
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "ef5fd62d01ca49f1bd70bb596456c144",
+          "url": "https://sketchfab.com/3d-models/ef5fd62d01ca49f1bd70bb596456c144",
+          "name": "Lada Largus",
+          "author": "usolakolya",
+          "authorUrl": "https://sketchfab.com/usolakolya",
+          "license": "CC-BY-4.0",
+          "faces": 1503254,
+          "vertices": 834452,
+          "likes": 1,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 89328236,
+            "gltf": 37149727,
+            "source": 65085912,
+            "usdz": 27111655
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "ALREADY DOWNLOADED and processed to game/public/assets/vehicles/largus/ (largus.glb + largus_lod1.glb). Reuse LOD1 for traffic wagon slot.",
+          "status": "downloaded",
+          "localPath": "assets/sources/sketchfab/lada_largus_usolakolya/"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "78e9ab4adf3e4323880e2f0fc347503b",
+          "url": "https://sketchfab.com/3d-models/78e9ab4adf3e4323880e2f0fc347503b",
+          "name": "ВАЗ (Lada) largus",
+          "author": "Mr Humster",
+          "authorUrl": "https://sketchfab.com/hamster2014",
+          "license": "CC-BY-4.0",
+          "faces": 2856,
+          "vertices": 1392,
+          "likes": 0,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 145032,
+            "gltf": 23978,
+            "source": 110332,
+            "usdz": 75570
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "stylized",
+          "notes": "Mr Humster 2.9k blocky Largus - far LOD only.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "d4362de23bde44acac1cc8fec52c1375",
+          "url": "https://sketchfab.com/3d-models/d4362de23bde44acac1cc8fec52c1375",
+          "name": "Dacia Logan Mcv",
+          "author": "シRuletăシ",
+          "authorUrl": "https://sketchfab.com/romanian_guy_0069",
+          "license": "CC-BY-4.0",
+          "faces": 107737,
+          "vertices": 62747,
+          "likes": 10,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 4527840,
+            "gltf": 2738057,
+            "source": 17425112,
+            "usdz": 2489888
+          },
+          "textureInfo": {
+            "count": 5,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "Dacia Logan MCV 108k, 5 textures (Largus base body) - taxi-yellow MCV.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "7f138359ee354b208e9eeae42c2b47b3",
+          "url": "https://sketchfab.com/3d-models/7f138359ee354b208e9eeae42c2b47b3",
+          "name": "Lada Largus",
+          "author": "Quore",
+          "authorUrl": "https://sketchfab.com/Quoreder",
+          "license": "CC-BY-NC-4.0",
+          "faces": 299992,
+          "vertices": 150662,
+          "likes": 11,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 13506592,
+            "gltf": 9859208,
+            "source": 14549470,
+            "usdz": 10779527
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "[NON-COMMERCIAL licence - personal-project fallback only] Quore scan 300k.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "gazelle_marshrutka",
+      "name": "GAZelle marshrutka (GAZ-322132 / 3221)",
+      "kind": "gazelle",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 5.54,
+        "width": 2.075,
+        "height": 2.2,
+        "wheelbase": 2.9,
+        "track": [
+          1.7,
+          1.56
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "48d9f765ae454cab9c527029f8b86a51",
+          "url": "https://sketchfab.com/3d-models/48d9f765ae454cab9c527029f8b86a51",
+          "name": "Gaz 322132",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 143774,
+          "vertices": 120360,
+          "likes": 95,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 7105868,
+            "gltf": 2780931,
+            "source": 2926038,
+            "usdz": 4312052
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo GAZ-322132 (exact route-taxi body, yellow), 144k, 63 materials, untextured. Ford mondeo = prolific RU uploader without descriptions; no evidence of rip.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "e61f855fcc1241eab6589f53eb286bae",
+          "url": "https://sketchfab.com/3d-models/e61f855fcc1241eab6589f53eb286bae",
+          "name": "Газель gaz-3221",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 154066,
+          "vertices": 144620,
+          "likes": 52,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 8860952,
+            "gltf": 4571464,
+            "source": 6432819,
+            "usdz": 5182418
+          },
+          "textureInfo": {
+            "count": 21,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo GAZ-3221 yellow route taxi with route number, 154k, 21 textures 1k.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "a89fcdd05e79470caf0c8b39dcf58fce",
+          "url": "https://sketchfab.com/3d-models/a89fcdd05e79470caf0c8b39dcf58fce",
+          "name": "Провинциальная маршрутка | Такси | Газель",
+          "author": "yakub",
+          "authorUrl": "https://sketchfab.com/vyimer2008",
+          "license": "CC-BY-4.0",
+          "faces": 110654,
+          "vertices": 56250,
+          "likes": 10,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 4055352,
+            "gltf": 2144592,
+            "source": 9381956,
+            "usdz": 2734800
+          },
+          "textureInfo": {
+            "count": 2,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "yakub: provincial marshrutka with ad wrap (\"Doshirak\"), 110k, 2 textures; author-made, includes snowy ground plane to strip.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "gazelle_cargo",
+      "name": "GAZelle Business cargo (3302 box / 2705 van)",
+      "kind": "gazelle",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 5.54,
+        "width": 2.098,
+        "height": 2.12,
+        "wheelbase": 2.9,
+        "note": "cab height; box van ~2.6-2.9 m"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "f59647f516f54bbe896972a261d3df87",
+          "url": "https://sketchfab.com/3d-models/f59647f516f54bbe896972a261d3df87",
+          "name": "Газель 3302",
+          "author": "thehto",
+          "authorUrl": "https://sketchfab.com/thehto",
+          "license": "CC-BY-4.0",
+          "faces": 43394,
+          "vertices": 28569,
+          "likes": 38,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 4581208,
+            "gltf": 1558341,
+            "source": 2413660,
+            "usdz": 3002606
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "thehto GAZ-3302 with box body, 43k, 99 materials (merge), untextured. Clean white.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "4ac2415bdc544a7d8aadc44380548ef2",
+          "url": "https://sketchfab.com/3d-models/4ac2415bdc544a7d8aadc44380548ef2",
+          "name": "Gaz 2705",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 49455,
+          "vertices": 43374,
+          "likes": 119,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 13083616,
+            "gltf": 12159777,
+            "source": 22699797,
+            "usdz": 2975819
+          },
+          "textureInfo": {
+            "count": 5,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo GAZ-2705 all-metal van, 49k, 3 textures, dirty/worn.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "gazelle_next",
+      "name": "GAZelle Next (van / flatbed)",
+      "kind": "gazelle",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 5.63,
+        "width": 2.068,
+        "height": 2.14,
+        "wheelbase": 3.145,
+        "note": "approx., A21R22 flatbed/van standard roof; high-roof van ~2.57 m"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "6f5f115cb8fc4bb2933b317f505d5708",
+          "url": "https://sketchfab.com/3d-models/6f5f115cb8fc4bb2933b317f505d5708",
+          "name": "GAZelle Next [FREE]",
+          "author": "UralStrong_lybnineg",
+          "authorUrl": "https://sketchfab.com/lybnineg",
+          "license": "CC-BY-4.0",
+          "faces": 318112,
+          "vertices": 169466,
+          "likes": 131,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 14178184,
+            "gltf": 5475241,
+            "source": 9656176,
+            "usdz": 8536257
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 512
+          },
+          "style": "realistic",
+          "notes": "UralStrong GAZelle Next all-metal van (blue), 318k, 25 materials, 1 texture 512. Game-optimised UVs per author.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "12ee8c3a0c294f21ab26e306d8217a60",
+          "url": "https://sketchfab.com/3d-models/12ee8c3a0c294f21ab26e306d8217a60",
+          "name": "GAZelle Next",
+          "author": "Savelliy 07",
+          "authorUrl": "https://sketchfab.com/savelliy07",
+          "license": "CC-BY-4.0",
+          "faces": 501125,
+          "vertices": 256427,
+          "likes": 37,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 26097912,
+            "gltf": 8211224,
+            "source": 23531328,
+            "usdz": 16396913
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Savelliy 07 GAZelle Next flatbed, 501k, 2 materials, untextured.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "paz",
+      "name": "PAZ-3205 (and 320402 proxy)",
+      "kind": "paz",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 7.0,
+        "width": 2.5,
+        "height": 2.952,
+        "wheelbase": 3.6,
+        "track": [
+          1.94,
+          1.69
+        ],
+        "note": "PAZ-320402 Vector: ~8.8 m, WB ~4.3 (approx)"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "95fa1547a7c845bfb9106a5c65a2a15c",
+          "url": "https://sketchfab.com/3d-models/95fa1547a7c845bfb9106a5c65a2a15c",
+          "name": "PAZ 3205",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 133801,
+          "vertices": 75257,
+          "likes": 76,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 13969676,
+            "gltf": 5261099,
+            "source": 29937955,
+            "usdz": 3467801
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo PAZ-3205, 134k, 23 materials, untextured; most complete geometry seen.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "e36f7c642f344eaa849db4c0312ef7e2",
+          "url": "https://sketchfab.com/3d-models/e36f7c642f344eaa849db4c0312ef7e2",
+          "name": "Bus PAZ",
+          "author": "slavashatrovoy",
+          "authorUrl": "https://sketchfab.com/slavashatrovoy",
+          "license": "CC-BY-4.0",
+          "faces": 309773,
+          "vertices": 160377,
+          "likes": 54,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 13765364,
+            "gltf": 4789369,
+            "source": 22910978,
+            "usdz": 7927554
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "slavashatrovoy PAZ, 310k, classic beige livery, untextured.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "ae628447785e4feca559bdf660c3251f",
+          "url": "https://sketchfab.com/3d-models/ae628447785e4feca559bdf660c3251f",
+          "name": "PAZ-3205",
+          "author": "hans1240",
+          "authorUrl": "https://sketchfab.com/hans1240",
+          "license": "CC-BY-4.0",
+          "faces": 42281,
+          "vertices": 27863,
+          "likes": 13,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1736804,
+            "gltf": 853205,
+            "source": 1876185,
+            "usdz": 790127
+          },
+          "textureInfo": {
+            "count": 3,
+            "maxRes": 256
+          },
+          "style": "realistic",
+          "notes": "hans1240 PAZ-3205 42k, 27 materials, 3 textures (256 px - low). Author also has PAZ-672/LiAZ-677 series.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "f895bb31d5d244f6828608f438189993",
+          "url": "https://sketchfab.com/3d-models/f895bb31d5d244f6828608f438189993",
+          "name": "Paz Bus",
+          "author": "Yo.Ri",
+          "authorUrl": "https://sketchfab.com/grox777",
+          "license": "CC-BY-4.0",
+          "faces": 2965,
+          "vertices": 2536,
+          "likes": 31,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 266576,
+            "gltf": 54121,
+            "source": 907181,
+            "usdz": 146399
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "semi",
+          "notes": "Yo.Ri low-poly 3k, clean white/blue - far LOD.",
+          "status": "queued-token"
+        }
+      ],
+      "notes": "GAP: no PAZ-320402 (Vector) - stretch/modify 3205."
+    },
+    {
+      "id": "liaz",
+      "name": "LiAZ-5292 (city bus)",
+      "kind": "liaz",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 12.0,
+        "width": 2.5,
+        "height": 2.88,
+        "wheelbase": 5.84,
+        "note": "approx."
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "577c32b2a6ed418dbaa93b8eb4b21437",
+          "url": "https://sketchfab.com/3d-models/577c32b2a6ed418dbaa93b8eb4b21437",
+          "name": "liaz 5292",
+          "author": "mamontnikita349",
+          "authorUrl": "https://sketchfab.com/mamontnikita349",
+          "license": "CC-BY-4.0",
+          "faces": 9230,
+          "vertices": 8538,
+          "likes": 6,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1202904,
+            "gltf": 756502,
+            "source": 1198992,
+            "usdz": 1042024
+          },
+          "textureInfo": {
+            "count": 9,
+            "maxRes": 1024
+          },
+          "style": "semi",
+          "notes": "mamontnikita349 LiAZ-5292, 9.2k, 14 materials, 9 textures (1k), Moscow green livery. Ideal budget; detail modest.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "3f7e6c3df1194eadac584facd1467f9f",
+          "url": "https://sketchfab.com/3d-models/3f7e6c3df1194eadac584facd1467f9f",
+          "name": "Bus Maz 203",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 344634,
+          "vertices": 234633,
+          "likes": 108,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 17257096,
+            "gltf": 4525800,
+            "source": 7340368,
+            "usdz": 10869003
+          },
+          "textureInfo": {
+            "count": 17,
+            "maxRes": 512
+          },
+          "style": "realistic",
+          "notes": "PROXY: MAZ-203 (also widely used in Russian cities), Ford mondeo, 345k, 18 textures, green livery.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "5e05a4918024447ba39902d3752c2403",
+          "url": "https://sketchfab.com/3d-models/5e05a4918024447ba39902d3752c2403",
+          "name": "Liaz Bus",
+          "author": "nthasdic",
+          "authorUrl": "https://sketchfab.com/nthasdic",
+          "license": "CC-BY-4.0",
+          "faces": 438228,
+          "vertices": 191543,
+          "likes": 0,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 15569080,
+            "gltf": 8271284,
+            "source": 27591193,
+            "usdz": 9478117
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "nthasdic \"Liaz Bus\" 438k, single material, untextured - verify model type.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "951a7a0d5a4e4382b5d9c461b6261a40",
+          "url": "https://sketchfab.com/3d-models/951a7a0d5a4e4382b5d9c461b6261a40",
+          "name": "ЛиАз5256",
+          "author": "Zovchick24k",
+          "authorUrl": "https://sketchfab.com/Zovchick24k",
+          "license": "CC-BY-4.0",
+          "faces": 120000,
+          "vertices": 60000,
+          "likes": 1,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 6301320,
+            "gltf": 4671347,
+            "source": 10921264,
+            "usdz": 3319159
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 2048
+          },
+          "style": "semi",
+          "notes": "Old LiAZ-5256, 120k, 1 texture.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "trolleybus_trolza",
+      "name": "Trolleybus Trolza-5275 Optima/Megapolis",
+      "kind": "trolleybus",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 11.98,
+        "width": 2.5,
+        "height": 3.4,
+        "wheelbase": 6.0,
+        "note": "approx.; height to roof equipment, poles down"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "a54431ded56d4a22976b3bd5612ef41a",
+          "url": "https://sketchfab.com/3d-models/a54431ded56d4a22976b3bd5612ef41a",
+          "name": "Тролза-5275.03 \"Оптима\"",
+          "author": "Alexey_Kazakov",
+          "authorUrl": "https://sketchfab.com/Alexey-Kazakov",
+          "license": "CC-BY-4.0",
+          "faces": 28217,
+          "vertices": 15466,
+          "likes": 1,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 1667188,
+            "gltf": 418356,
+            "source": 4473351,
+            "usdz": 1012665
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "semi",
+          "notes": "Alexey_Kazakov exact Trolza-5275.03 Optima, 28k, 1 material, untextured (needs livery/material split). Only modern Russian trolleybus found.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "3160207c7edc4f81989a64c9b693f2a6",
+          "url": "https://sketchfab.com/3d-models/3160207c7edc4f81989a64c9b693f2a6",
+          "name": "Ziu 9",
+          "author": "Randonavt",
+          "authorUrl": "https://sketchfab.com/Randonavt",
+          "license": "CC-BY-4.0",
+          "faces": 176799,
+          "vertices": 102404,
+          "likes": 81,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 18287920,
+            "gltf": 13114313,
+            "source": 51059819,
+            "usdz": 5441424
+          },
+          "textureInfo": {
+            "count": 43,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "PROXY: Randonavt ZiU-682/ZiU-9, 177k, 43 textures (4k), 9 liveries - highest quality trolleybus. See trolleybus_ziu.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "42c8abb48a264a96b1fc3ddacf46f9e8",
+          "url": "https://sketchfab.com/3d-models/42c8abb48a264a96b1fc3ddacf46f9e8",
+          "name": "АКСМ 333",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 1307612,
+          "vertices": 777651,
+          "likes": 31,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 50670856,
+            "gltf": 20212350,
+            "source": 6333848,
+            "usdz": 24267702
+          },
+          "textureInfo": {
+            "count": 16,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "PROXY: Ford mondeo AKSM-333 articulated (Belarus), 1.3M faces.",
+          "status": "queued-token"
+        }
+      ],
+      "notes": "GAP: no Megapolis / PKTS-6281 / VMZ."
+    },
+    {
+      "id": "trolleybus_ziu",
+      "name": "Trolleybus ZiU-682 (ZiU-9)",
+      "kind": "trolleybus",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 11.83,
+        "width": 2.5,
+        "height": 3.4,
+        "wheelbase": 6.0,
+        "track": [
+          2.06,
+          1.855
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "3160207c7edc4f81989a64c9b693f2a6",
+          "url": "https://sketchfab.com/3d-models/3160207c7edc4f81989a64c9b693f2a6",
+          "name": "Ziu 9",
+          "author": "Randonavt",
+          "authorUrl": "https://sketchfab.com/Randonavt",
+          "license": "CC-BY-4.0",
+          "faces": 176799,
+          "vertices": 102404,
+          "likes": 81,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 18287920,
+            "gltf": 13114313,
+            "source": 51059819,
+            "usdz": 5441424
+          },
+          "textureInfo": {
+            "count": 43,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "Randonavt ZiU-9, 177k, 53 materials, 43 textures up to 4k, 9 liveries (Ukrainian cities). Downscale textures.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "ad0b00db23164b13998150433c73fb4f",
+          "url": "https://sketchfab.com/3d-models/ad0b00db23164b13998150433c73fb4f",
+          "name": "trolley ZIU-682G | троллейбус ЗИУ-682Г",
+          "author": "gildermanvladimir089",
+          "authorUrl": "https://sketchfab.com/gildermanvladimir089",
+          "license": "CC-BY-4.0",
+          "faces": 2525,
+          "vertices": 1291,
+          "likes": 22,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 997300,
+            "gltf": 839324,
+            "source": 3872190,
+            "usdz": 923597
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 2048
+          },
+          "style": "semi",
+          "notes": "gildermanvladimir089 ZiU-682G, 2.5k, Moscow blue/white livery atlas. Great far-LOD.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "ede3e5d4e2fd46178194bf8268d4407e",
+          "url": "https://sketchfab.com/3d-models/ede3e5d4e2fd46178194bf8268d4407e",
+          "name": "ZiU 683B [B00] - ЗиУ 683Б [Б00]",
+          "author": "ARDANYDL12K",
+          "authorUrl": "https://sketchfab.com/ARDANYDL12K",
+          "license": "CC-BY-4.0",
+          "faces": 13366,
+          "vertices": 8663,
+          "likes": 4,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 1137764,
+            "gltf": 551191,
+            "source": 1977320,
+            "usdz": 810647
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 1024
+          },
+          "style": "semi",
+          "notes": "ARDANYDL12K ZiU-683B articulated 13k.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "ed841c672e3645288a3d8a00be319bc0",
+          "url": "https://sketchfab.com/3d-models/ed841c672e3645288a3d8a00be319bc0",
+          "name": "ZiU 9 - ЗиУ 9 (not my model - не моя модель)",
+          "author": "ARDANYDL12K",
+          "authorUrl": "https://sketchfab.com/ARDANYDL12K",
+          "license": "CC-BY-4.0",
+          "faces": 1091176,
+          "vertices": 558581,
+          "likes": 6,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 34051496,
+            "gltf": 15724194,
+            "source": 29471718,
+            "usdz": 9813775
+          },
+          "textureInfo": {
+            "count": 9,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "Author states \"not my model ... stolen\" -> REJECTED.",
+          "status": "rejected"
+        }
+      ]
+    },
+    {
+      "id": "uazpatriot",
+      "name": "UAZ Patriot",
+      "kind": "suv",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.785,
+        "width": 1.9,
+        "height": 2.005,
+        "wheelbase": 2.76,
+        "track": [
+          1.6,
+          1.6
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "35ba1f77bf7748b4ad2aa89f5dd75e9f",
+          "url": "https://sketchfab.com/3d-models/35ba1f77bf7748b4ad2aa89f5dd75e9f",
+          "name": "UAZ Patriot",
+          "author": "tiunov.se",
+          "authorUrl": "https://sketchfab.com/tiunov.se",
+          "license": "CC-BY-4.0",
+          "faces": 27529,
+          "vertices": 17112,
+          "likes": 62,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 16423508,
+            "gltf": 15535106,
+            "source": 21323176,
+            "usdz": 9087681
+          },
+          "textureInfo": {
+            "count": 14,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "tiunov.se Patriot 27.5k, 22 materials, 14 textures 2k; white/red emergency-service livery -> repaint.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "0ed7c5d993ac4c048e34c563303f5f61",
+          "url": "https://sketchfab.com/3d-models/0ed7c5d993ac4c048e34c563303f5f61",
+          "name": "UAZ Patriot",
+          "author": "Quore",
+          "authorUrl": "https://sketchfab.com/Quoreder",
+          "license": "CC-BY-NC-4.0",
+          "faces": 149957,
+          "vertices": 108751,
+          "likes": 10,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 10633152,
+            "gltf": 7380733,
+            "source": 24297043,
+            "usdz": 7149727
+          },
+          "textureInfo": {
+            "count": 26,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "[NON-COMMERCIAL licence - personal-project fallback only] Quore scan 150k with roof rack/snorkel, black.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "baa2ffb6f97348ce9712a4edd4e41093",
+          "url": "https://sketchfab.com/3d-models/baa2ffb6f97348ce9712a4edd4e41093",
+          "name": "UAZ Patriot (УАЗ Патриот)",
+          "author": "Mikhail Hamanovich",
+          "authorUrl": "https://sketchfab.com/mihailhamanovich",
+          "license": "CC-BY-4.0",
+          "faces": 3768745,
+          "vertices": 1934805,
+          "likes": 36,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 115642064,
+            "gltf": 67843453,
+            "source": 96608242,
+            "usdz": 54539595
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "Mikhail Hamanov 3.77M faces, 1 texture - very heavy.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "uaz452",
+      "name": "UAZ-452 / 2206 \"Bukhanka\"",
+      "kind": "van",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.363,
+        "width": 1.94,
+        "height": 2.064,
+        "wheelbase": 2.3,
+        "track": [
+          1.445,
+          1.445
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "4f45aa2e9180437b9687b3d567069ca9",
+          "url": "https://sketchfab.com/3d-models/4f45aa2e9180437b9687b3d567069ca9",
+          "name": "Uaz 452",
+          "author": "Sergey Egelsky",
+          "authorUrl": "https://sketchfab.com/egelsky",
+          "license": "CC-BY-4.0",
+          "faces": 7970,
+          "vertices": 4617,
+          "likes": 329,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 6038368,
+            "gltf": 5681849,
+            "source": 4600046,
+            "usdz": 3279906
+          },
+          "textureInfo": {
+            "count": 6,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Sergey Egelsky low-poly 8k, PBR 6x2k, khaki cargo van, 329 likes / 5.4k downloads. Ideal budget.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "3080f4e871df449796f9064d6516701a",
+          "url": "https://sketchfab.com/3d-models/3080f4e871df449796f9064d6516701a",
+          "name": "Uaz",
+          "author": "tiunov.se",
+          "authorUrl": "https://sketchfab.com/tiunov.se",
+          "license": "CC-BY-4.0",
+          "faces": 59214,
+          "vertices": 39396,
+          "likes": 320,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 2971316,
+            "gltf": 1565375,
+            "source": 2874894,
+            "usdz": 1027441
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "tiunov.se UAZ-2206 passenger version 59k, untextured, light grey.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "94397cdca6044e6c9cb0caaf01156a84",
+          "url": "https://sketchfab.com/3d-models/94397cdca6044e6c9cb0caaf01156a84",
+          "name": "Uaz 452",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 23703,
+          "vertices": 20372,
+          "likes": 304,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 23281280,
+            "gltf": 22688597,
+            "source": 21647231,
+            "usdz": 5999687
+          },
+          "textureInfo": {
+            "count": 12,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo UAZ-3303 flatbed with hay load, 23.7k, 6 textures, dirty.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "opengameart",
+          "uid": "uaz-452-utility-van-lowpoly",
+          "url": "https://opengameart.org/content/uaz-452-utility-van-lowpoly",
+          "name": "UAZ-452 Utility Van Lowpoly",
+          "author": "Mehozavr",
+          "authorUrl": "https://opengameart.org/users/mehozavr",
+          "license": "CC0-1.0",
+          "faces": 1014,
+          "vertices": null,
+          "likes": null,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "zip": 405195
+          },
+          "style": "semi",
+          "notes": "CC0, 482 quads / 1014 tris, PS1-style hand-painted small textures (yellow+orange+destroyed variants), FBX. Downloaded without login.",
+          "status": "downloaded",
+          "localPath": "assets/sources/opengameart/uaz-452-utility-van-lowpoly/"
+        }
+      ]
+    },
+    {
+      "id": "camry",
+      "name": "Toyota Camry (XV70 2018+ / XV40)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.885,
+        "width": 1.84,
+        "height": 1.455,
+        "wheelbase": 2.825,
+        "track": [
+          1.58,
+          1.59
+        ]
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "236a5a6e2fa6420fbdf641f4800cd544",
+          "url": "https://sketchfab.com/3d-models/236a5a6e2fa6420fbdf641f4800cd544",
+          "name": "Toyota Camry 2020",
+          "author": "ItsDiyor",
+          "authorUrl": "https://sketchfab.com/ItsDiyor",
+          "license": "CC-BY-4.0",
+          "faces": 176719,
+          "vertices": 96538,
+          "likes": 75,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 17691224,
+            "gltf": 11685842,
+            "source": 15089747,
+            "usdz": 6627864
+          },
+          "textureInfo": {
+            "count": 8,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "ItsDiyor Camry XV70 2020, 177k, 5 materials, PBR 8x2k, silver. Also base for DPS/taxi Camry.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "560c174d073f4a10bb153ded41ada8c9",
+          "url": "https://sketchfab.com/3d-models/560c174d073f4a10bb153ded41ada8c9",
+          "name": "Toyota Camry 40",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 18410,
+          "vertices": 11862,
+          "likes": 66,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 1996768,
+            "gltf": 978731,
+            "source": 6128409,
+            "usdz": 1329030
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo Camry XV40, 18.4k, 11 materials, untextured - budget friendly.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "3ac6fcdf74fa43dba230626e38110836",
+          "url": "https://sketchfab.com/3d-models/3ac6fcdf74fa43dba230626e38110836",
+          "name": "Toyota Camry 2007",
+          "author": "DR1KING100K",
+          "authorUrl": "https://sketchfab.com/DR1KING100K",
+          "license": "CC-BY-4.0",
+          "faces": 209594,
+          "vertices": 125803,
+          "likes": 11,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 11906860,
+            "gltf": 7441876,
+            "source": 14007008,
+            "usdz": 6650107
+          },
+          "textureInfo": {
+            "count": 16,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "DR1KING100K Camry 2007 210k, provenance not stated (bulk uploader).",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "corolla",
+      "name": "Toyota Corolla (E180 / E150)",
+      "kind": "sedan",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.62,
+        "width": 1.775,
+        "height": 1.465,
+        "wheelbase": 2.7
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "36f95efb0585464cae43a25a3b3392e8",
+          "url": "https://sketchfab.com/3d-models/36f95efb0585464cae43a25a3b3392e8",
+          "name": "2014 Toyota Corolla E180 EU (with interior)",
+          "author": "Armored Wave",
+          "authorUrl": "https://sketchfab.com/armoredwave",
+          "license": "CC-BY-4.0",
+          "faces": 84408,
+          "vertices": 50061,
+          "likes": 186,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 78601236,
+            "gltf": 76025945,
+            "source": 97752307,
+            "usdz": 4264060
+          },
+          "textureInfo": {
+            "count": 27,
+            "maxRes": 4096
+          },
+          "style": "realistic",
+          "notes": "Armored Wave E180 EU, exterior ~30k + interior ~55k (strip interior), PBR 27 textures 4k, game-optimised. 186 likes.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "4b8d6cb1e8af4d47bdb29a2b3effa6b2",
+          "url": "https://sketchfab.com/3d-models/4b8d6cb1e8af4d47bdb29a2b3effa6b2",
+          "name": "2006 Toyota Corolla",
+          "author": "LEON elenaisakova248",
+          "authorUrl": "https://sketchfab.com/elenaisakova248",
+          "license": "CC-BY-4.0",
+          "faces": 5492,
+          "vertices": 3155,
+          "likes": 34,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1689056,
+            "gltf": 1528721,
+            "source": 5535102,
+            "usdz": 434846
+          },
+          "textureInfo": {
+            "count": 4,
+            "maxRes": 1024
+          },
+          "style": "semi",
+          "notes": "LEON E120 2006, 5.5k, 4 textures - low-poly.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "0c96275609db4f3c96dc277b14f17464",
+          "url": "https://sketchfab.com/3d-models/0c96275609db4f3c96dc277b14f17464",
+          "name": "Toyota Corolla MK12 Since 2018",
+          "author": "Merc_TV",
+          "authorUrl": "https://sketchfab.com/szymonpasterczyk",
+          "license": "CC-BY-4.0",
+          "faces": 44481,
+          "vertices": 26861,
+          "likes": 10,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 3239600,
+            "gltf": 992604,
+            "source": 7239231,
+            "usdz": 1509105
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Merc_TV E210 44k, untextured; provenance not stated.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "octavia",
+      "name": "Skoda Octavia (A7 / A8)",
+      "kind": "hatch",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.67,
+        "width": 1.814,
+        "height": 1.461,
+        "wheelbase": 2.686,
+        "track": [
+          1.549,
+          1.52
+        ],
+        "note": "A7 liftback"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "d567807ce57e415ba9a1ffdf07e0cf5b",
+          "url": "https://sketchfab.com/3d-models/d567807ce57e415ba9a1ffdf07e0cf5b",
+          "name": "low-poly Škoda Octavia RS 2020",
+          "author": "D_U",
+          "authorUrl": "https://sketchfab.com/DU1701",
+          "license": "CC-BY-4.0",
+          "faces": 16366,
+          "vertices": 8746,
+          "likes": 46,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 1112864,
+            "gltf": 222404,
+            "source": 1817398,
+            "usdz": 547489
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "semi",
+          "notes": "D_U low-poly Octavia RS A8 (2020), 16.4k, 10 materials, untextured; clean.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "3575951730894da0ab4999a1be549b93",
+          "url": "https://sketchfab.com/3d-models/3575951730894da0ab4999a1be549b93",
+          "name": "Skoda Octavia MK3 Facelift 2016-2020",
+          "author": "Merc_TV",
+          "authorUrl": "https://sketchfab.com/szymonpasterczyk",
+          "license": "CC-BY-4.0",
+          "faces": 135971,
+          "vertices": 80544,
+          "likes": 5,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 9911628,
+            "gltf": 4000389,
+            "source": 46218854,
+            "usdz": 5514774
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 512
+          },
+          "style": "realistic",
+          "notes": "Merc_TV Octavia A7 FL 136k, provenance not stated.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "04c8459aca804e35806b3dcc69c296db",
+          "url": "https://sketchfab.com/3d-models/04c8459aca804e35806b3dcc69c296db",
+          "name": "Skoda Octavia MK1 1996-2010",
+          "author": "Merc_TV",
+          "authorUrl": "https://sketchfab.com/szymonpasterczyk",
+          "license": "CC-BY-4.0",
+          "faces": 113770,
+          "vertices": 63763,
+          "likes": 7,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 4616476,
+            "gltf": 1752455,
+            "source": 24979680,
+            "usdz": 2515634
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Merc_TV Octavia A4 (Tour) 114k - very common older Octavia in RU.",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "ambulance",
+      "name": "Ambulance (GAZelle GAZ-32214 / Next)",
+      "kind": "ambulance",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 5.54,
+        "width": 2.075,
+        "height": 2.33,
+        "wheelbase": 2.9,
+        "note": "GAZ-3221 based; with beacon"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "f3daf79ea4e843c8a159e8ead7af6e74",
+          "url": "https://sketchfab.com/3d-models/f3daf79ea4e843c8a159e8ead7af6e74",
+          "name": "ГАЗ-3221 Скорая помощь / GAZ-3221 Ambulance R.2",
+          "author": "Yo.Ri",
+          "authorUrl": "https://sketchfab.com/grox777",
+          "license": "CC-BY-4.0",
+          "faces": 7556,
+          "vertices": 3824,
+          "likes": 150,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 857360,
+            "gltf": 647861,
+            "source": 1811800,
+            "usdz": 196962
+          },
+          "textureInfo": {
+            "count": 2,
+            "maxRes": 512
+          },
+          "style": "semi",
+          "notes": "Yo.Ri GAZ-3221 \"Skoraya pomoshch\", 7.5k, 3 textures 512, correct RU livery. 150 likes / 3.8k downloads.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "6388a20ed222465a98baceb84c795760",
+          "url": "https://sketchfab.com/3d-models/6388a20ed222465a98baceb84c795760",
+          "name": "Gazzele Next ambulance",
+          "author": "Ford mondeo",
+          "authorUrl": "https://sketchfab.com/tnikita",
+          "license": "CC-BY-4.0",
+          "faces": 420045,
+          "vertices": 216149,
+          "likes": 52,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 18804896,
+            "gltf": 7187768,
+            "source": 53115485,
+            "usdz": 11650400
+          },
+          "textureInfo": {
+            "count": 2,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Ford mondeo GAZelle Next ambulance 420k, 41 materials. (Res1n dc57ce22 is a later re-upload -> ignore)",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "3f2709a3d0be486fb809289122786090",
+          "url": "https://sketchfab.com/3d-models/3f2709a3d0be486fb809289122786090",
+          "name": "russian ambulance",
+          "author": "REM_Yankee",
+          "authorUrl": "https://sketchfab.com/REM_Yankee",
+          "license": "CC-BY-4.0",
+          "faces": 39003,
+          "vertices": 22584,
+          "likes": 39,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1456948,
+            "gltf": 632924,
+            "source": 2190777,
+            "usdz": 813087
+          },
+          "textureInfo": {
+            "count": 2,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "REM_Yankee Russian ambulance (VW LT body) 39k. (Res1n 333e7d10 = re-upload -> ignore)",
+          "status": "queued-token"
+        }
+      ]
+    },
+    {
+      "id": "police",
+      "name": "Police / DPS (Vesta, Granta, Camry, Polo)",
+      "kind": "police",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.41,
+        "width": 1.764,
+        "height": 1.6,
+        "wheelbase": 2.635,
+        "note": "Vesta + lightbar"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "a13c9346b39b4fd7950761629318f2a1",
+          "url": "https://sketchfab.com/3d-models/a13c9346b39b4fd7950761629318f2a1",
+          "name": "Logan 2021 Politia",
+          "author": "solid3DDD",
+          "authorUrl": "https://sketchfab.com/solid3ddd",
+          "license": "CC-BY-4.0",
+          "faces": 54766,
+          "vertices": 30384,
+          "likes": 34,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 25823884,
+            "gltf": 23617300,
+            "source": 46233554,
+            "usdz": 4427885
+          },
+          "textureInfo": {
+            "count": 20,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "solid3DDD Logan III 2021 Politia (Romania), 54.8k, PBR 27 textures, lightbar modelled. Repaint to DPS (white/blue stripe, \"DPS\" lettering). Same author as Logan/Taxi picks.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "3c333139feb744ae9d36767c0e9cabfd",
+          "url": "https://sketchfab.com/3d-models/3c333139feb744ae9d36767c0e9cabfd",
+          "name": "Lada Vesta",
+          "author": "tiunov.se",
+          "authorUrl": "https://sketchfab.com/tiunov.se",
+          "license": "CC-BY-4.0",
+          "faces": 197891,
+          "vertices": 108290,
+          "likes": 98,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 7155832,
+            "gltf": 2856789,
+            "source": 7792466,
+            "usdz": 2220159
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "realistic",
+          "notes": "Vesta base (see vesta) + add lightbar and DPS livery - matches real Ryazan DPS fleet best.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "b81e6c505db745aab15b93c2d2f0024a",
+          "url": "https://sketchfab.com/3d-models/b81e6c505db745aab15b93c2d2f0024a",
+          "name": "Vaz 2109 Police",
+          "author": "EvgenyS",
+          "authorUrl": "https://sketchfab.com/EvgenyS",
+          "license": "CC-BY-4.0",
+          "faces": 8708,
+          "vertices": 4514,
+          "likes": 170,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 919792,
+            "gltf": 726235,
+            "source": 931635,
+            "usdz": 346749
+          },
+          "textureInfo": {
+            "count": 4,
+            "maxRes": 512
+          },
+          "style": "semi",
+          "notes": "EvgenyS VAZ-2109 militsiya 8.7k for CS:Source map (author-made). 90s look.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 4,
+          "source": "sketchfab",
+          "uid": "efaf89790d4f42debdd055595e4c1e39",
+          "url": "https://sketchfab.com/3d-models/efaf89790d4f42debdd055595e4c1e39",
+          "name": "Russian Police Car",
+          "author": "Guso",
+          "authorUrl": "https://sketchfab.com/Guso",
+          "license": "CC-BY-4.0",
+          "faces": 4964,
+          "vertices": 3237,
+          "likes": 26,
+          "staffpick": false,
+          "hasTextures": false,
+          "archiveSizes": {
+            "glb": 241636,
+            "gltf": 55747,
+            "source": 181970,
+            "usdz": 101822
+          },
+          "textureInfo": {
+            "count": 0,
+            "maxRes": 0
+          },
+          "style": "stylized",
+          "notes": "Guso 5k stylized 2110 police.",
+          "status": "queued-token"
+        }
+      ],
+      "notes": "No free DPS Vesta/Granta/Camry exists; plan = repaint civilian picks + lightbar mesh."
+    },
+    {
+      "id": "taxi",
+      "name": "Taxi (yellow Solaris / Polo / Logan)",
+      "kind": "taxi",
+      "roles": [
+        "traffic",
+        "parked"
+      ],
+      "realDims": {
+        "length": 4.346,
+        "width": 1.733,
+        "height": 1.517,
+        "wheelbase": 2.634,
+        "note": "Logan II based"
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "source": "sketchfab",
+          "uid": "0b5310fbf2c14b3e807c63f2ee1ca7bf",
+          "url": "https://sketchfab.com/3d-models/0b5310fbf2c14b3e807c63f2ee1ca7bf",
+          "name": "Taxi 2",
+          "author": "solid3DDD",
+          "authorUrl": "https://sketchfab.com/solid3ddd",
+          "license": "CC-BY-4.0",
+          "faces": 19916,
+          "vertices": 11646,
+          "likes": 30,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 8029316,
+            "gltf": 7155281,
+            "source": 13443498,
+            "usdz": 3349929
+          },
+          "textureInfo": {
+            "count": 24,
+            "maxRes": 1024
+          },
+          "style": "realistic",
+          "notes": "solid3DDD \"Taxi 2\" = Logan II FL yellow taxi with roof sign, 19.9k, 11 materials, 40 PBR textures. Matches the Logan pick.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 2,
+          "source": "sketchfab",
+          "uid": "367b23f8343b417d86a4fd66437717a5",
+          "url": "https://sketchfab.com/3d-models/367b23f8343b417d86a4fd66437717a5",
+          "name": "Volkswagen Polo 2017 Taxi",
+          "author": "LEON elenaisakova248",
+          "authorUrl": "https://sketchfab.com/elenaisakova248",
+          "license": "CC-BY-4.0",
+          "faces": 676,
+          "vertices": 373,
+          "likes": 15,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 1748676,
+            "gltf": 1725472,
+            "source": 6467859,
+            "usdz": 414255
+          },
+          "textureInfo": {
+            "count": 1,
+            "maxRes": 2048
+          },
+          "style": "realistic",
+          "notes": "Polo sedan Yandex taxi livery - only 676 faces/1 texture, verify geometry.",
+          "status": "queued-token"
+        },
+        {
+          "rank": 3,
+          "source": "sketchfab",
+          "uid": "aa4b9d892fa947d78fe5e4e976ef588a",
+          "url": "https://sketchfab.com/3d-models/aa4b9d892fa947d78fe5e4e976ef588a",
+          "name": "Моделька желтого такси, вариант-2",
+          "author": "dudkingalina",
+          "authorUrl": "https://sketchfab.com/dudkingalina",
+          "license": "CC-BY-4.0",
+          "faces": 5211,
+          "vertices": 2780,
+          "likes": 3,
+          "staffpick": false,
+          "hasTextures": true,
+          "archiveSizes": {
+            "glb": 694380,
+            "gltf": 411316,
+            "source": 987999,
+            "usdz": 595623
+          },
+          "textureInfo": {
+            "count": 5,
+            "maxRes": 512
+          },
+          "style": "stylized",
+          "notes": "dudkingalina cartoon taxi 5.2k - not suitable for realism.",
+          "status": "queued-token"
+        }
+      ],
+      "notes": "Alternative: recolour Solaris/Polo picks + roof sign mesh."
+    }
+  ]
+}

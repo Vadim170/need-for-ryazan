@@ -1,0 +1,462 @@
+{
+ "start": {
+  "file": "start.m4a",
+  "src": 754779
+ },
+ "shift": {
+  "file": "shift.m4a",
+  "src": 442766
+ },
+ "shift_2": {
+  "file": "shift_2.m4a",
+  "src": 442766
+ },
+ "bov": {
+  "file": "bov.m4a",
+  "src": 659544
+ },
+ "backfire": {
+  "file": "backfire.m4a",
+  "src": 105351
+ },
+ "crackle_1": {
+  "file": "crackle_1.m4a",
+  "src": 797835
+ },
+ "crackle_2": {
+  "file": "crackle_2.m4a",
+  "src": 797835
+ },
+ "nitro_on": {
+  "file": "nitro_on.m4a",
+  "src": 701104
+ },
+ "tire_squeal": {
+  "loopStart": 0.1,
+  "loopEnd": 8.6,
+  "file": "tire_squeal.m4a",
+  "src": 71739
+ },
+ "tire_skid": {
+  "loopStart": 0.1,
+  "loopEnd": 3.287506,
+  "file": "tire_skid.m4a",
+  "src": 178889
+ },
+ "impact_metal_1": {
+  "file": "impact_metal_1.m4a",
+  "src": 151624
+ },
+ "impact_metal_2": {
+  "file": "impact_metal_2.m4a",
+  "src": 332056
+ },
+ "impact_metal_3": {
+  "file": "impact_metal_3.m4a",
+  "src": 332058
+ },
+ "impact_metal_4": {
+  "file": "impact_metal_4.m4a",
+  "src": 726486
+ },
+ "impact_crash": {
+  "file": "impact_crash.m4a",
+  "src": 592388
+ },
+ "impact_glass_1": {
+  "file": "impact_glass_1.m4a",
+  "src": 861043
+ },
+ "impact_glass_2": {
+  "file": "impact_glass_2.m4a",
+  "src": 758207
+ },
+ "impact_plastic": {
+  "file": "impact_plastic.m4a",
+  "src": 385940
+ },
+ "thump": {
+  "file": "thump.m4a",
+  "src": 778421
+ },
+ "horn": {
+  "file": "horn.m4a",
+  "src": 371833
+ },
+ "horn_2": {
+  "file": "horn_2.m4a",
+  "src": 547667
+ },
+ "road": {
+  "loopStart": 0.1,
+  "loopEnd": 20.6,
+  "file": "road.m4a",
+  "src": 795866
+ },
+ "wind": {
+  "loopStart": 0.1,
+  "loopEnd": 24.6,
+  "file": "wind.m4a",
+  "src": 82267
+ },
+ "bus_idle": {
+  "loopStart": 0.1,
+  "loopEnd": 14.6,
+  "file": "bus_idle.m4a",
+  "src": 453415
+ },
+ "trolley": {
+  "loopStart": 0.1,
+  "loopEnd": 28.6,
+  "file": "trolley.m4a",
+  "src": 652360
+ },
+ "train_rumble": {
+  "loopStart": 0.1,
+  "loopEnd": 28.6,
+  "file": "train_rumble.m4a",
+  "src": 631590
+ },
+ "train_horn": {
+  "file": "train_horn.m4a",
+  "src": 591873
+ },
+ "train_horn_2": {
+  "file": "train_horn_2.m4a",
+  "src": 662553
+ },
+ "amb_city": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_city.m4a",
+  "src": 667218
+ },
+ "amb_street": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_street.m4a",
+  "src": 612854
+ },
+ "amb_birds": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_birds.m4a",
+  "src": 457616
+ },
+ "amb_dawn": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_dawn.m4a",
+  "src": 631479
+ },
+ "amb_night": {
+  "loopStart": 0.1,
+  "loopEnd": 48.6,
+  "file": "amb_night.m4a",
+  "src": 776263
+ },
+ "amb_roar": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_roar.m4a",
+  "src": 454255
+ },
+ "amb_kids": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_kids.m4a",
+  "src": 238549
+ },
+ "amb_crowd": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_crowd.m4a",
+  "src": 869048
+ },
+ "amb_trees": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_trees.m4a",
+  "src": 574553
+ },
+ "amb_crows": {
+  "loopStart": 0.1,
+  "loopEnd": 43.6,
+  "file": "amb_crows.m4a",
+  "src": 776151
+ },
+ "amb_industry": {
+  "loopStart": 0.1,
+  "loopEnd": 53.6,
+  "file": "amb_industry.m4a",
+  "src": 637521
+ },
+ "amb_construction": {
+  "loopStart": 0.1,
+  "loopEnd": 48.6,
+  "file": "amb_construction.m4a",
+  "src": 613176
+ },
+ "footsteps": {
+  "loopStart": 0.1,
+  "loopEnd": 8.43,
+  "file": "footsteps.m4a",
+  "src": 789609
+ },
+ "dogs_1": {
+  "file": "dogs_1.m4a",
+  "src": 820267
+ },
+ "dogs_2": {
+  "file": "dogs_2.m4a",
+  "src": 615258
+ },
+ "siren_1": {
+  "file": "siren_1.m4a",
+  "src": 451068
+ },
+ "siren_2": {
+  "file": "siren_2.m4a",
+  "src": 568814
+ },
+ "car_alarm": {
+  "file": "car_alarm.m4a",
+  "src": 548470
+ },
+ "air_brake": {
+  "file": "air_brake.m4a",
+  "src": 801435
+ },
+ "air_brake_2": {
+  "file": "air_brake_2.m4a",
+  "src": 454420
+ },
+ "bells": {
+  "file": "bells.m4a",
+  "src": 592873
+ },
+ "bells_2": {
+  "file": "bells_2.m4a",
+  "src": 870015
+ },
+ "rain_roof": {
+  "loopStart": 0.1,
+  "loopEnd": 26.6,
+  "file": "rain_roof.m4a",
+  "src": 344460
+ },
+ "rain_street": {
+  "loopStart": 0.1,
+  "loopEnd": 48.6,
+  "file": "rain_street.m4a",
+  "src": 380651
+ },
+ "thunder": {
+  "file": "thunder.m4a",
+  "src": 476739
+ },
+ "snow_tires": {
+  "loopStart": 0.1,
+  "loopEnd": 7.495011,
+  "file": "snow_tires.m4a",
+  "src": 71099
+ },
+ "slush": {
+  "loopStart": 0.1,
+  "loopEnd": 28.6,
+  "file": "slush.m4a",
+  "src": 190997
+ },
+ "nitro_pssh": {
+  "file": "nitro_pssh.m4a",
+  "src": 642961
+ },
+ "nitro_rush": {
+  "loopStart": 0.1,
+  "loopEnd": 28.6,
+  "file": "nitro_rush.m4a",
+  "src": 152540
+ },
+ "nitro_body": {
+  "loopStart": 0.1,
+  "loopEnd": 28.6,
+  "file": "nitro_body.m4a",
+  "src": 515122
+ },
+ "nitro_purge": {
+  "file": "nitro_purge.m4a",
+  "src": 457294
+ },
+ "gun_pistol_1": {
+  "file": "gun_pistol_1.m4a",
+  "src": 371440
+ },
+ "gun_pistol_2": {
+  "file": "gun_pistol_2.m4a",
+  "src": 392229
+ },
+ "gun_rifle_1": {
+  "file": "gun_rifle_1.m4a",
+  "src": 855841
+ },
+ "gun_rifle_2": {
+  "file": "gun_rifle_2.m4a",
+  "src": 855843
+ },
+ "gun_shotgun_1": {
+  "file": "gun_shotgun_1.m4a",
+  "src": 163455
+ },
+ "gun_shotgun_2": {
+  "file": "gun_shotgun_2.m4a",
+  "src": 405504
+ },
+ "gun_echo": {
+  "file": "gun_echo.m4a",
+  "src": 541164
+ },
+ "ricochet_1": {
+  "file": "ricochet_1.m4a",
+  "src": 30932
+ },
+ "ricochet_2": {
+  "file": "ricochet_2.m4a",
+  "src": 523403
+ },
+ "bullet_hit": {
+  "file": "bullet_hit.m4a",
+  "src": 778028
+ },
+ "punch_1": {
+  "file": "punch_1.m4a",
+  "src": 439747
+ },
+ "punch_3": {
+  "file": "punch_3.m4a",
+  "src": 383883
+ },
+ "punch_4": {
+  "file": "punch_4.m4a",
+  "src": 383883
+ },
+ "punch_5": {
+  "file": "punch_5.m4a",
+  "src": 383883
+ },
+ "punch_6": {
+  "file": "punch_6.m4a",
+  "src": 383883
+ },
+ "body_fall": {
+  "file": "body_fall.m4a",
+  "src": 119825
+ },
+ "step_hard_1": {
+  "file": "step_hard_1.m4a",
+  "src": 637556
+ },
+ "step_hard_2": {
+  "file": "step_hard_2.m4a",
+  "src": 637556
+ },
+ "step_hard_3": {
+  "file": "step_hard_3.m4a",
+  "src": 637556
+ },
+ "step_hard_4": {
+  "file": "step_hard_4.m4a",
+  "src": 637556
+ },
+ "step_hard_5": {
+  "file": "step_hard_5.m4a",
+  "src": 637556
+ },
+ "step_hard_6": {
+  "file": "step_hard_6.m4a",
+  "src": 637556
+ },
+ "step_grass_1": {
+  "file": "step_grass_1.m4a",
+  "src": 521587
+ },
+ "step_grass_2": {
+  "file": "step_grass_2.m4a",
+  "src": 521587
+ },
+ "step_grass_3": {
+  "file": "step_grass_3.m4a",
+  "src": 521587
+ },
+ "step_grass_4": {
+  "file": "step_grass_4.m4a",
+  "src": 521587
+ },
+ "step_snow_1": {
+  "file": "step_snow_1.m4a",
+  "src": 611277
+ },
+ "step_snow_2": {
+  "file": "step_snow_2.m4a",
+  "src": 611277
+ },
+ "step_snow_3": {
+  "file": "step_snow_3.m4a",
+  "src": 611277
+ },
+ "step_snow_4": {
+  "file": "step_snow_4.m4a",
+  "src": 611277
+ },
+ "door_open": {
+  "file": "door_open.m4a",
+  "src": 556690
+ },
+ "door_close": {
+  "file": "door_close.m4a",
+  "src": 556690
+ },
+ "door_handle": {
+  "file": "door_handle.m4a",
+  "src": 50697
+ },
+ "siren_police": {
+  "loopStart": 0.1,
+  "loopEnd": 10.6,
+  "file": "siren_police.m4a",
+  "src": 239948
+ },
+ "siren_synth": {
+  "loopStart": 0.1,
+  "loopEnd": 10.6,
+  "file": "siren_synth.m4a",
+  "src": 746302
+ },
+ "explosion_1": {
+  "file": "explosion_1.m4a",
+  "src": 753843
+ },
+ "explosion_2": {
+  "file": "explosion_2.m4a",
+  "src": 108641
+ },
+ "reload": {
+  "file": "reload.m4a",
+  "src": 686661
+ },
+ "dry_fire": {
+  "file": "dry_fire.m4a",
+  "src": 725402
+ },
+ "pickup": {
+  "file": "pickup.m4a",
+  "src": 341979
+ },
+ "scream_f": {
+  "file": "scream_f.m4a",
+  "src": 222528
+ },
+ "scream_m": {
+  "file": "scream_m.m4a",
+  "src": 460036
+ }
+}

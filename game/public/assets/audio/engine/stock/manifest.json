@@ -1,0 +1,634 @@
+{
+ "preset": "stock",
+ "title": "Сток: рядная 4-ка (MGB 1.8 у выхлопа: холостой, город, сбросы; Ford Escort 1.6: разгон до отсечки)",
+ "cylinders": 4,
+ "sampleRate": 44100,
+ "file": "engine.m4a",
+ "pad": 0.1,
+ "rpmMap": [
+  [
+   0,
+   0
+  ],
+  [
+   900,
+   1050
+  ],
+  [
+   6800,
+   6500
+  ],
+  [
+   8000,
+   7500
+  ]
+ ],
+ "idleRpm": 1063.7,
+ "loops": [
+  {
+   "layer": "cruise",
+   "rpm": 2100.0,
+   "firingHz": 70.0,
+   "cycles": 16,
+   "start": 0.1,
+   "length": 0.9142857142857143,
+   "startSample": 4410,
+   "lengthSamples": 40320,
+   "levelDb": -19.72,
+   "src": 488956,
+   "srcSpan": [
+    109.598,
+    110.69
+   ],
+   "warp": 0.04,
+   "seamClick": 0.665,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "cruise",
+   "rpm": 2299.99,
+   "firingHz": 76.6662,
+   "cycles": 17,
+   "start": 1.2142857142857142,
+   "length": 0.8869614512471655,
+   "startSample": 53550,
+   "lengthSamples": 39115,
+   "levelDb": -24.65,
+   "src": 488956,
+   "srcSpan": [
+    92.765,
+    93.832
+   ],
+   "warp": 0.004,
+   "seamClick": 0.206,
+   "pitchDevCents": 1.8
+  },
+  {
+   "layer": "cruise",
+   "rpm": 2500.03,
+   "firingHz": 83.3342,
+   "cycles": 18,
+   "start": 2.30124716553288,
+   "length": 0.8639909297052154,
+   "startSample": 101485,
+   "lengthSamples": 38102,
+   "levelDb": -20.3,
+   "src": 488956,
+   "srcSpan": [
+    86.808,
+    87.898
+   ],
+   "warp": 0.046,
+   "seamClick": 0.278,
+   "pitchDevCents": 2.3
+  },
+  {
+   "layer": "cruise",
+   "rpm": 3300.04,
+   "firingHz": 110.0012,
+   "cycles": 21,
+   "start": 3.3652380952380954,
+   "length": 0.7636281179138322,
+   "startSample": 148407,
+   "lengthSamples": 33676,
+   "levelDb": -7.05,
+   "src": 141459,
+   "srcSpan": [
+    53.647,
+    54.56
+   ],
+   "warp": 0.036,
+   "seamClick": 0.411,
+   "pitchDevCents": 6.4
+  },
+  {
+   "layer": "cruise",
+   "rpm": 3600.0,
+   "firingHz": 120.0,
+   "cycles": 22,
+   "start": 4.328866213151928,
+   "length": 0.7333333333333333,
+   "startSample": 190903,
+   "lengthSamples": 32340,
+   "levelDb": -3.45,
+   "src": 141459,
+   "srcSpan": [
+    49.402,
+    50.35
+   ],
+   "warp": 0.038,
+   "seamClick": 0.203,
+   "pitchDevCents": 3.2
+  },
+  {
+   "layer": "idle",
+   "rpm": 1063.65,
+   "firingHz": 35.455,
+   "cycles": 28,
+   "start": 5.2621995464852604,
+   "length": 3.158934240362812,
+   "startSample": 232063,
+   "lengthSamples": 139309,
+   "levelDb": -14.95,
+   "src": 488956,
+   "srcSpan": [
+    39.077,
+    42.41
+   ],
+   "warp": 0,
+   "seamClick": 0.306,
+   "pitchDevCents": 23.8
+  },
+  {
+   "layer": "off",
+   "rpm": 1350.0,
+   "firingHz": 45.0,
+   "cycles": 8,
+   "start": 8.621133786848073,
+   "length": 0.7111111111111111,
+   "startSample": 380192,
+   "lengthSamples": 31360,
+   "levelDb": -33.99,
+   "src": 488956,
+   "srcSpan": [
+    128.705,
+    129.57
+   ],
+   "warp": 0.086,
+   "seamClick": 0.541,
+   "pitchDevCents": 6.4
+  },
+  {
+   "layer": "off",
+   "rpm": 1500.0,
+   "firingHz": 50.0,
+   "cycles": 12,
+   "start": 9.532244897959183,
+   "length": 0.96,
+   "startSample": 420372,
+   "lengthSamples": 42336,
+   "levelDb": -34.14,
+   "src": 488956,
+   "srcSpan": [
+    128.205,
+    129.365
+   ],
+   "warp": 0.095,
+   "seamClick": 0.106,
+   "pitchDevCents": 6.6
+  },
+  {
+   "layer": "off",
+   "rpm": 1650.03,
+   "firingHz": 55.0009,
+   "cycles": 9,
+   "start": 10.692244897959183,
+   "length": 0.6545351473922902,
+   "startSample": 471528,
+   "lengthSamples": 28865,
+   "levelDb": -31.7,
+   "src": 488956,
+   "srcSpan": [
+    127.844,
+    128.685
+   ],
+   "warp": 0.085,
+   "seamClick": 0.074,
+   "pitchDevCents": 9.2
+  },
+  {
+   "layer": "off",
+   "rpm": 2100.0,
+   "firingHz": 70.0,
+   "cycles": 16,
+   "start": 11.546780045351474,
+   "length": 0.9142857142857143,
+   "startSample": 509213,
+   "lengthSamples": 40320,
+   "levelDb": -31.03,
+   "src": 488956,
+   "srcSpan": [
+    113.87,
+    114.953
+   ],
+   "warp": 0.031,
+   "seamClick": 0.345,
+   "pitchDevCents": 10.5
+  },
+  {
+   "layer": "off",
+   "rpm": 2299.99,
+   "firingHz": 76.6662,
+   "cycles": 17,
+   "start": 12.661065759637188,
+   "length": 0.8869614512471655,
+   "startSample": 558353,
+   "lengthSamples": 39115,
+   "levelDb": -34.56,
+   "src": 488956,
+   "srcSpan": [
+    119.357,
+    120.441
+   ],
+   "warp": 0.055,
+   "seamClick": 0.186,
+   "pitchDevCents": 20.1
+  },
+  {
+   "layer": "off",
+   "rpm": 2500.03,
+   "firingHz": 83.3342,
+   "cycles": 18,
+   "start": 13.748027210884354,
+   "length": 0.8639909297052154,
+   "startSample": 606288,
+   "lengthSamples": 38102,
+   "levelDb": -32.34,
+   "src": 488956,
+   "srcSpan": [
+    118.778,
+    119.887
+   ],
+   "warp": 0.089,
+   "seamClick": 0.069,
+   "pitchDevCents": 4.1
+  },
+  {
+   "layer": "off",
+   "rpm": 2749.99,
+   "firingHz": 91.6664,
+   "cycles": 19,
+   "start": 14.812018140589569,
+   "length": 0.829092970521542,
+   "startSample": 653210,
+   "lengthSamples": 36563,
+   "levelDb": -30.87,
+   "src": 488956,
+   "srcSpan": [
+    100.636,
+    101.683
+   ],
+   "warp": 0.091,
+   "seamClick": 0.111,
+   "pitchDevCents": 10.2
+  },
+  {
+   "layer": "on",
+   "rpm": 1500.0,
+   "firingHz": 50.0,
+   "cycles": 10,
+   "start": 15.841111111111111,
+   "length": 0.8,
+   "startSample": 698593,
+   "lengthSamples": 35280,
+   "levelDb": -23.95,
+   "src": 488956,
+   "srcSpan": [
+    103.723,
+    104.701
+   ],
+   "warp": 0.077,
+   "seamClick": 0.623,
+   "pitchDevCents": 8.1
+  },
+  {
+   "layer": "on",
+   "rpm": 1649.99,
+   "firingHz": 54.9995,
+   "cycles": 10,
+   "start": 16.84111111111111,
+   "length": 0.7272789115646259,
+   "startSample": 742693,
+   "lengthSamples": 32073,
+   "levelDb": -24.92,
+   "src": 488956,
+   "srcSpan": [
+    61.71,
+    62.633
+   ],
+   "warp": 0.067,
+   "seamClick": 0.484,
+   "pitchDevCents": 9.9
+  },
+  {
+   "layer": "on",
+   "rpm": 1800.0,
+   "firingHz": 60.0,
+   "cycles": 11,
+   "start": 17.768390022675735,
+   "length": 0.7333333333333333,
+   "startSample": 783586,
+   "lengthSamples": 32340,
+   "levelDb": -21.29,
+   "src": 488956,
+   "srcSpan": [
+    62.304,
+    63.229
+   ],
+   "warp": 0.083,
+   "seamClick": 0.146,
+   "pitchDevCents": 4.6
+  },
+  {
+   "layer": "on",
+   "rpm": 1950.02,
+   "firingHz": 65.0007,
+   "cycles": 11,
+   "start": 18.70172335600907,
+   "length": 0.6769160997732426,
+   "startSample": 824746,
+   "lengthSamples": 29852,
+   "levelDb": -25.26,
+   "src": 488956,
+   "srcSpan": [
+    123.365,
+    124.23
+   ],
+   "warp": 0.049,
+   "seamClick": 0.37,
+   "pitchDevCents": 10.5
+  },
+  {
+   "layer": "on",
+   "rpm": 2100.0,
+   "firingHz": 70.0,
+   "cycles": 12,
+   "start": 19.578639455782312,
+   "length": 0.6857142857142857,
+   "startSample": 863418,
+   "lengthSamples": 30240,
+   "levelDb": -23.62,
+   "src": 488956,
+   "srcSpan": [
+    124.014,
+    124.88
+   ],
+   "warp": 0.058,
+   "seamClick": 0.249,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "on",
+   "rpm": 2300.02,
+   "firingHz": 76.6674,
+   "cycles": 13,
+   "start": 20.4643537414966,
+   "length": 0.6782539682539682,
+   "startSample": 902478,
+   "lengthSamples": 29911,
+   "levelDb": -21.6,
+   "src": 488956,
+   "srcSpan": [
+    124.764,
+    125.618
+   ],
+   "warp": 0.048,
+   "seamClick": 0.319,
+   "pitchDevCents": 3.6
+  },
+  {
+   "layer": "on",
+   "rpm": 2500.02,
+   "firingHz": 83.3339,
+   "cycles": 14,
+   "start": 21.342607709750567,
+   "length": 0.6719954648526077,
+   "startSample": 941209,
+   "lengthSamples": 29635,
+   "levelDb": -22.47,
+   "src": 488956,
+   "srcSpan": [
+    125.559,
+    126.407
+   ],
+   "warp": 0.034,
+   "seamClick": 0.3,
+   "pitchDevCents": 1.5
+  },
+  {
+   "layer": "on",
+   "rpm": 2750.04,
+   "firingHz": 91.6681,
+   "cycles": 15,
+   "start": 22.214603174603173,
+   "length": 0.6545351473922902,
+   "startSample": 979664,
+   "lengthSamples": 28865,
+   "levelDb": -11.75,
+   "src": 488956,
+   "srcSpan": [
+    55.089,
+    55.922
+   ],
+   "warp": 0.056,
+   "seamClick": 0.283,
+   "pitchDevCents": 5.0
+  },
+  {
+   "layer": "on",
+   "rpm": 3000.0,
+   "firingHz": 100.0,
+   "cycles": 15,
+   "start": 23.069138321995464,
+   "length": 0.6,
+   "startSample": 1017349,
+   "lengthSamples": 26460,
+   "levelDb": -21.21,
+   "src": 488956,
+   "srcSpan": [
+    55.868,
+    56.645
+   ],
+   "warp": 0.025,
+   "seamClick": 0.168,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "on",
+   "rpm": 3300.02,
+   "firingHz": 110.0008,
+   "cycles": 16,
+   "start": 23.869138321995464,
+   "length": 0.5818140589569161,
+   "startSample": 1052629,
+   "lengthSamples": 25658,
+   "levelDb": -14.99,
+   "src": 488956,
+   "srcSpan": [
+    65.463,
+    66.218
+   ],
+   "warp": 0.052,
+   "seamClick": 0.36,
+   "pitchDevCents": 2.2
+  },
+  {
+   "layer": "on",
+   "rpm": 3600.0,
+   "firingHz": 120.0,
+   "cycles": 17,
+   "start": 24.650952380952383,
+   "length": 0.5666666666666667,
+   "startSample": 1087107,
+   "lengthSamples": 24990,
+   "levelDb": -14.51,
+   "src": 488956,
+   "srcSpan": [
+    65.931,
+    66.683
+   ],
+   "warp": 0.058,
+   "seamClick": 0.198,
+   "pitchDevCents": 3.0
+  },
+  {
+   "layer": "on",
+   "rpm": 3949.95,
+   "firingHz": 131.6649,
+   "cycles": 17,
+   "start": 25.41761904761905,
+   "length": 0.5164625850340137,
+   "startSample": 1120917,
+   "lengthSamples": 22776,
+   "levelDb": -2.87,
+   "src": 141459,
+   "srcSpan": [
+    38.232,
+    38.903
+   ],
+   "warp": 0.003,
+   "seamClick": 0.203,
+   "pitchDevCents": 3.1
+  },
+  {
+   "layer": "on",
+   "rpm": 4299.91,
+   "firingHz": 143.3305,
+   "cycles": 18,
+   "start": 26.13408163265306,
+   "length": 0.5023356009070294,
+   "startSample": 1152513,
+   "lengthSamples": 22153,
+   "levelDb": -7.6,
+   "src": 141459,
+   "srcSpan": [
+    45.998,
+    46.649
+   ],
+   "warp": 0.004,
+   "seamClick": 0.627,
+   "pitchDevCents": 1.8
+  },
+  {
+   "layer": "on",
+   "rpm": 4700.04,
+   "firingHz": 156.6681,
+   "cycles": 19,
+   "start": 26.83641723356009,
+   "length": 0.4851020408163265,
+   "startSample": 1183486,
+   "lengthSamples": 21393,
+   "levelDb": -13.63,
+   "src": 141459,
+   "srcSpan": [
+    30.008,
+    30.639
+   ],
+   "warp": 0.01,
+   "seamClick": 0.426,
+   "pitchDevCents": 1.6
+  },
+  {
+   "layer": "on",
+   "rpm": 5099.99,
+   "firingHz": 169.9995,
+   "cycles": 20,
+   "start": 27.521519274376416,
+   "length": 0.47058956916099776,
+   "startSample": 1213699,
+   "lengthSamples": 20753,
+   "levelDb": -15.36,
+   "src": 141459,
+   "srcSpan": [
+    32.897,
+    33.509
+   ],
+   "warp": 0.007,
+   "seamClick": 0.403,
+   "pitchDevCents": 1.2
+  },
+  {
+   "layer": "on",
+   "rpm": 5499.9,
+   "firingHz": 183.3299,
+   "cycles": 20,
+   "start": 28.192108843537415,
+   "length": 0.4363718820861678,
+   "startSample": 1243272,
+   "lengthSamples": 19244,
+   "levelDb": -15.65,
+   "src": 141459,
+   "srcSpan": [
+    23.026,
+    23.594
+   ],
+   "warp": 0.02,
+   "seamClick": 0.485,
+   "pitchDevCents": 2.5
+  },
+  {
+   "layer": "on",
+   "rpm": 5899.98,
+   "firingHz": 196.666,
+   "cycles": 21,
+   "start": 28.82848072562358,
+   "length": 0.4271201814058957,
+   "startSample": 1271336,
+   "lengthSamples": 18836,
+   "levelDb": -12.9,
+   "src": 141459,
+   "srcSpan": [
+    24.241,
+    24.795
+   ],
+   "warp": 0.015,
+   "seamClick": 0.359,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "on",
+   "rpm": 6300.0,
+   "firingHz": 210.0,
+   "cycles": 22,
+   "start": 29.455600907029478,
+   "length": 0.41904761904761906,
+   "startSample": 1298992,
+   "lengthSamples": 18480,
+   "levelDb": -10.57,
+   "src": 141459,
+   "srcSpan": [
+    18.392,
+    18.935
+   ],
+   "warp": 0.032,
+   "seamClick": 0.573,
+   "pitchDevCents": 3.0
+  }
+ ],
+ "sources": [
+  {
+   "id": 488956,
+   "title": "MGB at exhaust start drive shift.flac",
+   "author": "sv650nut",
+   "license": "CC0 1.0",
+   "url": "https://freesound.org/people/sv650nut/sounds/488956/"
+  },
+  {
+   "id": 141459,
+   "title": "auto5.wav",
+   "author": "escortmarius",
+   "license": "CC0 1.0",
+   "url": "https://freesound.org/people/escortmarius/sounds/141459/"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "lada_largus",
+ "dims": {
+  "length": 4.544,
+  "width": 1.997,
+  "height": 1.685
+ },
+ "bodyCenterZ": 0.023,
+ "tris": {
+  "body": 10363,
+  "wheel": 391,
+  "lod1": 1600,
+  "lod0": 11927
+ },
+ "roles": [
+  "brakelight",
+  "chrome",
+  "glass",
+  "headlight",
+  "interior",
+  "paint",
+  "plate",
+  "rim",
+  "taillight",
+  "tire",
+  "trim"
+ ],
+ "wheels": [
+  [
+   -0.7571,
+   0.308,
+   1.4525
+  ],
+  [
+   -0.7571,
+   0.308,
+   -1.4525
+  ],
+  [
+   0.7438,
+   0.308,
+   1.4525
+  ],
+  [
+   0.7438,
+   0.308,
+   -1.4525
+  ]
+ ],
+ "wheelRadius": 0.308,
+ "wheelWidth": 0.205,
+ "wheelbase": 2.9,
+ "track": 1.501
+}

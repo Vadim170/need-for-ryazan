@@ -1,0 +1,319 @@
+{
+ "version": 1,
+ "size": 1024,
+ "layers": [
+  {
+   "name": "asphalt",
+   "id": "asphalt_02",
+   "size": [
+    3.000000238418579,
+    3
+   ],
+   "avg": [
+    0.1114,
+    0.1098,
+    0.0977
+   ],
+   "rough": 0.771
+  },
+  {
+   "name": "asphalt_fresh",
+   "id": "clean_asphalt",
+   "size": [
+    2.0999999046325684,
+    2.0999999046325684
+   ],
+   "avg": [
+    0.0595,
+    0.0618,
+    0.0621
+   ],
+   "rough": 0.66
+  },
+  {
+   "name": "asphalt_patch",
+   "id": "tarred_gravel",
+   "size": [
+    2.200000047683716,
+    2.200000047683716
+   ],
+   "avg": [
+    0.0524,
+    0.0462,
+    0.0382
+   ],
+   "rough": 0.86
+  },
+  {
+   "name": "concrete",
+   "id": "rough_concrete",
+   "size": [
+    1.2300000190734863,
+    1.2300000190734863
+   ],
+   "avg": [
+    0.4893,
+    0.4707,
+    0.3414
+   ],
+   "rough": 0.842
+  },
+  {
+   "name": "concrete_stained",
+   "id": "concrete_wall_006",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.1072,
+    0.0826,
+    0.0611
+   ],
+   "rough": 0.771
+  },
+  {
+   "name": "grass",
+   "id": "forrest_ground_01",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.2911,
+    0.2486,
+    0.1192
+   ],
+   "rough": 0.936
+  },
+  {
+   "name": "meadow",
+   "id": "leafy_grass",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.3194,
+    0.2356,
+    0.1058
+   ],
+   "rough": 0.685
+  },
+  {
+   "name": "dirt",
+   "id": "park_dirt",
+   "size": [
+    3,
+    3
+   ],
+   "avg": [
+    0.1963,
+    0.1328,
+    0.0505
+   ],
+   "rough": 0.766
+  },
+  {
+   "name": "gravel",
+   "id": "gravel_stones",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.0809,
+    0.0798,
+    0.0752
+   ],
+   "rough": 0.781
+  },
+  {
+   "name": "brick_red",
+   "id": "red_brick_03",
+   "size": [
+    1,
+    1
+   ],
+   "avg": [
+    0.1543,
+    0.0994,
+    0.0829
+   ],
+   "rough": 0.532
+  },
+  {
+   "name": "brick_white",
+   "id": "white_bricks",
+   "size": [
+    1.5,
+    1.5
+   ],
+   "avg": [
+    0.3012,
+    0.2511,
+    0.1838
+   ],
+   "rough": 0.718
+  },
+  {
+   "name": "plaster",
+   "id": "painted_plaster_wall",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.4071,
+    0.366,
+    0.3509
+   ],
+   "rough": 0.919
+  },
+  {
+   "name": "stucco",
+   "id": "white_stucco_02",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.4251,
+    0.42,
+    0.4013
+   ],
+   "rough": 0.888
+  },
+  {
+   "name": "roof_galv",
+   "id": "corrugated_iron",
+   "size": [
+    1.1200000047683716,
+    1.1200000047683716
+   ],
+   "avg": [
+    0.4023,
+    0.45,
+    0.4278
+   ],
+   "rough": 0.702
+  },
+  {
+   "name": "roof_slate",
+   "id": "asbestos_sheet_02",
+   "size": [
+    1.8000000715255737,
+    1.8000000715255737
+   ],
+   "avg": [
+    0.1747,
+    0.1485,
+    0.128
+   ],
+   "rough": 0.848
+  },
+  {
+   "name": "roof_profile",
+   "id": "box_profile_metal_sheet",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.1447,
+    0.0192,
+    0.0087
+   ],
+   "rough": 0.446
+  },
+  {
+   "name": "metal_painted",
+   "id": "green_metal_rust",
+   "size": [
+    1,
+    1
+   ],
+   "avg": [
+    0.0495,
+    0.0734,
+    0.034
+   ],
+   "rough": 0.503
+  },
+  {
+   "name": "metal_rust",
+   "id": "rusty_metal_02",
+   "size": [
+    1,
+    1
+   ],
+   "avg": [
+    0.4128,
+    0.287,
+    0.1335
+   ],
+   "rough": 0.422
+  },
+  {
+   "name": "shutter",
+   "id": "painted_metal_shutter",
+   "size": [
+    2,
+    2
+   ],
+   "avg": [
+    0.2177,
+    0.2314,
+    0.2423
+   ],
+   "rough": 0.633
+  },
+  {
+   "name": "wood",
+   "id": "wood_plank_wall",
+   "size": [
+    1,
+    1
+   ],
+   "avg": [
+    0.0562,
+    0.0332,
+    0.0262
+   ],
+   "rough": 0.817
+  },
+  {
+   "name": "bark",
+   "id": "bark_willow",
+   "size": [
+    1,
+    1
+   ],
+   "avg": [
+    0.0562,
+    0.0378,
+    0.0248
+   ],
+   "rough": 0.761
+  },
+  {
+   "name": "bark_pine",
+   "id": "pine_bark",
+   "size": [
+    1.9999996423721313,
+    1.9999996423721313
+   ],
+   "avg": [
+    0.1387,
+    0.0891,
+    0.0541
+   ],
+   "rough": 0.706
+  }
+ ],
+ "files": {
+  "albedo": "albedo.ktx2",
+  "normal": "normal.ktx2",
+  "orm": "orm.ktx2"
+ }
+}

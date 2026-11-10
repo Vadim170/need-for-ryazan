@@ -1,0 +1,24 @@
+{
+ "version": 1,
+ "cell": 2,
+ "cols": 3625,
+ "rows": 3750,
+ "minX": -3250.0,
+ "minZ": -3250.0,
+ "classes": [
+  "none",
+  "canopy",
+  "conifer",
+  "thicket",
+  "meadow",
+  "lawn",
+  "garden",
+  "bare",
+  "sand",
+  "gravel",
+  "water",
+  "paved",
+  "building"
+ ],
+ "source": "build_landcover.py (yandex_0.5m + esri_0.5m, LightGBM)"
+}

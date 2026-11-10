@@ -1,0 +1,19 @@
+{
+  "id": "lada_largus",
+  "name": "Lada Largus",
+  "kind": "wagon",
+  "roles": ["traffic", "parked"],
+  "src": "/private/tmp/claude-501/veh/largus_raw/largus_raw.glb",
+  "srcNote": "сначала: blender -b --python assets/scripts/build_largus.py -- assets/sources/sketchfab/lada_largus_usolakolya/extracted/scene.gltf <tmp>",
+  "forward": "+Y",
+  "dims": { "length": 4.47, "width": 1.75, "height": 1.67, "wheelbase": 2.905 },
+  "scaleBy": "wheelbase",
+  "budget": 12000,
+  "lod1Budget": 1600,
+  "deleteMaterials": ["^interior$"],
+  "license": "CC-BY-4.0",
+  "author": "usolakolya",
+  "authorUrl": "https://sketchfab.com/usolakolya",
+  "url": "https://sketchfab.com/3d-models/lada-largus-ef5fd62d01ca49f1bd70bb596456c144",
+  "paintVariants": ["#f2f2f0", "#c9ccd0", "#8a8f94", "#2b2d30", "#7a1d1d", "#1f3a5f", "#5a6a4a", "#b8a27a"]
+}

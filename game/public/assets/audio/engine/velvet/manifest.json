@@ -1,0 +1,647 @@
+{
+ "preset": "velvet",
+ "title": "Бархатный: 3.2 V6 VTEC, спортивный выхлоп (onboard exhaust mic)",
+ "cylinders": 6,
+ "sampleRate": 44100,
+ "file": "engine.m4a",
+ "pad": 0.1,
+ "rpmMap": [
+  [
+   0,
+   0
+  ],
+  [
+   900,
+   780
+  ],
+  [
+   2500,
+   2250
+  ],
+  [
+   6800,
+   5600
+  ],
+  [
+   8000,
+   6500
+  ]
+ ],
+ "idleRpm": 770.8,
+ "loops": [
+  {
+   "layer": "cruise",
+   "rpm": 1400.0,
+   "firingHz": 70.0,
+   "cycles": 12,
+   "start": 0.1,
+   "length": 1.0285714285714285,
+   "startSample": 4410,
+   "lengthSamples": 45360,
+   "levelDb": -40.05,
+   "src": 755998,
+   "srcSpan": [
+    19.997,
+    21.199
+   ],
+   "warp": 0.02,
+   "seamClick": 0.677,
+   "pitchDevCents": 6.3
+  },
+  {
+   "layer": "cruise",
+   "rpm": 1549.98,
+   "firingHz": 77.4992,
+   "cycles": 13,
+   "start": 1.3285714285714285,
+   "length": 1.0064625850340136,
+   "startSample": 58590,
+   "lengthSamples": 44385,
+   "levelDb": -15.84,
+   "src": 754776,
+   "srcSpan": [
+    12.452,
+    13.636
+   ],
+   "warp": 0.019,
+   "seamClick": 0.41,
+   "pitchDevCents": 3.0
+  },
+  {
+   "layer": "cruise",
+   "rpm": 1700.01,
+   "firingHz": 85.0003,
+   "cycles": 14,
+   "start": 2.535034013605442,
+   "length": 0.9882312925170068,
+   "startSample": 111795,
+   "lengthSamples": 43581,
+   "levelDb": -26.53,
+   "src": 754776,
+   "srcSpan": [
+    21.453,
+    22.62
+   ],
+   "warp": 0.004,
+   "seamClick": 0.152,
+   "pitchDevCents": 1.8
+  },
+  {
+   "layer": "cruise",
+   "rpm": 1849.98,
+   "firingHz": 92.499,
+   "cycles": 14,
+   "start": 3.7232653061224488,
+   "length": 0.9081179138321995,
+   "startSample": 164196,
+   "lengthSamples": 40048,
+   "levelDb": -29.4,
+   "src": 755996,
+   "srcSpan": [
+    14.252,
+    15.326
+   ],
+   "warp": 0.019,
+   "seamClick": 0.345,
+   "pitchDevCents": 2.7
+  },
+  {
+   "layer": "cruise",
+   "rpm": 2000.0,
+   "firingHz": 100.0,
+   "cycles": 15,
+   "start": 4.831383219954649,
+   "length": 0.9,
+   "startSample": 213064,
+   "lengthSamples": 39690,
+   "levelDb": -30.26,
+   "src": 754775,
+   "srcSpan": [
+    42.637,
+    43.696
+   ],
+   "warp": 0.023,
+   "seamClick": 0.324,
+   "pitchDevCents": 8.1
+  },
+  {
+   "layer": "cruise",
+   "rpm": 2200.02,
+   "firingHz": 110.0008,
+   "cycles": 16,
+   "start": 5.931383219954649,
+   "length": 0.8727210884353741,
+   "startSample": 261574,
+   "lengthSamples": 38487,
+   "levelDb": -25.84,
+   "src": 754775,
+   "srcSpan": [
+    30.333,
+    31.384
+   ],
+   "warp": 0.007,
+   "seamClick": 0.925,
+   "pitchDevCents": 5.7
+  },
+  {
+   "layer": "idle",
+   "rpm": 770.77,
+   "firingHz": 38.5383,
+   "cycles": 21,
+   "start": 7.004104308390023,
+   "length": 3.269478458049887,
+   "startSample": 308881,
+   "lengthSamples": 144184,
+   "levelDb": -20.36,
+   "src": 754779,
+   "srcSpan": [
+    20.052,
+    23.452
+   ],
+   "warp": 0,
+   "seamClick": 0.426,
+   "pitchDevCents": 6.9
+  },
+  {
+   "layer": "off",
+   "rpm": 1100.0,
+   "firingHz": 55.0001,
+   "cycles": 10,
+   "start": 10.47358276643991,
+   "length": 1.090907029478458,
+   "startSample": 461885,
+   "lengthSamples": 48109,
+   "levelDb": -38.38,
+   "src": 754775,
+   "srcSpan": [
+    78.109,
+    79.356
+   ],
+   "warp": 0.078,
+   "seamClick": 0.435,
+   "pitchDevCents": 9.7
+  },
+  {
+   "layer": "off",
+   "rpm": 1249.99,
+   "firingHz": 62.4995,
+   "cycles": 11,
+   "start": 11.764489795918367,
+   "length": 1.0560090702947846,
+   "startSample": 518814,
+   "lengthSamples": 46570,
+   "levelDb": -36.33,
+   "src": 754775,
+   "srcSpan": [
+    76.474,
+    77.689
+   ],
+   "warp": 0.053,
+   "seamClick": 0.283,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "off",
+   "rpm": 1400.0,
+   "firingHz": 70.0,
+   "cycles": 12,
+   "start": 13.020498866213153,
+   "length": 1.0285714285714285,
+   "startSample": 574204,
+   "lengthSamples": 45360,
+   "levelDb": -34.02,
+   "src": 754775,
+   "srcSpan": [
+    73.772,
+    74.981
+   ],
+   "warp": 0.011,
+   "seamClick": 0.303,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "off",
+   "rpm": 1549.98,
+   "firingHz": 77.4992,
+   "cycles": 13,
+   "start": 14.24907029478458,
+   "length": 1.0064625850340136,
+   "startSample": 628384,
+   "lengthSamples": 44385,
+   "levelDb": -33.65,
+   "src": 754775,
+   "srcSpan": [
+    68.491,
+    69.677
+   ],
+   "warp": 0.014,
+   "seamClick": 0.837,
+   "pitchDevCents": 2.3
+  },
+  {
+   "layer": "off",
+   "rpm": 1700.01,
+   "firingHz": 85.0003,
+   "cycles": 14,
+   "start": 15.455532879818595,
+   "length": 0.9882312925170068,
+   "startSample": 681589,
+   "lengthSamples": 43581,
+   "levelDb": -30.77,
+   "src": 754775,
+   "srcSpan": [
+    65.111,
+    66.278
+   ],
+   "warp": 0.016,
+   "seamClick": 0.201,
+   "pitchDevCents": 1.7
+  },
+  {
+   "layer": "off",
+   "rpm": 1849.98,
+   "firingHz": 92.499,
+   "cycles": 14,
+   "start": 16.6437641723356,
+   "length": 0.9081179138321995,
+   "startSample": 733990,
+   "lengthSamples": 40048,
+   "levelDb": -29.99,
+   "src": 754775,
+   "srcSpan": [
+    62.41,
+    63.499
+   ],
+   "warp": 0.019,
+   "seamClick": 0.334,
+   "pitchDevCents": 1.8
+  },
+  {
+   "layer": "off",
+   "rpm": 2000.0,
+   "firingHz": 100.0,
+   "cycles": 15,
+   "start": 17.7518820861678,
+   "length": 0.9,
+   "startSample": 782858,
+   "lengthSamples": 39690,
+   "levelDb": -28.66,
+   "src": 754775,
+   "srcSpan": [
+    59.857,
+    60.939
+   ],
+   "warp": 0.013,
+   "seamClick": 0.239,
+   "pitchDevCents": 3.0
+  },
+  {
+   "layer": "on",
+   "rpm": 1400.0,
+   "firingHz": 70.0,
+   "cycles": 6,
+   "start": 18.8518820861678,
+   "length": 0.5142857142857142,
+   "startSample": 831368,
+   "lengthSamples": 22680,
+   "levelDb": -38.13,
+   "src": 755996,
+   "srcSpan": [
+    1.065,
+    1.739
+   ],
+   "warp": 0.073,
+   "seamClick": 0.459,
+   "pitchDevCents": 14.8
+  },
+  {
+   "layer": "on",
+   "rpm": 1550.0,
+   "firingHz": 77.4999,
+   "cycles": 10,
+   "start": 19.566167800453513,
+   "length": 0.7741950113378685,
+   "startSample": 862868,
+   "lengthSamples": 34142,
+   "levelDb": -25.11,
+   "src": 754775,
+   "srcSpan": [
+    1.071,
+    2.023
+   ],
+   "warp": 0.038,
+   "seamClick": 0.358,
+   "pitchDevCents": 1.2
+  },
+  {
+   "layer": "on",
+   "rpm": 1700.02,
+   "firingHz": 85.0009,
+   "cycles": 11,
+   "start": 20.540362811791383,
+   "length": 0.7764625850340136,
+   "startSample": 905830,
+   "lengthSamples": 34242,
+   "levelDb": -20.9,
+   "src": 754775,
+   "srcSpan": [
+    2.21,
+    3.171
+   ],
+   "warp": 0.083,
+   "seamClick": 0.236,
+   "pitchDevCents": 5.0
+  },
+  {
+   "layer": "on",
+   "rpm": 1850.0,
+   "firingHz": 92.4998,
+   "cycles": 11,
+   "start": 21.516825396825396,
+   "length": 0.713514739229025,
+   "startSample": 948892,
+   "lengthSamples": 31466,
+   "levelDb": -16.92,
+   "src": 754776,
+   "srcSpan": [
+    9.021,
+    9.914
+   ],
+   "warp": 0.026,
+   "seamClick": 0.269,
+   "pitchDevCents": 2.4
+  },
+  {
+   "layer": "on",
+   "rpm": 2000.0,
+   "firingHz": 100.0,
+   "cycles": 12,
+   "start": 22.430340136054422,
+   "length": 0.72,
+   "startSample": 989178,
+   "lengthSamples": 31752,
+   "levelDb": -18.56,
+   "src": 754775,
+   "srcSpan": [
+    3.468,
+    4.379
+   ],
+   "warp": 0.024,
+   "seamClick": 0.282,
+   "pitchDevCents": 2.8
+  },
+  {
+   "layer": "on",
+   "rpm": 2199.99,
+   "firingHz": 109.9997,
+   "cycles": 13,
+   "start": 23.35034013605442,
+   "length": 0.709092970521542,
+   "startSample": 1029750,
+   "lengthSamples": 31271,
+   "levelDb": -14.09,
+   "src": 754775,
+   "srcSpan": [
+    4.451,
+    5.338
+   ],
+   "warp": 0.028,
+   "seamClick": 0.119,
+   "pitchDevCents": 6.0
+  },
+  {
+   "layer": "on",
+   "rpm": 2400.0,
+   "firingHz": 120.0,
+   "cycles": 13,
+   "start": 24.259433106575965,
+   "length": 0.65,
+   "startSample": 1069841,
+   "lengthSamples": 28665,
+   "levelDb": -14.16,
+   "src": 754775,
+   "srcSpan": [
+    5.449,
+    6.28
+   ],
+   "warp": 0.035,
+   "seamClick": 0.019,
+   "pitchDevCents": 3.6
+  },
+  {
+   "layer": "on",
+   "rpm": 2600.04,
+   "firingHz": 130.0018,
+   "cycles": 14,
+   "start": 25.109433106575963,
+   "length": 0.6461451247165533,
+   "startSample": 1107326,
+   "lengthSamples": 28495,
+   "levelDb": -14.84,
+   "src": 754775,
+   "srcSpan": [
+    6.001,
+    6.845
+   ],
+   "warp": 0.051,
+   "seamClick": 0.151,
+   "pitchDevCents": 1.8
+  },
+  {
+   "layer": "on",
+   "rpm": 2849.96,
+   "firingHz": 142.4981,
+   "cycles": 15,
+   "start": 25.955578231292517,
+   "length": 0.6315873015873016,
+   "startSample": 1144641,
+   "lengthSamples": 27853,
+   "levelDb": -18.84,
+   "src": 755997,
+   "srcSpan": [
+    6.949,
+    7.761
+   ],
+   "warp": 0.03,
+   "seamClick": 0.079,
+   "pitchDevCents": 1.8
+  },
+  {
+   "layer": "on",
+   "rpm": 3099.95,
+   "firingHz": 154.9974,
+   "cycles": 16,
+   "start": 26.78716553287982,
+   "length": 0.6193650793650793,
+   "startSample": 1181314,
+   "lengthSamples": 27314,
+   "levelDb": -12.67,
+   "src": 754775,
+   "srcSpan": [
+    17.641,
+    18.44
+   ],
+   "warp": 0.007,
+   "seamClick": 0.081,
+   "pitchDevCents": 1.6
+  },
+  {
+   "layer": "on",
+   "rpm": 3399.94,
+   "firingHz": 169.9968,
+   "cycles": 16,
+   "start": 27.6065306122449,
+   "length": 0.5647165532879819,
+   "startSample": 1217448,
+   "lengthSamples": 24904,
+   "levelDb": -14.49,
+   "src": 754775,
+   "srcSpan": [
+    21.801,
+    22.547
+   ],
+   "warp": 0.02,
+   "seamClick": 0.071,
+   "pitchDevCents": 2.0
+  },
+  {
+   "layer": "on",
+   "rpm": 3699.94,
+   "firingHz": 184.9969,
+   "cycles": 17,
+   "start": 28.37124716553288,
+   "length": 0.5513605442176871,
+   "startSample": 1251172,
+   "lengthSamples": 24315,
+   "levelDb": -15.93,
+   "src": 754775,
+   "srcSpan": [
+    11.832,
+    12.543
+   ],
+   "warp": 0.023,
+   "seamClick": 0.093,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "on",
+   "rpm": 4000.0,
+   "firingHz": 200.0,
+   "cycles": 17,
+   "start": 29.122607709750568,
+   "length": 0.51,
+   "startSample": 1284307,
+   "lengthSamples": 22491,
+   "levelDb": -16.25,
+   "src": 754775,
+   "srcSpan": [
+    13.389,
+    14.052
+   ],
+   "warp": 0.012,
+   "seamClick": 0.049,
+   "pitchDevCents": 1.8
+  },
+  {
+   "layer": "on",
+   "rpm": 4349.99,
+   "firingHz": 217.4993,
+   "cycles": 18,
+   "start": 29.832607709750565,
+   "length": 0.49655328798185944,
+   "startSample": 1315618,
+   "lengthSamples": 21898,
+   "levelDb": -15.08,
+   "src": 754775,
+   "srcSpan": [
+    15.3,
+    15.952
+   ],
+   "warp": 0.014,
+   "seamClick": 0.21,
+   "pitchDevCents": 1.0
+  },
+  {
+   "layer": "on",
+   "rpm": 4700.04,
+   "firingHz": 235.0021,
+   "cycles": 19,
+   "start": 30.529160997732426,
+   "length": 0.4851020408163265,
+   "startSample": 1346336,
+   "lengthSamples": 21393,
+   "levelDb": -12.81,
+   "src": 754775,
+   "srcSpan": [
+    9.711,
+    10.341
+   ],
+   "warp": 0.028,
+   "seamClick": 0.1,
+   "pitchDevCents": 1.6
+  },
+  {
+   "layer": "on",
+   "rpm": 5099.99,
+   "firingHz": 254.9993,
+   "cycles": 20,
+   "start": 31.214263038548754,
+   "length": 0.47058956916099776,
+   "startSample": 1376549,
+   "lengthSamples": 20753,
+   "levelDb": -12.75,
+   "src": 754775,
+   "srcSpan": [
+    10.65,
+    11.264
+   ],
+   "warp": 0.021,
+   "seamClick": 0.153,
+   "pitchDevCents": 1.0
+  }
+ ],
+ "sources": [
+  {
+   "id": 754779,
+   "title": "Car Starting/Ignition On and Off with Idle - Exhaust Mic",
+   "author": "EvanBoyerman",
+   "license": "CC BY 4.0",
+   "url": "https://freesound.org/people/EvanBoyerman/sounds/754779/"
+  },
+  {
+   "id": 754775,
+   "title": "Sports Car Accelerating/Speeding Up Fast - Exhaust",
+   "author": "EvanBoyerman",
+   "license": "CC BY 4.0",
+   "url": "https://freesound.org/people/EvanBoyerman/sounds/754775/"
+  },
+  {
+   "id": 754776,
+   "title": "Sports Car Accelerating/Speeding Up Medium - Exhaust",
+   "author": "EvanBoyerman",
+   "license": "CC BY 4.0",
+   "url": "https://freesound.org/people/EvanBoyerman/sounds/754776/"
+  },
+  {
+   "id": 755996,
+   "title": "Car Accelerating Slowly and Decelerating 1 (Engine and Exhaust Mix)",
+   "author": "EvanBoyerman",
+   "license": "CC BY 4.0",
+   "url": "https://freesound.org/people/EvanBoyerman/sounds/755996/"
+  },
+  {
+   "id": 755998,
+   "title": "Car Accelerating Slowly and Maintaining Speed (Engine and Exhaust Mix)",
+   "author": "EvanBoyerman",
+   "license": "CC BY 4.0",
+   "url": "https://freesound.org/people/EvanBoyerman/sounds/755998/"
+  },
+  {
+   "id": 755997,
+   "title": "Car Accelerating Slowly and Decelerating 2 (Engine and Exhaust Mix)",
+   "author": "EvanBoyerman",
+   "license": "CC BY 4.0",
+   "url": "https://freesound.org/people/EvanBoyerman/sounds/755997/"
+  }
+ ]
+}
