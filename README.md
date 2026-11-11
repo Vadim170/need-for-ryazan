@@ -22,12 +22,14 @@
 ```
 cd game
 npm install
+# готовый мир Рязани (~100 МБ архив, 235 МБ распакованный) из релиза
+curl -L https://github.com/Vadim170/need-for-ryazan/releases/latest/download/ryazan-world.tar.gz | tar -xz -C public
 npm run dev        # http://127.0.0.1:5173
 ```
 
-Без собранного мира (`game/public/world/`, не хранится в репозитории) загружается тестовый мир;
+Мир (`game/public/world/`) в git не хранится. Без него загружается тестовый мир;
 `?world=synthetic` — синтетический город (`node scripts/gen-synthetic-world.mjs`).
-Реальный мир собирается конвейером: см. `docs/stage1/pipeline.md`.
+Собрать мир самому — конвейером, см. `docs/stage1/pipeline.md`.
 
 Управление и архитектура — [`game/README.md`](game/README.md). ТЗ — [`docs/TZ.md`](docs/TZ.md),
 формат мира — [`docs/world-format.md`](docs/world-format.md), заметки по этапам — `docs/stage*/`.
